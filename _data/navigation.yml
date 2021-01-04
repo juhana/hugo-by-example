@@ -1,0 +1,17 @@
+main:
+  - title: "Main Page"
+    url: /
+  - title: "Index"
+    url: /categories/
+
+sidebar:
+  - title: "Main Page"
+    url: /
+  - title: "Introduction"
+    url: /hugo/introduction/
+  - title: "Getting Started"
+    url: /hugo/getting-started/
+  - title: "Hugo Games"
+    url: /hugo/games/
+  - title: "Index"
+    url: /categories/

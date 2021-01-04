@@ -1,1 +1,26 @@
-theme: jekyll-theme-dinky
+plugins: 
+  - jekyll-include-cache
+  - jekyll-remote-theme
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+
+title: Hugo By Example
+markdown: kramdown
+comments: false
+seo: false
+author_profile: false
+read_time: false
+share: false
+related: false
+
+include:
+  - _pages
+
+defaults:
+  - values:
+      sidebar:
+        nav: "sidebar"
+      layout: single
+
+category_archive:
+  type: liquid
+  path: /categories/
