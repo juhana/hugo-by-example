@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoGet` is the [verb routine](/verb-routines/)
+`DoGet` is the [verb routine](verb-routines/)
 responsible for processing "get" commands.
 
 ## The code

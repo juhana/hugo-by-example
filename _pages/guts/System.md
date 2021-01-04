@@ -6,11 +6,11 @@ categories:
 ---
 
 `system` is a function built-in to the
-[Hugo engine](/interpreters/he/) that calls "low-level system functions."
+[Hugo engine](interpreters/he/) that calls "low-level system functions."
 While it's certainly possible to just call the system functions by their
 (built-in) number, including
-["system.h"](/library/system.h/) will define several
-[constants](/basics/constants/) which act as a key. These functions
+["system.h"](library/system.h/) will define several
+[constants](basics/constants/) which act as a key. These functions
 include:
 
 <table>

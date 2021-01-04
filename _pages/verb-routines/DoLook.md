@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoLook` is the [verb routine](/verb-routines/)
+`DoLook` is the [verb routine](verb-routines/)
 responsible for looking at objects.
 
 ## The code

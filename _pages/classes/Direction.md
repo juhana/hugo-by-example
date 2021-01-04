@@ -10,12 +10,12 @@ When a player types **&gt;GO EAST**, the word "east" points to an
 north, northeast, east, southeast, south, southwest, west, and
 northwest) have a direction object, and they all are objects in the
 `direction` class. These objects are very useful. Routines like
-[DoGo](/verb-routines/dogo/) and [PushDir](/verb-routines/pushdir/) make sure the
+[DoGo](verb-routines/dogo/) and [PushDir](verb-routines/pushdir/) make sure the
 current object is of type "direction" and use the `object.dir_to`
-[property](/properties/) to determine what room exit it should
+[property](properties/) to determine what room exit it should
 be looking for.
 For information on creating your own directions for the `direction`
-class, check out [this page](/tips/tedious-shipboard-directions/).
+class, check out [this page](tips/tedious-shipboard-directions/).
 
 
 ## The class (and its objects)

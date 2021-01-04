@@ -6,11 +6,11 @@ categories:
   - Classes
 ---
 
-A `remote_object` is a [class](/basics/object_classes/) written by
+A `remote_object` is a [class](basics/object_classes/) written by
 Kent Tessman for his game, Future Boy! It is used for objects that can
 be interacted with in one room but only seen from other rooms (like, for
 instance, a flagpole). This code is shared according to the terms of
-[its license](/misc/future-boy-license/).
+[its license](misc/future-boy-license/).
 
 
     property real_object alias misc  ! object remote_object is the remote twin of

@@ -6,13 +6,13 @@ categories:
 ---
 
 `restart` is a built-in function for restarting the instance of the
-game. All [globals](/basics/global/) and things are reset, with the
-notable exception of the [word array](/basics/word-array/). Most
+game. All [globals](basics/global/) and things are reset, with the
+notable exception of the [word array](basics/word-array/). Most
 commonly, it is used by the verb routine DoRestart.
 
 ### How to call
 
-`restart` returns a [true](/definitions/true/) or [false](/definitions/false)
+`restart` returns a [true](definitions/true/) or [false](definitions/false)
 value based on its success, so it is called in the following manner:
 
     x = restart ! the x variable gets set to 1 or 0

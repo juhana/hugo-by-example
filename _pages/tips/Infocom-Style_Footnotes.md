@@ -15,7 +15,7 @@ at our disposal (he went on to use code like this in his later game
 Future Boy!).
 
 
-*See also: [Footnote.h](/contributions/footnotes/) (A footnote-enabling library contribution)*
+*See also: [Footnote.h](contributions/footnotes/) (A footnote-enabling library contribution)*
 
 
 ## The Code

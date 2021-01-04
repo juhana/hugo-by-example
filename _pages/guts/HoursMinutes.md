@@ -5,10 +5,10 @@ categories:
   - Hugo Guts
 ---
 
-`HoursMinutes` is the [hugolib.h](/library/hugolib.h/)
-[routine](/routines/) that translates the turn
-[counter](/globals/counter/) into "clock format" for
-[STATUSTYPE](/globals/statustype/) 2 games. Examples:
+`HoursMinutes` is the [hugolib.h](library/hugolib.h/)
+[routine](routines/) that translates the turn
+[counter](globals/counter/) into "clock format" for
+[STATUSTYPE](globals/statustype/) 2 games. Examples:
 
     HoursMinutes(0,0) ! would result in "12:00 a.m."
 

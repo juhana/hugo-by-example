@@ -83,4 +83,4 @@ If a game is ported from one system to another (other than simply being moved fr
 ## "What else should I do?"
 
 If you want to be all saintly about it, go make an
-[iFiction](/interpreters/ifiction/) file, too.
+[iFiction](interpreters/ifiction/) file, too.

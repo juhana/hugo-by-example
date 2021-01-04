@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoTalk` is the [verb routine](/verb-routines/)
+`DoTalk` is the [verb routine](verb-routines/)
 responsible for processing "talk" or "talk to" commands.
 
 ## The code

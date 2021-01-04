@@ -6,8 +6,8 @@ categories:
 ---
 
 `enumerate` is a convenient function for quickly giving varying values
-to either [constants](/basics/constants/) or
-[global variables](/basics/variables/).
+to either [constants](basics/constants/) or
+[global variables](basics/variables/).
 
 <table>
 <thead>
@@ -58,7 +58,7 @@ start at any value you want.
     A, B, C
     }
 
-A = 1 , B = 2, C = 3. The [standard library](/library/) does this all of the time.
+A = 1 , B = 2, C = 3. The [standard library](library/) does this all of the time.
 
 ## Stepping
 
@@ -85,9 +85,9 @@ FIRST = 2 , SECOND = 4, THIRD = 8, FOURTH = 16, FIFTH = 32
 ## Global Variables
 
 All of the examples so far have shown how to
-[declare](/declarations/) [constants](/basics/constants/). If
+[declare](declarations/) [constants](basics/constants/). If
 you want to declare some 
-[global variables](/basics/variables/) with some initial
+[global variables](basics/variables/) with some initial
 starting values, you just add "globals" like in the following:
 
     enumerate globals

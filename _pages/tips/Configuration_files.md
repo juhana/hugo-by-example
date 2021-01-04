@@ -68,8 +68,8 @@ our global values or settings:
 As the number of values in the configuration file increases, the easier
 it'll be to make mistakes. There isn't any way for `writeval` and
 `readval` to report errors, so it is recommended to use the
-[hugolib.h](/library/hugolib.h/)-defined
-[constant](/basics/constants/) `FILE_CHECK`, like such:
+[hugolib.h](library/hugolib.h/)-defined
+[constant](basics/constants/) `FILE_CHECK`, like such:
 
     routine SaveConfig
     {
@@ -115,7 +115,7 @@ Future Boy!'s `config.hug` saves a bunch of different variables. As
 such, it makes a great example (a modified version of it was used for
 Cryptozookeeper, too). You can take a look at it
 [here](http://roody.gerynarsabode.org/config.hug) under the terms of
-[the Future Boy Selected Source license](/misc/future-boy-license/).
+[the Future Boy Selected Source license](misc/future-boy-license/).
 
 # Sharing Strings Between Two Games (Hugo Homework)
 
@@ -127,12 +127,12 @@ something like **writeval "apple"** will not be helpful, as "apple" will
 almost certainly have a different address in each game.
 
 The question is, how do we get around this?
-<spoiler text="HINT"> Think [ASCII values](/strings/ascii-values/)!
+<spoiler text="HINT"> Think [ASCII values](strings/ascii-values/)!
 </spoiler> <spoiler text="CLICK FOR THE ANSWER"> First off, we'll have
 to break "apple" down into its individual letters (whose values will be
 the same in each game) and recreate it into a string array on the other
 side. The second thing to be aware of is that we'll have to use the
-[`dict`](/strings/dict/) function in the second game to make sure it is
+[`dict`](strings/dict/) function in the second game to make sure it is
 added to the dictionary table.
 
 In the first game (the one saving the string), we'd have something like
@@ -189,5 +189,5 @@ The second game would have something like this:
 
 Of course, a real game would also need also need to fill `noun`
 properties, and character names would need proper capitalization. Go
-check out the [string manipulation](/strings/string-manipulation/)
+check out the [string manipulation](strings/string-manipulation/)
 pages for that, man. </spoiler>

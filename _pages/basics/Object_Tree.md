@@ -6,7 +6,7 @@ categories:
   - Object Tree
 ---
 
-The object tree is the hierarchy of [objects](/basics/objects/) in the
+The object tree is the hierarchy of [objects](basics/objects/) in the
 Hugo world that you create. The object tree is the internal
 representation of the relationships between the various objects in the
 game.
@@ -22,7 +22,7 @@ Let's take a look at a sample. Let's say you've created a room called
 a plate and fork, and on the counter some eggs. The object tree may be
 something like the following:
 
-![Object tree](/assets/images/Object tree 1.jpg)
+![Object tree](assets/images/Object tree 1.jpg)
 
 The parent of the *kitchen* object (room) is the **nothing** object. The
 children of the kitchen are table, counter and the player character. The
@@ -101,7 +101,7 @@ commands in the game
 
 The object tree will now look like this:
 
-![Object tree](/assets/images/object tree 2.jpg)
+![Object tree](assets/images/object tree 2.jpg)
 
 As you can see, the parent of *eggs* has become the *plate* object.
 
@@ -159,9 +159,9 @@ obvious right now- as you've just read this page- but it's easy to
 forget!
 
 To get around these issues, you'll want to use routines like
-[Contains](/routines/contains/), which checks to see if an object is a
+[Contains](routines/contains/), which checks to see if an object is a
 child or grandchild of another object, or
-[FindObject](/scope/findobject/), which checks to see if an object is
+[FindObject](scope/findobject/), which checks to see if an object is
 in a specific location. It even returns a special value if it can be
 seen but can't be reached (like in a closed, transparent container).
 

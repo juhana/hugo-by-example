@@ -32,4 +32,4 @@ the next statement after the **select** statement.
 A select statement ends with, and execution follows after the select
 statement with the first statement that is not a case statement.
 
-See Also: [case](/basics/case/)
+See Also: [case](basics/case/)

@@ -7,7 +7,7 @@ categories:
 
 `MovePlayer` is a routine specifically written for moving the player to
 another location, saving us the trouble of updating the
-[[location](/globals/location/) global, among other things. For
+[[location](globals/location/) global, among other things. For
 instance, it also checks to checks that the new location has a light
 source and runs `DarkWarning`, if necessary. Let's break it down:
 The first argument (`loc` or `dir`) is either the location object we are
@@ -16,7 +16,7 @@ the latter, `MovePlayer` only moves the player if it's a valid
 direction.
 
 The second argument (`silent`) determines whether
-[DescribePlace](/guts/describeplace/) should be executed after we
+[DescribePlace](guts/describeplace/) should be executed after we
 move the player, giving the name and description of the new location.
 The last argument (`ignore`) determines whether we want to run any
 `player.before` or `player.after` code. Imagine a game where moving the

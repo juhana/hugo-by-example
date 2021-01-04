@@ -5,7 +5,7 @@ categories:
   - Definitions
 ---
 
-An **argument** is a value supplied to a [routine](/routines/),
+An **argument** is a value supplied to a [routine](routines/),
 like:
 
     routine RoutineName(argument1,argument2)
@@ -33,6 +33,6 @@ so
 >since either can be called as MyRoutine(value) and have first_arg =
 value.
 
-So, arguments are [local variables](/basics/locals/), but it is
+So, arguments are [local variables](basics/locals/), but it is
 convenient to use their separate syntax as it makes the
-[routine](/routines/) easier to read.
+[routine](routines/) easier to read.

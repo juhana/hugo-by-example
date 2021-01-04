@@ -5,7 +5,7 @@ categories:
   - Properties
 ---
 
-`cant_go` is property for [room](/basics/rooms/) objects. Its code
+`cant_go` is property for [room](basics/rooms/) objects. Its code
 will replace the standard "You can't go that way." message. Here is an
 example of its usage:
 

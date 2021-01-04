@@ -43,7 +43,7 @@ Infocom-style serial number:
 
 ### Revision-number style
 
-This [new shell](/basics/new-shell/) code uses `serial$` to print beta
+This [new shell](basics/new-shell/) code uses `serial$` to print beta
 "build" numbers in the style of "beta build: YYYYMMDD":
 
     #ifset BETA  ! this section gives build numbers to beta releases

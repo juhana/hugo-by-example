@@ -6,7 +6,7 @@ categories:
 ---
 
 Several Infocom games had moments where the player was asked a YES/NO
-question. Unlike the [YesorNo](/routines/yesorno/) method, though, the
+question. Unlike the [YesorNo](routines/yesorno/) method, though, the
 player had the option to ignore the question altogether and do anything
 else (all other normal commands were also accepted). This entry attempts
 to show how one could code such a system.

@@ -40,7 +40,7 @@ them won't be able to tell that anything had happened.
 
 Returning any non-zero value, though, is like saying, "Hey, the routine
 was successful!" Verb routines return true if successful, at which point
-[main](/routines/main/) is run and a turn passes. If they return false,
+[main](routines/main/) is run and a turn passes. If they return false,
 though, no turn ensues.
 Most commonly, returning true is done like this:
 
@@ -113,10 +113,10 @@ failed action.
 ## Returning property values
 
 `return` can be pretty important with property values, too. Object
-properties like [name](/properties/name/) expect strings to be provided as
+properties like [name](properties/name/) expect strings to be provided as
 a property value, not a property routine (like
-[long_desc](/properties/descriptions/) or
-[short_desc](/properties/descriptions/)). In a game where an object's name
+[long_desc](properties/descriptions/) or
+[short_desc](properties/descriptions/)). In a game where an object's name
 depends on circumstance, you could have something like this:
 
     object car
@@ -135,7 +135,7 @@ depends on circumstance, you could have something like this:
     {}
 
 `return` is also important when using things like
-[globals](/basics/global/) or other non-static things for object
+[globals](basics/global/) or other non-static things for object
 property values. If you provide the globals as is, the property will
 take the value of the globals at compilation time and leave it at that.
 To ensure that it is interpreted as *the value of such-and-such-now*,

@@ -7,9 +7,9 @@ categories:
 ---
 
 The **each_turn** property is defined by the
-[standard library](/library/), and is used by room
-[objects](/basics/objects/). A [room's](/basics/rooms/) `each_turn`
-[property](/properties/) is executed every turn that the player
+[standard library](library/), and is used by room
+[objects](basics/objects/). A [room's](basics/rooms/) `each_turn`
+[property](properties/) is executed every turn that the player
 is in the relevant room.
 
     routine main

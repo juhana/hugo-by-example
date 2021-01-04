@@ -6,7 +6,7 @@ categories:
 ---
 
 `quit` is the command that exits out of the 
-[game loop](/loops/game-loop/) completely. See how it is called in the
+[game loop](loops/game-loop/) completely. See how it is called in the
 DoQuit routine:
 
     routine DoQuit

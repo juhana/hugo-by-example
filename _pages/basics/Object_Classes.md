@@ -6,11 +6,11 @@ categories:
 ---
 
 The **class** directive is a definition of a template
-[object](/globals/object/), that is, a particular object that has some
-predefined [declarations](/declarations/) of
-[attributes](/attributes/), [code](/definitions/code/) including
-[before](/properties/before/) and [after](/properties/after/) code, and/or
-[properties](/properties/).
+[object](globals/object/), that is, a particular object that has some
+predefined [declarations](declarations/) of
+[attributes](attributes/), [code](definitions/code/) including
+[before](properties/before/) and [after](properties/after/) code, and/or
+[properties](properties/).
 
 A class is defined the same way as an object
 

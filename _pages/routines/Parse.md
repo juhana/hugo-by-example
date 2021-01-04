@@ -10,10 +10,10 @@ Parse is the routine that interprets the input line. For the most part,
 authors won't need to touch it at all (unless they are writing their own
 parser, at which point this whole site would probably be useless).
 Still, you will probably want to take a look at it, especially if you
-are working with [PreParse](/parsing/preparse/),
-[AssignPronoun](/parsing/assignpronoun/),
-[SetObjWord](/parsing/setobjword/), or
-[ParseError](/parsing/parseerror/).
+are working with [PreParse](parsing/preparse/),
+[AssignPronoun](parsing/assignpronoun/),
+[SetObjWord](parsing/setobjword/), or
+[ParseError](parsing/parseerror/).
 
 ### The code
 

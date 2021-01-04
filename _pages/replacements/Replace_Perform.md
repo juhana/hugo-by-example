@@ -7,8 +7,8 @@ categories:
 
 ### What it fixes
 
-1.  Removes the [jump](/guts/jump/) command... just because.
-    Personally, I've never had to [replace](/guts/replace/)
+1.  Removes the [jump](guts/jump/) command... just because.
+    Personally, I've never had to [replace](guts/replace/)
     `Perform`.
 
 ### The code

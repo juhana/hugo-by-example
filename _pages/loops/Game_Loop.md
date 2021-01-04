@@ -29,12 +29,12 @@ Let's discuss this.
     like that.
 -   **Main:** Main is the routine that gives the sense of *forward
     progress* to the game. It increases the turn counter and executes
-    turn-based game aspects like [each_turn](/timers/each_turn/),
-    [runevents](/timers/events/), and
-    [RunScripts](/characters/scripts/).
+    turn-based game aspects like [each_turn](timers/each_turn/),
+    [runevents](timers/events/), and
+    [RunScripts](characters/scripts/).
 -   **Input:** This is where the player types in a command.
 -   **Parsing:** The command is checked for validity by the engine.
-    [Parse](/routines/parse/) is called.
+    [Parse](routines/parse/) is called.
 -   **Grammar Matching:** The engine attempts to match the input line
     with a valid verb and syntax in the grammar table. If no match is
     found, the engine loops back to Input ("Line 3"). If successful,
@@ -56,20 +56,20 @@ Let's discuss this.
 
     </div>
 
-    `         After that, the game checks to see if there are any `[`react_before`](/properties/react_before/)` properties that should be executed.`
+    `         After that, the game checks to see if there are any `[`react_before`](properties/react_before/)` properties that should be executed.`
 -   **Verb routine :** If no `before` routine skipped over it, the verb
     routine executes as normal. `After` routines are also run.
--   **The Loop Back** [Main](/routines/main/) is executed again, taking
+-   **The Loop Back** [Main](routines/main/) is executed again, taking
     us back to `Input`.
 
 This loop continues until the player quits the game or the
-[endflag](/globals/endflag/) variable is set to a non-zero value.
+[endflag](globals/endflag/) variable is set to a non-zero value.
 
 ## Game Loop in Game Output
 
 Let's code a "game" with the sole purpose of showing where functions
 would be called. In the `init` routine, we'll fill a 
-[character script](/characters/scripts/) with calls to `CharGet`. Then:
+[character script](characters/scripts/) with calls to `CharGet`. Then:
 
 
     player_character you "you"

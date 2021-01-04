@@ -12,7 +12,7 @@ that allows for automatic exit-listing in games. You can get it
 It should work for you fine as long as you follow these rules:
 
 1.  Keep direction property code clean, as described
-    [here](/classes/direction/).
+    [here](classes/direction/).
 2.  Give rooms names that will easily fit into the format, "You can go
     east to \[preposition\] \[room name\]."
 3.  Add a space to the preposition property for rooms that require

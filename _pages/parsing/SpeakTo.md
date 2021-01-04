@@ -6,13 +6,13 @@ categories:
   - Routines
 ---
 
-*See also: [replace SpeakTo](/replacements/speakto/)*
+*See also: [replace SpeakTo](replacements/speakto/)*
 
 `SpeakTo` is basically a parsing routine. It is called by the engine
 when the input is in &gt;CHARACTER, \[SOME COMMAND\] format, among
 others. If the character is not
-[unfriendly](/attributes/), it'll check
-that character's [order_response](/property/order_response/) property
+[unfriendly](attributes/), it'll check
+that character's [order_response](property/order_response/) property
 for a response. If no response is found (or if the character *is*
 unfriendly), the `ignore_response` property is run. If none exist, it
 gives the default "*X ignores you.*"

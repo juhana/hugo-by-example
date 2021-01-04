@@ -6,9 +6,9 @@ categories:
 ---
 
 `key_object` is given to objects with the
-[lockable](/attributes/lockable/) attribute. They specify the object that
+[lockable](attributes/lockable/) attribute. They specify the object that
 can be used to lock or unlock the lockable object. `key_object` is an
-[alias](/basics/alias/) of [ne_to](/directions/ne_to/).
+[alias](basics/alias/) of [ne_to](directions/ne_to/).
 
 ### Examples:
 
@@ -34,6 +34,6 @@ can be used to lock or unlock the lockable object. `key_object` is an
 ### Hugo Homework
 
 As they stand, `DoLock` and `DoUnlock` only check the first element of
-the `key_object` property. [Replace](/guts/replace/) them with
+the `key_object` property. [Replace](guts/replace/) them with
 versions that allow for multiple `key_object`s, using
-[InList](/routines/inlist/) and multiple property elements!
+[InList](routines/inlist/) and multiple property elements!

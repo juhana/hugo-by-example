@@ -5,8 +5,8 @@ categories:
   - Properties
 ---
 
-The `article` [object](/globals/object/)
-[property](/properties/) often holds indefinite articles like
+The `article` [object](globals/object/)
+[property](properties/) often holds indefinite articles like
 "a", "an", or "some", but in some instances, it should be "the" (or in
 the case of characters with proper names, no `article` property at all).
 The general rule of thumb is to envision how you would want the object

@@ -7,12 +7,12 @@ categories:
 
 `save` is a built-in function for pulling up a save game dialog. A
 successful save saves game state information to file, which can later be
-retrieved by [restore](/guts/restore/). Most commonly, `save` is
+retrieved by [restore](guts/restore/). Most commonly, `save` is
 used by the verb routine DoSave.
 
 ### How to call
 
-`save` returns a [true](/definitions/true/) or [false](/definitions/false)
+`save` returns a [true](definitions/true/) or [false](definitions/false)
 value based on its success, so it is called in the following manner:
 
     x = save ! the x variable gets set to 1 or 0

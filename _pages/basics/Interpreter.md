@@ -10,4 +10,4 @@ game. For a full exploration of the functionality and definition of
 interpreters, [check out the IF wiki page](http://ifwiki.org/index.php/Interpreter).
 
 *For a list of Hugo interpreters, see the
-[Interpreters](/interpreters/) page.*
+[Interpreters](interpreters/) page.*

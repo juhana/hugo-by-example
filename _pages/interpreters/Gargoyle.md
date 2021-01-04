@@ -7,7 +7,7 @@ categories:
 
 Gargoyle is a multi-platform, multi-if-system interpreter for
 Interactive Fiction. It focuses on good typography in games. Because it
-uses a [Glk](/definitions/glk/) API library, it does not support any
+uses a [Glk](definitions/glk/) API library, it does not support any
 additional windows besides the status line. That said, there is support
 for both sound and graphics.
 
@@ -23,11 +23,11 @@ around this.
 
 The more forceful approach is to use a library contribution like
 Glk.h to determine if your game is being played on a
-[Glk](/definitions/glk/)-based interpreter. If it is, you can choose to not
+[Glk](definitions/glk/)-based interpreter. If it is, you can choose to not
 play the music file or display the graphic, giving Gargoyle nothing to
 rip out of the resource file.
 
-![Gargoyle](/assets/images/GB Gargoyle.jpg)
+![Gargoyle](assets/images/GB Gargoyle.jpg)
 
 ### Include a configuration file
 

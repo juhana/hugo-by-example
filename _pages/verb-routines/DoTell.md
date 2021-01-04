@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoTell` is the [verb routine](/verb-routines/)
+`DoTell` is the [verb routine](verb-routines/)
 responsible for processing "tell" commands.
 
 ## The code

@@ -5,12 +5,12 @@ categories:
   - Properties
 ---
 
-The **type** [property](/properties/) is defined by the [standard library](/library/).
+The **type** [property](properties/) is defined by the [standard library](library/).
 
-## type (object [property](/properties/))
+## type (object [property](properties/))
 
-The `type` property is used to mark [objects](/basics/objects/) as a
-certain kind. It is most often used by [classes](/basics/object_classes/).
+The `type` property is used to mark [objects](basics/objects/) as a
+certain kind. It is most often used by [classes](basics/object_classes/).
 
 An example:
 

@@ -6,9 +6,9 @@ categories:
   - Directions
 ---
 
-`d_to` is a [direction](/classes/direction/) property given to
-[rooms](/basics/rooms/). When a player types, "GO DOWN",
-[DoGo](/verb-routines/dogo/) checks that value to see if there is another
+`d_to` is a [direction](classes/direction/) property given to
+[rooms](basics/rooms/). When a player types, "GO DOWN",
+[DoGo](verb-routines/dogo/) checks that value to see if there is another
 room in that direction.
 
     room twistypassage "A Maze of Twisty Passage"

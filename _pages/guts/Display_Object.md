@@ -8,7 +8,7 @@ categories:
 The display object is the game author's way of "peeking" at the player's
 interpreter window. It maps out the screen to a grid of characters.
 Having this measurement allows the author to center text and lay out
-[windows](/input-output/window/) (or really do anything that requires
+[windows](input-output/window/) (or really do anything that requires
 specific screen placement). Since the grid *is* character based, these
 numbers are affected by the font size the player is using, whether it's
 a proportional or fixed-width font, etc. Ideally, an author should be
@@ -17,7 +17,7 @@ aware of these things.
 You can check various aspects of the display object (and sometimes
 change them) by using display object properties. The default properties
 are named in `hugolib.h` using the
-[enumerate](/basics/constants/) command:
+[enumerate](basics/constants/) command:
 
     enumerate start = 1, step 1
     {
@@ -71,28 +71,28 @@ In fact, let's talk about each property in greater detail.
 -   Glk-based interpreters such as Gargoyle cannot properly gauge the
     number of lines in the main window (it'll detect something like
     30,000 lines). This breaks functions like
-    [locate](/input-output/locate/) or the usage of `display.windowlines` in
+    [locate](input-output/locate/) or the usage of `display.windowlines` in
     the main window.
 -   Since Hugo won't do anything with a mouse click during a normal
     player input except do default interpreter behavior (like 
-    [bringing up on a context menu](/guts/addcontext/), `display.pointer_x`
+    [bringing up on a context menu](guts/addcontext/), `display.pointer_x`
     and `display.pointer_y` are presumably only useful in conjunction
-    with [pause](/input-output/pause/) (and the MOUSE_CLICK
-    [constant](/basics/constants/)).
+    with [pause](input-output/pause/) (and the MOUSE_CLICK
+    [constant](basics/constants/)).
 -   The writable properties, such as `title_caption` and
     `statusline_height` can be changed repeatedly throughout the game.
     In the case of `statusline_height`, going from a larger status line
     to a smaller one may require a strategically-placed
-    [cls](/input-output/cls/) (clear screen) or "[window](/input-output/window/)
+    [cls](input-output/cls/) (clear screen) or "[window](input-output/window/)
     0" to get rid of old status line "residue."
 -   As the display object is the first object defined in
-    [hugolib.h](/library/hugolib.h/), it has a value of 1.
+    [hugolib.h](library/hugolib.h/), it has a value of 1.
 
 ## Display Properties in Action
 
 ### Centering Text
 
-Here is a simplified version of [hugolib.h's](/library/hugolib.h/)
+Here is a simplified version of [hugolib.h's](library/hugolib.h/)
 `CenterTitle` routine, which uses `display.linelength` to determine the
 middle of the screen:
 

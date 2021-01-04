@@ -6,13 +6,13 @@ categories:
   - Parsing
 ---
 
-**parse_rank** is a [property](/properties/) defined by the
-[standard library](/library/).
+**parse_rank** is a [property](properties/) defined by the
+[standard library](library/).
 
 ## Explanation
 
 The `parse_rank` property is one of the simpler
-[object](/globals/object/) properties, in that it only holds a number.
+[object](globals/object/) properties, in that it only holds a number.
 Among several objects with similar names, the one with the highest
 `parse_rank` value will be automatically referred to if the player
 enters an ambiguous command. On the other hand, if all `parse_rank`s are
@@ -32,7 +32,7 @@ about short, ambiguous commands.
 ## Examples
 
 We can fine-tune things even further by returning different values
-depending on the [verbroutine](/globals/verbroutine/) being used.
+depending on the [verbroutine](globals/verbroutine/) being used.
 
 ### *Kent Tessman's Guilty Bastards*
 

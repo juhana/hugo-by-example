@@ -17,7 +17,7 @@ written.
 ### setscript
 
 All we have to do to get a script going is to fill the
-[hugolib.h](/library/hugolib.h/)-defined `setscript` array, using the
+[hugolib.h](library/hugolib.h/)-defined `setscript` array, using the
 `Script` routine and a bunch of "[character routines](#Character_Routines)"
 (we'll get to that later).
 
@@ -42,16 +42,16 @@ The Hugo Book's example is longer:
 
 A single script may have up to 32 steps.
 Once declared, a character script will run *immediately* (well, as soon
-as [main](/routines/main/) is run next, as it calls the `RunScripts`
+as [main](routines/main/) is run next, as it calls the `RunScripts`
 routine). If we want to pause or delay scripts, we must use
-[script management routines](/characters/scripts/).
+[script management routines](characters/scripts/).
 
 ### Character Routines
 
 You can't just fill a character script like any old verb routine like
 `DoSmell`, as those have been written with the player character in mind.
 You need to use "character routines" instead.
-[Hugolib.h](/library/hugolib.h/) comes with several already written.
+[Hugolib.h](library/hugolib.h/) comes with several already written.
 Here is one:
 
     !----------------------------------------------------------------------------
@@ -77,7 +77,7 @@ Here is one:
 If the player is in the same location as the character picking something
 up, we get a message letting us know that he or she picked it up.
 
-The [hugolib.h](/library/hugolib.h/)-defined character routines, in
+The [hugolib.h](library/hugolib.h/)-defined character routines, in
 their entirety:
 
 | character routine | object requirement                            |
@@ -109,7 +109,7 @@ Once started, we *do* have the means to interrupt character scripts.
 Imagine a game where NPCs stop what they are doing when you talk to
 them. Using the aforementioned script management routines, how would you
 have your game do that? (HINT: Take a look at the `FindScript` routine
-in [hugolib.h](/library/hugolib.h/) and see how the other script
+in [hugolib.h](library/hugolib.h/) and see how the other script
 routines call it)
 <spoiler text = "[Click for answer]"> Looking at `FindScript`, we see
 that it checks to see if there are scripts associated with an object. If
@@ -117,7 +117,7 @@ there are none, it returns the number equal to the constant
 MAX_SCRIPTS. We can use this to check to see if there are any scripts
 associated with the `speaking` global variable.
 
-Then it's a simple case of [main](/routines/main/) routine maneuvering:
+Then it's a simple case of [main](routines/main/) routine maneuvering:
 
     routine main
     {

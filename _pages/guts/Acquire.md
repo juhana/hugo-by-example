@@ -5,14 +5,14 @@ categories:
   - Hugo Guts
 ---
 
-`Acquire` is a [hugolib.h](/library/hugolib.h/)
-[routine](/routines/) for moving objects into
-[containers](/basics/containers-and-platforms/) or
-[platforms](/basics/containers-and-platforms/). Unlike a straight
+`Acquire` is a [hugolib.h](library/hugolib.h/)
+[routine](routines/) for moving objects into
+[containers](basics/containers-and-platforms/) or
+[platforms](basics/containers-and-platforms/). Unlike a straight
 `move <object> to <other object>`, it only performs the move if the
 possible parent object has room for the possible child (it uses
-[size](/properties/size/), [holding](/properties/holding/), and
-[capacity](/properties/capacity/) properties to determine this). If not
+[size](properties/size/), [holding](properties/holding/), and
+[capacity](properties/capacity/) properties to determine this). If not
 possible, it returns false. This way, verb routines can have both
 successful and unsuccessful attempt messages.
 

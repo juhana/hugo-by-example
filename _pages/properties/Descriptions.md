@@ -13,7 +13,7 @@ are long_desc, short_desc and initial_desc.
 
 The long_desc is a property that holds the description used when
 looking at or examining an object. When used on the
-[room](/basics/rooms/) object, the long description is what appears
+[room](basics/rooms/) object, the long description is what appears
 when the the room is first visited (unless there's an initial_desc
 defined). For other objects, this is used when the player examines the
 object.
@@ -39,10 +39,10 @@ This is basically used for `X is here` descriptions.
 
 ##### `when_open` and `when_closed`
 
-[Unhidden](/attributes/hidden/), [openable](/attribute/openable/)
-[objects](/basics/objects/) in the [room](/basics/rooms/) can have
+[Unhidden](attributes/hidden/), [openable](attribute/openable/)
+[objects](basics/objects/) in the [room](basics/rooms/) can have
 special descriptions, depending on whether they are
-[open](/attributes/open/) or closed. In that case, the matching property
+[open](attributes/open/) or closed. In that case, the matching property
 is called instead of `short_desc`.
 
     object treasurechest "treasure chest"

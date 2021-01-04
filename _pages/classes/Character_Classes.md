@@ -5,7 +5,7 @@ categories:
   - Classes
 ---
 
-[Objlib](/library/objlib.h/) defines the `character` and
+[Objlib](library/objlib.h/) defines the `character` and
 `female_character` classes as such:
 
     class character

@@ -8,7 +8,7 @@ toc_label: Categories
 
 ## Attributes
 
-Main article: [attributes](/attributes/)
+Main article: [attributes](attributes/)
 
 {% include category.md name="Attributes" %}
 
@@ -38,7 +38,7 @@ system.
 
 ## Classes
 
-This category includes pages with useful [object classes](/basics/object_classes/)
+This category includes pages with useful [object classes](basics/object_classes/)
 that you could use with your game.
 
 {% include category.md name="Classes" %}
@@ -46,7 +46,7 @@ that you could use with your game.
 
 ## Declarations
 
-Main Article: [declarations](/declarations/)
+Main Article: [declarations](declarations/)
 
 {% include category.md name="Declarations" %}
 
@@ -60,7 +60,7 @@ This lists articles defining the meaning of various terms.
 
 ## Directions
 
-Used for [properties](/properties/) used to travel from one
+Used for [properties](properties/) used to travel from one
 room to another.
 
 {% include category.md name="Directions" %}
@@ -76,8 +76,8 @@ This category is comprised of short but complete example games.
 ## Global Variables
 
 This category serves as quick reference guide for the
-[Standard Library](/library/hugolib.h/)-defined global variables. For more
-information about global variables, check out the [Globals](/basics/global/) page.
+[Standard Library](library/hugolib.h/)-defined global variables. For more
+information about global variables, check out the [Globals](basics/global/) page.
 
 {% include category.md name="Global Variables" %}
 
@@ -93,7 +93,7 @@ the like that isn't covered in Hugo Basics. This is the nitty-gritty!
 ## Hugo Library
 
 These pages explain the various files that comprise the
-[Hugo Library](/library/).
+[Hugo Library](library/).
 
 {% include category.md name="Hugo Library" %}
 
@@ -123,7 +123,7 @@ plays the game.
 
 This category is for all kinds of loops, whether they are ways of
 repeating code (like the "for" and "while" loops), or the
-[Game Loop](/loops/game-loop/) page, which explores the order of operations
+[Game Loop](loops/game-loop/) page, which explores the order of operations
 the Hugo engine processes while playing a game.
 
 {% include category.md name="Loops" %}
@@ -139,7 +139,7 @@ object tree. Read the "object tree" entry below for more information.
 
 ## Operators
 
-Main Article: [operators](/operators/)
+Main Article: [operators](operators/)
 
 {% include category.md name="Operators" %}
 
@@ -154,7 +154,7 @@ understanding the player's input.
 
 ## Properties
 
-Main article: [Properties](/properties/)
+Main article: [Properties](properties/)
 
 {% include category.md name="Properties" %}
 
@@ -221,8 +221,8 @@ thereof) or completely new verb routines.
 
 ## Verbs
 
-Main article: [verbs](/declarations/verb/)
+Main article: [verbs](declarations/verb/)
 
-This lists the standard verbs defined by the [standard library](/library/).
+This lists the standard verbs defined by the [standard library](library/).
 
 {% include category.md name="Verbs" %}

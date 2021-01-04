@@ -6,11 +6,11 @@ categories:
 ---
 
 A comment may be placed in a Hugo program anywhere that
-[whitespace](/definitions/whitespace/) (blanks and tabs) may be used. There
-are two types of comments, *[line comments](/basics/line-comment/)*
-and *[block comments](/basics/block-comment/)*.
+[whitespace](definitions/whitespace/) (blanks and tabs) may be used. There
+are two types of comments, *[line comments](basics/line-comment/)*
+and *[block comments](basics/block-comment/)*.
 
-A line comment is an unquoted [exclamation point](/basics/exclamation-point) **!**.
+A line comment is an unquoted [exclamation point](basics/exclamation-point) **!**.
 The exclamation point is treated as an end of line;
 it and anything following it on the same line are ignored.
 

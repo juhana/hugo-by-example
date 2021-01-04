@@ -6,14 +6,14 @@ categories:
 ---
 
 `undo` is a built-in function for reverting to the previous turn. All
-[globals](/basics/global/) and property values and such are set back
+[globals](basics/global/) and property values and such are set back
 to their earlier values, with the notable exception of the
-[word array](/basics/word-array/). Most commonly, it is used by the verb
+[word array](basics/word-array/). Most commonly, it is used by the verb
 routine `DoUndo`.
 
 ### How to call
 
-`undo` returns a [true](/definitions/true/) or [false](/definitions/false)
+`undo` returns a [true](definitions/true/) or [false](definitions/false)
 value based on its success, so it is called in the following manner:
 
     x = undo ! the x variable gets set to 1 or 0
@@ -42,7 +42,7 @@ called).
 #### Temporarily
 
 If there are sections of your game where you don't want UNDO to work,
-you can set the global variable [`UNDO_OFF`](/globals/undo_off/) to a
+you can set the global variable [`UNDO_OFF`](globals/undo_off/) to a
 non-zero value, resulting in an "Unable to undo." response. Set
 `UNDO_OFF` back to 0 when the player is in the clear again.
 
@@ -53,7 +53,7 @@ memory allows. On some platforms, this can be more than a thousand
 turns. Although not necessarily recommended, you could limit the number
 of times one can UNDO for consistency across platforms or to give the
 player a larger sense of finality. Let's use
-[PreParse](/parsing/preparse/)!
+[PreParse](parsing/preparse/)!
 
     global undo_counter
 

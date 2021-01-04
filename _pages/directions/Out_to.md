@@ -6,9 +6,9 @@ categories:
   - Properties
 ---
 
-`out_to` is a [direction](/classes/direction/) property given to
-[rooms](/basics/rooms/). When a player types, "OUT",
-[DoGo](/verb-routines/dogo/) checks that value to see if there is another
+`out_to` is a [direction](classes/direction/) property given to
+[rooms](basics/rooms/). When a player types, "OUT",
+[DoGo](verb-routines/dogo/) checks that value to see if there is another
 room in that direction.
 
     room twistypassage "A Maze of Twisty Passage"

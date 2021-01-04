@@ -6,9 +6,9 @@ categories:
   - Properties
 ---
 
-`e_to` is a [direction](/classes/direction/) property given to
-[rooms](/basics/rooms/). When a player types, "GO EAST",
-[DoGo](/verb-routines/dogo/) checks that value to see if there is another
+`e_to` is a [direction](classes/direction/) property given to
+[rooms](basics/rooms/). When a player types, "GO EAST",
+[DoGo](verb-routines/dogo/) checks that value to see if there is another
 room in that direction.
 
     room twistypassage "A Maze of Twisty Passage"
@@ -18,5 +18,5 @@ room in that direction.
         e_to twistypassage2
     }
 
-It is [aliased](/basics/alias/) by the
-[when_open](/properties/descriptions/) property.
+It is [aliased](basics/alias/) by the
+[when_open](properties/descriptions/) property.

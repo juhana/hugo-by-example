@@ -9,8 +9,8 @@ categories:
 
 1.  Changes a couple responses involving non-gendered NPCs (like animals
     or creatures that will be referred to as "it").
-2.  Adds some [parse$](/parsing/parse$/)-printing code for HugoFix
-    parser monitoring (see "[replace DoHugoFix](/replacements/dohugofix/)").
+2.  Adds some [parse$](parsing/parse$/)-printing code for HugoFix
+    parser monitoring (see "[replace DoHugoFix](replacements/dohugofix/)").
 3.  Has some code so some "You can't \[X\] multiple objects like that."
     messages sound better (like when the player uses an abbreviated
     command like **&gt;X** for **&gt;EXAMINE**.

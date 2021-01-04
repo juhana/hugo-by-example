@@ -8,7 +8,7 @@ categories:
 Every character in a printed string ("B","p","ñ", etc.) has its own
 number called an "ASCII value."
 
-![ASCII table](/assets/images/Asciitable.png)
+![ASCII table](assets/images/Asciitable.png)
 
 In Hugo, if we want to alphabetize some strings or change the case of
 something or even ROT13 something, we would do it by going through the
@@ -17,8 +17,8 @@ necessary.
 
 ## Alphabetization
 
-The [hugolib.h](/library/hugolib.h/) routine
-[StringCompare](/strings/stringcompare/) compares each digit of two
+The [hugolib.h](library/hugolib.h/) routine
+[StringCompare](strings/stringcompare/) compares each digit of two
 strings. If the first digit of the first word is lexically lower,
 `StringCompare` would return **-1** at this point. Looking at the chart,
 we can see that it means that word would be alphabetized first.
@@ -33,7 +33,7 @@ we know the strings are identical.
 ## Uppercase/lowercase modification
 
 Here is a bit of code from the make-the-string-lowercase routine on the
-[String Manipulation](/strings/string-manipulation/) page:
+[String Manipulation](strings/string-manipulation/) page:
 
     if array stringarray[i] >= 'A' and array stringarray[i] <= 'Z'
         array stringarray[i] = array stringarray[i] + ('a'-'A')

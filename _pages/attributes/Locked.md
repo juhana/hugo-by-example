@@ -6,7 +6,7 @@ categories:
 ---
 
 `locked` is given to objects that are locked. As such, it is often used
-with the [lockable](/attributes/lockable/) attribute.
+with the [lockable](attributes/lockable/) attribute.
 
     object deadbolt "deadbolt lock"
     {

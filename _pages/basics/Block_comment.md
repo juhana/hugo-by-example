@@ -10,4 +10,4 @@ by backslash, **!\\** and continues until the inverse symbol, a
 backslash followed by an exclamation point, **\\!**. Everything within
 the block comment is ignored by the compiler.
 
-See Also: [line comment](/basics/line-comment/)
+See Also: [line comment](basics/line-comment/)

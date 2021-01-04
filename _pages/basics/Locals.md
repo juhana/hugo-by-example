@@ -7,9 +7,9 @@ categories:
 
 The **local** command defines a private variable which may be used only
 within the routine where it is declared. A local overrides a
-[global](/basics/global/) of the same name within that routine. It is
-a kind of [declaration](/declarations/) and is not executable
-[code](/definitions/code/).
+[global](basics/global/) of the same name within that routine. It is
+a kind of [declaration](declarations/) and is not executable
+[code](definitions/code/).
 
         ! Local variable to store the number of chocolate cake slices.
         local  cake_slice_count
@@ -54,4 +54,4 @@ If a local is not given a value, it defaults to 0. Changes to a local do
 not affect a global of the same name if one exists or a local of the
 same name that may exist in any other routine.
 
-See Also: [global](/basics/global/)
+See Also: [global](basics/global/)

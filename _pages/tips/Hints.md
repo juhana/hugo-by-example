@@ -5,7 +5,7 @@ categories:
   - Tips
 ---
 
-See also: [NewMenu.h](/contributions/newmenu/)
+See also: [NewMenu.h](contributions/newmenu/)
 
 Kent Tessman's game Guilty Bastards has a great adaptive hint system
 (more hints are added as you progress further in the game). This page

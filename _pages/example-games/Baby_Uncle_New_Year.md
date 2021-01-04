@@ -11,7 +11,7 @@ Being Herr Yogurt, he submitted it late.
 
 -   This is a somewhat modified version, updated to make use of library
     contributions. Currently, it requires
-    glk.h, [opportune.h](/contributions/opportune.h/), and
+    glk.h, [opportune.h](contributions/opportune.h/), and
     *boxdrawglk.h*.
 -   It totally steals object-naming code from Vault of Hugo.
 

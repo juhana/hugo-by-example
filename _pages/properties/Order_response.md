@@ -5,11 +5,11 @@ categories:
   - Properties
 ---
 
-**`order_response`** is a [property](/properties/) defined by the
-[standard library](/library/) and is an alias for the
-directional property [sw_to](/directions/sw_to/). It may look like a
+**`order_response`** is a [property](properties/) defined by the
+[standard library](library/) and is an alias for the
+directional property [sw_to](directions/sw_to/). It may look like a
 simple object property, but with the help of the
-[SpeakTo](/parsing/speakto/) routine, all character commands
+[SpeakTo](parsing/speakto/) routine, all character commands
 (&gt;CLOWN, MAKE BALLOON ANIMAL) are funneled its way. A fleshed-out
 character would make great use of its capabilities.
 
@@ -34,7 +34,7 @@ isn't one, it'll give the default "*\[X\] ignores you*."
 
 ### Watch That Scope
 
-[SpeakTo](/parsing/speakto/) doesn't check that any object you have the
+[SpeakTo](parsing/speakto/) doesn't check that any object you have the
 character interact with is in scope, so you'll have to code for that
 yourself.
 

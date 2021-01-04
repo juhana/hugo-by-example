@@ -50,7 +50,7 @@ then returns the total number.
 ## Usage
 
 Alright, let's just throw together an example using an object's
-[found_in](/scope/found_in/) property (although it might be more
+[found_in](scope/found_in/) property (although it might be more
 useful for some custom property).
 
     room endofroad "End of the Road"

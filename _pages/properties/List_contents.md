@@ -12,9 +12,9 @@ be very useful.
 ### Careful what you look for
 
 Sometimes you'll want to prevent contents from being listed altogether
-(like with [vehicles](/classes/vehicle/) or something). Other times,
-say, you might have a non-[hidden](/attributes/hidden/),
-not-[quiet](/attributes/quiet/) container in a room, but you only want the
+(like with [vehicles](classes/vehicle/) or something). Other times,
+say, you might have a non-[hidden](attributes/hidden/),
+not-[quiet](attributes/quiet/) container in a room, but you only want the
 player to see the contents if he specifically *looks into it* (and not,
 say, in the room description). Do something like this:
 

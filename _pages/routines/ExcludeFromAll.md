@@ -7,7 +7,7 @@ categories:
 
 | calling form             | description                                                                                                                                                                                                                            |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ExcludeFromAll(object)` | Returns true if, based on the current circumstances (verbroutine, etc.), the supplied object should be excluded from actions using “all”—such as `multi`, `multiheld`, and `multinotheld` [grammar tokens](/basics/grammar-tokens/). |
+| `ExcludeFromAll(object)` | Returns true if, based on the current circumstances (verbroutine, etc.), the supplied object should be excluded from actions using “all”—such as `multi`, `multiheld`, and `multinotheld` [grammar tokens](basics/grammar-tokens/). |
 
 ## The Code
 

@@ -7,9 +7,9 @@ categories:
 
 ### What it fixes
 
-Normally, [AssignPronoun](/parsing/assignpronoun/) gives non-gendered
+Normally, [AssignPronoun](parsing/assignpronoun/) gives non-gendered
 living things like animals. This version will set the "it" pronoun
-(assuming the animal object's [pronouns](/properties/pronoun/) are set
+(assuming the animal object's [pronouns](properties/pronoun/) are set
 correctly).
 
 ### The code

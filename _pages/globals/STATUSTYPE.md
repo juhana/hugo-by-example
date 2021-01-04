@@ -5,7 +5,7 @@ categories:
   - Global Variables
 ---
 
-The value of the `STATUSTYPE` [global variable](/basics/global/) determines what is
+The value of the `STATUSTYPE` [global variable](basics/global/) determines what is
 printed in the status line (the area above the main window) besides the room location.
 
 | STATUSTYPE value | behavior                                                                                 |

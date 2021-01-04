@@ -7,8 +7,8 @@ categories:
 ---
 
 A **verb routine** is a routine which processes a
-[verb](/declarations/verb/) typed in by the user. In this
-[declaration](/declarations/):
+[verb](declarations/verb/) typed in by the user. In this
+[declaration](declarations/):
 
     verb "command"
        *                         DoCommand

@@ -50,4 +50,4 @@ text editor to do so).
 
 ### Text Editors
 
-For text editors, check out the [Supported Editors](/tools/editors/) page!
+For text editors, check out the [Supported Editors](tools/editors/) page!

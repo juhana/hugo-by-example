@@ -7,8 +7,8 @@ categories:
 
 This is Roody Yogurt's update to a game originally released as "The Ecto
 Horror." It requires the glk.h and
-[newmenu.h](/contributions/newmenu/) library extensions (and possibly
-[beta.h](/contributions/beta.h/)).
+[newmenu.h](contributions/newmenu/) library extensions (and possibly
+[beta.h](contributions/beta.h/)).
 
 ## the code
 

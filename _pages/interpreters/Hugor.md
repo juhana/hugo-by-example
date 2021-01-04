@@ -28,7 +28,7 @@ Microsoft Windows (XP, Vista and 7).
 
 Hugor does not support movies or context menus.
 
-![Hugor](/assets/images/GB hugor.jpg)
+![Hugor](assets/images/GB hugor.jpg)
 
 ## Links
 

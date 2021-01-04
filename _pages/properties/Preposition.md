@@ -5,23 +5,23 @@ categories:
   - Properties
 ---
 
-`preposition` is an [object](/globals/object/)
-[property](/properties/) for
-[containers](/basics/containers-and-platforms/) and
-[platforms](/basics/containers-and-platforms/). Usually, the `preposition` property
-is called if the object is [enterable](/attributes/enterable/) (such as
-the case with [vehicles](/classes/vehicle/)), but
-[WhatsIn](/routines/whatsin/) also checks for it, so it can also affect
+`preposition` is an [object](globals/object/)
+[property](properties/) for
+[containers](basics/containers-and-platforms/) and
+[platforms](basics/containers-and-platforms/). Usually, the `preposition` property
+is called if the object is [enterable](attributes/enterable/) (such as
+the case with [vehicles](classes/vehicle/)), but
+[WhatsIn](routines/whatsin/) also checks for it, so it can also affect
 regular containers and platforms (and even
-[characters](/characters/)), too.
+[characters](characters/)), too.
 
 ### Things to keep in mind
 
--   In [DescribePlace](/guts/describeplace/), it helps connote the
+-   In [DescribePlace](guts/describeplace/), it helps connote the
     player's relation to the object. So, an `enterable` "water" object
-    with preposition "under" in a [location](/globals/location/) called
+    with preposition "under" in a [location](globals/location/) called
     "The Ocean" would result in "The Ocean, under the water".
--   Leaving [vehicles](/classes/vehicle/) and enterable objects
+-   Leaving [vehicles](classes/vehicle/) and enterable objects
     actually checks for a second `preposition` element, used in
     statements like:
 

@@ -22,7 +22,7 @@ When you have something like this:
 >&gt;GO NORTH. DIG. G. G.
 
 The whole line is saved to the word array. That's why when we write
-command-finessing routines that use the [words](/globals/words/) global
+command-finessing routines that use the [words](globals/words/) global
 to find the maximum number of words, we can't assume that
 `word[<words>]` is the last word of the first command. Therefore, it
 is often better to start at the beginning of a command when using loops
@@ -46,22 +46,22 @@ long, going from word\[1\] ("DIG") to word\[6\] (the last full-stop).
 
 ## Particular to the Word Array
 
-Unlike [globals](/basics/global/) (or just about anything else), the
+Unlike [globals](basics/global/) (or just about anything else), the
 word array is not affected by state-changing things like
-[undo](/parsing/undo/), [restore](/guts/restore/), or
-[restart](/guts/restart/). It is only affected by actual inputs or
+[undo](parsing/undo/), [restore](guts/restore/), or
+[restart](guts/restart/). It is only affected by actual inputs or
 being written over by code. This makes the word array an effective yet
 sneaky way to maintain certain behaviors through UNDOs and RESTARTs. For
-instance, the the [beta.h](/contributions/beta.h/) library extension uses the
+instance, the the [beta.h](contributions/beta.h/) library extension uses the
 word array to let the code know that the `transcript_is_on` global
 should be reset to true after a restart.
 
 ## Command Manipulation
 
-[PreParse](/parsing/preparse/) code often involves modifying the
+[PreParse](parsing/preparse/) code often involves modifying the
 player's input to a phrasing that is easier for us to parse. One does
-this using routines like [InsertWord](/guts/insertword/) or
-[DeleteWord](/guts/deleteword/) to make space in or remove words
+this using routines like [InsertWord](guts/insertword/) or
+[DeleteWord](guts/deleteword/) to make space in or remove words
 from the word array. The important thing is that if you change the total
 number of words, you should also change the value of the
-[words](/globals/words/) global to match.
+[words](globals/words/) global to match.

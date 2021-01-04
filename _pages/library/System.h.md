@@ -25,11 +25,11 @@ Syntax for using the system routine is `system(<function>)`
 
 `system.h` also has some extra time-related stuff, including:
 
-- a [string array](/strings/string-arrays/) called "_time_string"
+- a [string array](strings/string-arrays/) called "_time_string"
   that can be used to store time-related strings (up to 19
   characters).
 - some enumerated constants and a routine called GetSystemTimeValue,
   which writes only the specific time metric (the second, minute,
   hour, day, month, year) to _time_string.
 
-For more time-related routines, see [Time.h](/contributions/time.h/)
+For more time-related routines, see [Time.h](contributions/time.h/)

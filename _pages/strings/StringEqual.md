@@ -6,7 +6,7 @@ categories:
   - Routines
 ---
 
-`StringEqual` is an "unadvertised" [hugolib.h](/library/hugolib.h/)
+`StringEqual` is an "unadvertised" [hugolib.h](library/hugolib.h/)
 routine.
 
 ## The code
@@ -18,7 +18,7 @@ routine.
 
 ## What it does
 
-As [StringCompare](/strings/stringcompare/) returns 0 if the two
+As [StringCompare](strings/stringcompare/) returns 0 if the two
 strings are the same, `StringEqual` negates its results to provide a
 more intuitive "are these two strings equal?"-type routine.
 

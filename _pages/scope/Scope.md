@@ -16,7 +16,7 @@ up, etc...). The breadbox is said to be "in scope". Until he opens the
 box, he cannot interact with the key. The key is considered "out of
 scope".
 
-Generally, the Hugo [parser](/categories/#parsing) uses scope rules to
+Generally, the Hugo [parser](categories/#parsing) uses scope rules to
 determine what the PC is referring to.
 
 ### Scope (Programming)

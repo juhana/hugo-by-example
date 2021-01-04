@@ -5,10 +5,10 @@ categories:
   - Properties
 ---
 
-The **`name`** [property](/properties/) is defined as an
+The **`name`** [property](properties/) is defined as an
 intrinsic property by the compiler. It determines the name used when an
 object is listed in an inventory or room listing (or even in the object
-tree). Because it is intrinsic, all [objects](/basics/objects/) are
+tree). Because it is intrinsic, all [objects](basics/objects/) are
 given a *name* property.
 
 In the following code:

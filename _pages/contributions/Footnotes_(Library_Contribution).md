@@ -10,7 +10,7 @@ games like Guilty Bastards and Stationfall, attempts to make footnotes
 easy! Unlike those other games, this system uses a "chronological"
 design- footnotes are only accessible after the prompting text has been
 seen, and footnotes are numbered by the order they are seen. Compared to
-the method used in [Guilty Bastards](/tips/infocom-footnotes/),
+the method used in [Guilty Bastards](tips/infocom-footnotes/),
 this system uses a footnote object (with its various aliased properties) to
 keep track of states instead of arrays and globals.
 
@@ -27,9 +27,9 @@ To use the footnotes library extension:
     MAXFOOTNOTES that tells the game how many possible footnotes there
     are:
             constant MAXFOOTNOTES 20
-3.  Put the call "FootnoteNotify" in the [main](/routines/main/) routine
+3.  Put the call "FootnoteNotify" in the [main](routines/main/) routine
     *after* calls to routines that might possibly print text, like
-    [runevents](/timers/events/) and [RunScripts](/characters/scripts/).
+    [runevents](timers/events/) and [RunScripts](characters/scripts/).
 4.  Add a "PrintFootnote" routine to your game, like the following:
         routine PrintFootnote(num)
         {

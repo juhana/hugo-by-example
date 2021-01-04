@@ -5,8 +5,8 @@ categories:
   - Replacements
 ---
 
-This version of [PrintStatusLine](/input-output/printstatusline/) uses
-"[text to](/strings/text-to/)" and string routines to always place text
+This version of [PrintStatusLine](input-output/printstatusline/) uses
+"[text to](strings/text-to/)" and string routines to always place text
 in the right place in the upper right corner of the screen.
 
 ## The code
@@ -76,11 +76,11 @@ in the right place in the upper right corner of the screen.
 Following is another version that is unfortunately very ugly. Maybe I
 will be able to make it prettier at some point. Things it does:
 
-1.  Uses [DESCFORM_F](/guts/descform_f/) to provide consistent
+1.  Uses [DESCFORM_F](guts/descform_f/) to provide consistent
     spacing on both left and right sides.
 2.  Clears the window if the new status line height is smaller than the
     old.
-3.  Adds a new value to [STATUSTYPE](/globals/statustype/). If set to
+3.  Adds a new value to [STATUSTYPE](globals/statustype/). If set to
     3, `PrintStatusLine` prints the score/turn counter the Infocom way
     ("Score: Moves: ").
 

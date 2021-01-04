@@ -5,7 +5,7 @@ categories:
   - Example Games
 ---
 
-See the [Halloween Horror Part I](/example-games/halloween-horror-part-1/)
+See the [Halloween Horror Part I](example-games/halloween-horror-part-1/)
 page for explanation.
 
 ## the code

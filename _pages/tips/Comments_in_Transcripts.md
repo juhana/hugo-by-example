@@ -6,21 +6,21 @@ categories:
 ---
 
 When sending out your game to your beta-testers (you *do*
-[beta](/betatesting/) test your games, right?), it's a good idea for
-them to use the **[transcript](/definitions/transcript/)** to keep track of
+[beta](betatesting/) test your games, right?), it's a good idea for
+them to use the **[transcript](definitions/transcript/)** to keep track of
 their play so you can see what issues they run into. Unfortunately, the
 standard Hugo library does not include a way for a player to put a
 comment in the transcript itself. But thanks to Bert Byfield, there's a
 remedy for that.
 
 First, near the top of the code, you need to add a global
-[variable](/basics/variables/) to keep track of whether the transcript
+[variable](basics/variables/) to keep track of whether the transcript
 is on or off.
 
         global transcript_is_on = false    ! starts out as false, because the transcript isn't on, yet
 
 Then, elsewhere in your code, you'll need to replace the `DoScriptOnOff`
-[routine](/routines/) with the following code:
+[routine](routines/) with the following code:
 
     replace DoScriptOnOff
     {

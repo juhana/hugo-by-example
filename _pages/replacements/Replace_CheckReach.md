@@ -7,8 +7,8 @@ categories:
 
 ### What it fixes
 
-The original [CheckReach](/routines/checkreach/) can be fooled by some
-instances of [components](/classes/components/). This version checks
+The original [CheckReach](routines/checkreach/) can be fooled by some
+instances of [components](classes/components/). This version checks
 than an object is not a part of something within reach before returning
 false.
 

@@ -8,10 +8,10 @@ categories:
 ### What it fixes
 
 This version doesn't *fix* anything, but it attempts to make
-[RunScripts](/routines/runscripts/) a little more flexible. This version
+[RunScripts](routines/runscripts/) a little more flexible. This version
 allows for character scripts that pass a true (1) value for the
 parameter. Previously, `RunScripts` would interpret this as the
-[display object](/guts/display-object/).
+[display object](guts/display-object/).
 
 ### The code
 

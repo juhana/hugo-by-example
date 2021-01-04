@@ -11,11 +11,11 @@ HugoFix Debugging Suite. Don't get those two
 confused, though. While HugoFix is a bunch of in-game commands that
 allows game world manipulation and state monitoring, the debugger is an
 external program that lets you watch the values of
-[variables](/basics/variables/), word array elements, or whatever. It
+[variables](basics/variables/), word array elements, or whatever. It
 even lets you run your game one line of code at a time, if need be.
 
 
-=Quick Start= First off, [compile](/basics/compiler/) your game
+=Quick Start= First off, [compile](basics/compiler/) your game
 with the **-d** switch so it compiles into the .HDX (Hugo Debuggable
 Executable) format. Load that up into the debugger.
 
@@ -60,7 +60,7 @@ windows to the forefront.
 | Watch Window               | Shows all things set with the Debug menu "Watch" option                                                                            |
 | Calls                      | Shows routine calls \*while they are open\* (won't show anything while game is waiting for input)                                  |
 | Breakpoints                | Lists any breakpoints that have been set                                                                                           |
-| Local Variables            | Shows any [local variables](/basics/variables/) that currently are defined (saves you the trouble of having to "Watch" for them) |
+| Local Variables            | Shows any [local variables](basics/variables/) that currently are defined (saves you the trouble of having to "Watch" for them) |
 | Property/Attribute Aliases | Shows all property and attribute aliases                                                                                           |
 | Help                       | Shows the help window                                                                                                              |
 | Output                     | Switches to the game window                                                                                                        |

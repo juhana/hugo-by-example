@@ -5,16 +5,16 @@ categories:
   - Routines
 ---
 
-`ShortDescribe` is the [hugolib.h](/library/hugolib.h/) routine (called
-by [DescribePlace](/guts/describeplace/)) that checks if an object
-has an [initial_desc](/properties/descriptions/#initial_desc),
-[when_open](/properties/descriptions/),
-[when_closed](/properties/descriptions/), or
-[short_desc](/properties/descriptions/) property that should be used. If
+`ShortDescribe` is the [hugolib.h](library/hugolib.h/) routine (called
+by [DescribePlace](guts/describeplace/)) that checks if an object
+has an [initial_desc](properties/descriptions/#initial_desc),
+[when_open](properties/descriptions/),
+[when_closed](properties/descriptions/), or
+[short_desc](properties/descriptions/) property that should be used. If
 so, it prints it. If not, it returns false, and `DescribePlace` will go
 on to put the object in the regular room listing.
 
-*See also:* [Replace ShortDescribe](/replacements/shortdescribe/)
+*See also:* [Replace ShortDescribe](replacements/shortdescribe/)
 
 ## The code
 

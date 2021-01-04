@@ -15,7 +15,7 @@ categories:
 From this simple description from the manual, one might imagine that
 `CheckReach` can be used whenever you want to check whether a player can
 take or manipulate an object. This is not true
-([FindObject](/scope/findobject/) is much better suited for *that*
+([FindObject](scope/findobject/) is much better suited for *that*
 task). `CheckReach` is a routine used specifically for situations where
 *some objects are out of reach* (like when the PC is in a chair or
 vehicle). In fact, to work properly, it requires you to set a `reach`
@@ -109,7 +109,7 @@ A transcript of a game using this sparse code would look like this:
 In the couch object above, you'll notice how the `reach` property is
 followed by a list the objects you **can** interact with. Everything
 else, you can only examine or look into. This is because almost every
-verb in [verblib.h](/library/verblib/) runs `CheckReach`. For
+verb in [verblib.h](library/verblib/) runs `CheckReach`. For
 example, take a look at **DoMove**:
 
     routine DoMove
@@ -140,4 +140,4 @@ is called only once) to your `object.before.object DoGet` code.
 The current `CheckReach` requires that an object within reach also has
 all of its components explicitly listed in the `reach` property. If you
 want a version that automatically checks for components, look at
-"[replace CheckReach](/replacements/checkreach/)".
+"[replace CheckReach](replacements/checkreach/)".

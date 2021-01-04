@@ -8,15 +8,15 @@ categories:
 ### What it fixes
 
 Currently, if HugoFix's parser monitoring is on,
-`Parse` attempts to print [parse$](/parsing/parse$/) each turn.
+`Parse` attempts to print [parse$](parsing/parse$/) each turn.
 Unfortunately, `parse$` is not set until after
-[grammar matching](/loops/game-loop/), so `parse$` equals "" in most cases
+[grammar matching](loops/game-loop/), so `parse$` equals "" in most cases
 (the exception to this rule is commands where the string
-[grammar token](/basics/grammar-tokens/) is used). This version removes that
+[grammar token](basics/grammar-tokens/) is used). This version removes that
 `parse$`-printing code (see also:
-[replace ParseError](/replacements/parseerror/)).
+[replace ParseError](replacements/parseerror/)).
 
-This also removes the [jump](/guts/jump/) command so the jump labels
+This also removes the [jump](guts/jump/) command so the jump labels
 don't clash with the original routine.
 
 ### The code

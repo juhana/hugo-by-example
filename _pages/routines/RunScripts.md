@@ -5,11 +5,11 @@ categories:
   - Routines
 ---
 
-`RunScripts` is a [hugolib.h](/library/hugolib.h/)
-[routine](/routines/) called every turn by
-[main](/routines/main/). If there are any running
-[character scripts](/characters/scripts/), it proceeds to execute them. For
-a suggested `RunScripts` update, see "[replace RunScripts](/replacements/runscripts/)."
+`RunScripts` is a [hugolib.h](library/hugolib.h/)
+[routine](routines/) called every turn by
+[main](routines/main/). If there are any running
+[character scripts](characters/scripts/), it proceeds to execute them. For
+a suggested `RunScripts` update, see "[replace RunScripts](replacements/runscripts/)."
 
 ## The code
 

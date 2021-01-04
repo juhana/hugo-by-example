@@ -11,7 +11,7 @@ task. It is the equivalent of a "subroutine", "procedure", or "function"
 in other programming languages.
 
 There are two types of routines, those that are used for processing
-*[verbs](/declarations/verb/)*, i.e. a piece of code when the task needs to
+*[verbs](declarations/verb/)*, i.e. a piece of code when the task needs to
 define what happens when the player types a verb, and those that are
 *called* by other routines.
 

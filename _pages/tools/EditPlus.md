@@ -6,7 +6,7 @@ categories:
 ---
 
 EditPlus is a commercial text editor for Windows. Most of its features
-are described in further detail on the [Supported Editors](/tools/editors/)
+are described in further detail on the [Supported Editors](tools/editors/)
 page, but you can download a zip
 [here](http://roody.gerynarsabode.org/hbe/windows/editplus.zip) that has
 several additional files to use with it, including some clip text files,
@@ -14,7 +14,7 @@ an autocomplete file (created by Robb Sherwin), and some templates.
 
 # Favorite Features and How To Use Them
 
-![EditPlus](/assets/images/Cliptextshow.jpg)
+![EditPlus](assets/images/Cliptextshow.jpg)
 
 **Clip Text:** "Clip text" allows for quick-clicking to add text into
 wherever the cursor is in the current open file. It is both a time saver
@@ -36,14 +36,14 @@ All it is is a line to let you know where *X* characters end. I keep a
 column marker at 80 characters so that when I share code, it is most
 certain to fit on other people's screens, no matter their screen ratio.
 
-![EditPlus](/assets/images/Findinfiles.jpg)
+![EditPlus](assets/images/Findinfiles.jpg)
 
 **Find In Files:** "Find In Files" lets you search a bunch of files
 at once. It is perfect when scouring Hugo code for examples of this or
 that. You can search by directory or, if you have set up projects, you
 can search by project, too. 
 
-![EditPlus](/assets/images/Projectshot.jpg)
+![EditPlus](assets/images/Projectshot.jpg)
 
 **Function List:** "Function list" looks for whatever text you
 specify and lists them in a floating window. If you double-click on any
@@ -69,7 +69,7 @@ specific code by project.
 **To use:** Under "Projects", select "Edit Projects" to make a new
 project. Projects will then show up in your document-browsing area.
 
-![EditPlus](/assets/images/Splitter.jpg)
+![EditPlus](assets/images/Splitter.jpg)
 
 **Splitter:** The Splitter feature allows you to look at up to four
 parts of one file at once. It could be useful when trying to understand
@@ -80,7 +80,7 @@ Configure the distribution of the split windows how you like. To turn it
 off, drag the distribution bar to the corner so one window takes up the
 entire screen.
 
-![EditPlus](/assets/images/Templates.jpg)
+![EditPlus](assets/images/Templates.jpg)
 
 **Templates:** Templates are the text editor version of shell files. I
 personally have two different versions of Hugo shell file templates (and
@@ -111,7 +111,7 @@ following:
 So, yeah, I've found it very useful, especially since I've had problems
 with the official Windows compiler frontend (it hates when I switch
 directories after having compiled something else). It also helps out to
-set up your [environment variables](/tips/environment-variables/),
+set up your [environment variables](tips/environment-variables/),
 though.
 
 **To use:** Under "Tools", select "Configure User Tools" and set up

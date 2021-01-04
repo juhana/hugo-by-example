@@ -6,8 +6,8 @@ categories:
 ---
 
 With the `#include` command, one can separate one game source into
-several files. Besides being used to include [library files](/library/) and 
-[library contributions](/contributions/), one can
+several files. Besides being used to include [library files](library/) and 
+[library contributions](contributions/), one can
 separate their game source into location, object, or character files-
 whatever helps the game seem less unwieldy.
 

@@ -38,7 +38,7 @@ In-game, this is called by **&gt;SCRIPT OFF**.
 
 ## Other adventures in transcript-ing
 
-The [Beta.h](/contributions/beta.h/) library extension modifies
-`DoScriptOnOff` and [ParseError](/parsing/parseerror/) so that
+The [Beta.h](contributions/beta.h/) library extension modifies
+`DoScriptOnOff` and [ParseError](parsing/parseerror/) so that
 betatesters can leave comments in their transcripts by prefacing notes
 with an asterisk ("\*").

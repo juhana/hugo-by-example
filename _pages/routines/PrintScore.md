@@ -5,7 +5,7 @@ categories:
   - Routines
 ---
 
-`PrintScore` is the [hugolib.h](/library/hugolib.h/) routine that is
+`PrintScore` is the [hugolib.h](library/hugolib.h/) routine that is
 called either when someone quits, wins, or loses a game (or even, just
 when they type **&gt;SCORE**). As you might imagine, if there is one, it
 prints the game score.

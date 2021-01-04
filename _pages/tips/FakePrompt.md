@@ -6,18 +6,18 @@ categories:
 ---
 
 This page isn't about a "fake prompt" along the lines of
-[input](/input-output/input/)/[GetInput](/input-output/getinput/). This page is
+[input](input-output/input/)/[GetInput](input-output/getinput/). This page is
 about using a looping routine to present a flashing cursor where the
 player can enter text. The benefit of this method is that whatever the
 player enters can be entered into a
-[string array](/strings/string-arrays/) and is not subjected to the rules of a
+[string array](strings/string-arrays/) and is not subjected to the rules of a
 normal prompt (where one has to train the player to use quotation marks
 to be able to deal with unexpected words). On the downside, it relies
 heavily on locate, so to work properly, it needs to be used in a window
 written entirely in fixed-width fonts.
 
-It requires the inclusion of [system.h](/library/system.h/) and will
-not work with [glk](/definitions/glk/) or simple interpreters.
+It requires the inclusion of [system.h](library/system.h/) and will
+not work with [glk](definitions/glk/) or simple interpreters.
 
 ## The code
 

@@ -81,4 +81,4 @@ meantime (while it is looked into), don't waste your time with it!
 
 ## See also:
 
-Be sure to also check out the [grammar tokens](/basics/grammar-tokens/) page.
+Be sure to also check out the [grammar tokens](basics/grammar-tokens/) page.

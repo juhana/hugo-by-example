@@ -7,7 +7,7 @@ categories:
 
 # Description
 
-Fuses and daemons are object-attached [events](/timers/events/) that
+Fuses and daemons are object-attached [events](timers/events/) that
 are moved in and out of scope (and therefore, starting or stopping them)
 with `Activate` and `Deactivate`
 routines. They are described here together mainly because most things
@@ -94,7 +94,7 @@ Both daemons and fuses are started and stopped by `Activate` and
 
 # The code for everything listed above
 
-For reference, here is the code from [hugolib.h](/library/hugolib.h/)
+For reference, here is the code from [hugolib.h](library/hugolib.h/)
 that defines all of this:
 
     !\

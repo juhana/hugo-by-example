@@ -5,15 +5,15 @@ categories:
   - Properties
 ---
 
-**react_after** is a [property](/properties/) available for an
-[object](/globals/object/) and is defined by the
-[standard library](/library/).
+**react_after** is a [property](properties/) available for an
+[object](globals/object/) and is defined by the
+[standard library](library/).
 
 ## react_after
 
 Unsurprisingly, `react_after` is to
-[react_before](/properties/react_before/) what
-[`after`](/properties/after/) is to [`before`](/properties/before/). To be
+[react_before](properties/react_before/) what
+[`after`](properties/after/) is to [`before`](properties/before/). To be
 honest, it's a seldom used property (judging by the Hugo game sources on
 the IF Archive). Let's throw together an example anyways.
 
@@ -83,5 +83,5 @@ FOOTNOTE 1 - This example also could have been accomplished with some
 
 Since `found_in` objects are not in the player's location according to
 the object tree, a `react_after` property for an object like that would
-not be executed. Luckily, [events](/timers/events/) for `found_in`
+not be executed. Luckily, [events](timers/events/) for `found_in`
 objects *are* run so you can accomplish the same thing that way.

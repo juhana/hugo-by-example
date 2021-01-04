@@ -10,7 +10,7 @@ Hopefully, this page can help!
 
 If you're new to coding, you'll find that having a nice text editor with
 syntax coloring will go a long ways towards making code easier to
-understand. Download a program [here](/tools/editors/)
+understand. Download a program [here](tools/editors/)
 (gedit, EditPlus, and Notepad++ are some good ones) and install the
 accompanying syntax file. If you need to configure the syntax file
 within the program, be sure to associate it with **.h**, **.g**, and
@@ -18,11 +18,11 @@ within the program, be sure to associate it with **.h**, **.g**, and
 
 Editor without highlighting:
 
-![Editor without highlighting](/assets/images/nohilite.png)
+![Editor without highlighting](assets/images/nohilite.png)
 
 Editor *with* highlighting:
 
-![Editor with highlighting](/assets/images/withhilite.png)
+![Editor with highlighting](assets/images/withhilite.png)
 
 ## Look at a sample game
 
@@ -46,7 +46,7 @@ such.
 
 Here at Hugo by Example, we've been working on a shell file that is a
 bit more Hugo 3.0-representative than the file on the IF Archive. You
-can find it [here](/basics/new-shell/). So, the first thing you do
+can find it [here](basics/new-shell/). So, the first thing you do
 when writing a new game is to open up the shell file and save it with a
 new name (that'll one day be &lt;new name&gt;.hex, your new Hugo game,
 hopefully).
@@ -56,7 +56,7 @@ hopefully).
 Go to the [IF Archive](http://ifarchive.org/indexes/if-archiveXprogrammingXhugoXexecutables.html)
 (executables section) and look for a version of Hugo for your OS. Be
 sure that it is a package that includes a compiler, as some of those
-downloads are just interpreters (like the [Hugor](/interpreters/hugor/)
+downloads are just interpreters (like the [Hugor](interpreters/hugor/)
 links). Install or unzip the package. Also, download the
 [Hugo Library](http://ifarchive.org/if-archive/programming/hugo/library/hugolib.zip).
 Unzip that.
@@ -80,14 +80,14 @@ if that worries you, you're in good hands.
 
 Don't worry about getting everything on your first read. As long as you
 learn how to write rooms and sort of understand basic object concepts
-like [attributes](/attributes/) and
-[properties](/properties/), you're good to go!
+like [attributes](attributes/) and
+[properties](properties/), you're good to go!
 
 ## Write your game
 
 You should now be ready to get started. If you run into trouble, you
 have the Hugo Book, the example games, and this website (including 
-[useful tips](/categories/#tips)) at your disposal. You can also
+[useful tips](categories/#tips)) at your disposal. You can also
 post coding questions at the 
 [Jolt Country's Hugo forum](http://www.joltcountry.com/phpBB2/viewforum.php?f=8) or
 [intfiction.org's "other languages" forum](http://www.intfiction.org/forum/viewforum.php?f=16).

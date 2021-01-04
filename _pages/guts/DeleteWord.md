@@ -5,10 +5,10 @@ categories:
   - Hugo Guts
 ---
 
-`DeleteWord` is a [hugolib.h](/library/hugolib.h/)-provided
-[routine](/routines/) for [word array](/basics/word-array/)
+`DeleteWord` is a [hugolib.h](library/hugolib.h/)-provided
+[routine](routines/) for [word array](basics/word-array/)
 modification. As the name suggests, it removes words from the word array
-and updates the value of the [words](/globals/words/) global.
+and updates the value of the [words](globals/words/) global.
 
 ## The code
 

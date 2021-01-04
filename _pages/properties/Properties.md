@@ -20,12 +20,12 @@ definition at the time the object is created.
 #### Basic Properties
 
 Here is a list of properties predefined by the compiler or defined in
-the [standard library](/library/), in alphabetical
+the [standard library](library/), in alphabetical
 order. The "order defined" field shows the order properties are defined
-by the compiler or in [hugolib.h](/library/hugolib.h/). With the
+by the compiler or in [hugolib.h](library/hugolib.h/). With the
 exception of the predefined properties (that have values that are set by
 the compiler), the property values are determined by the order defined,
-unless [aliased](/basics/alias/) to another property. Note that you
+unless [aliased](basics/alias/) to another property. Note that you
 can sort the table on any column by clicking on the symbol in that
 column:
 
@@ -250,11 +250,11 @@ defined</p></th>
 
 #### Directional Properties
 
-[Directions](/classes/direction/) out of rooms are also properties.
-They can hold the [object](/globals/object/) that is north/south/etc
+[Directions](classes/direction/) out of rooms are also properties.
+They can hold the [object](globals/object/) that is north/south/etc
 from the current room. When used as is, these properties are only used
-by the [room](/basics/rooms/) object, but they are often
-[aliased](/basics/alias/) to other properties when used with other
+by the [room](basics/rooms/) object, but they are often
+[aliased](basics/alias/) to other properties when used with other
 objects. The last two in the list really aren't used for directions, but
 are still only used in rooms.
 
@@ -514,12 +514,12 @@ properties, there will be many times that you need to define your own.
 |--------------------------------|
 | property **&lt;property name&gt;** |
 
-Defining a property is very similar to an [alias](/basics/alias/):
+Defining a property is very similar to an [alias](basics/alias/):
 
     property <property name> <default value>
 
-The default value can be either a [constant](/basics/constants/) or a
-[dictionary word](/definitions/dictionary-words/). If an object does not
+The default value can be either a [constant](basics/constants/) or a
+[dictionary word](definitions/dictionary-words/). If an object does not
 have either a default value assigned, or defined in the object and you
 try find that property of an object, it will return 0 (or "" or the
 "nothing" object depending on context).
@@ -629,7 +629,7 @@ Let's take a look at a couple of examples:
 I think it's important to remind people that properties don't only need
 to be used for keeping track of quantities (even when you set them to
 numerical values). They are very useful for keeping track of states
-(especially when used with [constants](/basics/constants/)). For
+(especially when used with [constants](basics/constants/)). For
 example, you could have a "swimming" property, returning either 1 (true)
 or 0 (false), making it act like an attribute. If you have dice, you can
 use a property to determine which side is face-up. As the manual points

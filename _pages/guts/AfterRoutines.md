@@ -5,10 +5,10 @@ categories:
   - Hugo Guts
 ---
 
-`AfterRoutines` is the [hugolib.h](/library/hugolib.h/)
-[routine](/routines/) that actually calls the various
-[after](/properties/after/) routines (as described on the 
-[game loop](/loops/game-loop/) page). Taking a good look at it can help
+`AfterRoutines` is the [hugolib.h](library/hugolib.h/)
+[routine](routines/) that actually calls the various
+[after](properties/after/) routines (as described on the 
+[game loop](loops/game-loop/) page). Taking a good look at it can help
 attain a better understanding of the order of things.
 
 ## The code

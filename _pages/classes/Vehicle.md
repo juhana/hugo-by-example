@@ -61,7 +61,7 @@ Here's a simple example of a car definition:
 
 The Hugo Library assumes that vehicles cannot be moved in any location
 by default (you probable wouldn't want a car to be able to be driven in
-your kitchen) so you have to define a [property](/properties/)
+your kitchen) so you have to define a [property](properties/)
 for each room where a vehicle *can* be driven, and also, which vehicles
 are allowed where. (for example, you may not want to allow a tricycle on
 a freeway)
@@ -217,8 +217,8 @@ allows you to drive it with regular navigation commands (**GO EAST. N.
 WEST.**) as long as the forklift is turned on. The following code does
 its best approximation of the Lurking Horror behavior. The most
 challenging aspect was that `DoMoveInVehicle` requires the
-[word array](/basics/word-array/) to have one of the `vehicle_verb` words in
-it, so we had to use [InsertWord](/guts/insertword/) to make room
+[word array](basics/word-array/) to have one of the `vehicle_verb` words in
+it, so we had to use [InsertWord](guts/insertword/) to make room
 for it if the player had typed a one-word command like "**NORTH**."
 
     room basement "Basement"
@@ -392,15 +392,15 @@ for it if the player had typed a one-word command like "**NORTH**."
 ### Shenanigans
 
 In the above example, we had to do several things in the
-[react_before](/properties/react_before/) property so that "down" would
+[react_before](properties/react_before/) property so that "down" would
 an acceptable direction for leaving the forklift:
 
 1.  We changed the object from `d_obj` to `out_obj` so that
-    [DoGo](/verb-routines/dogo/) doesn't automatically print a "You'll have
+    [DoGo](verb-routines/dogo/) doesn't automatically print a "You'll have
     to get off" message.
-2.  We cleared the [words](/globals/words/) global so that when
+2.  We cleared the [words](globals/words/) global so that when
     SetupDirectionObjects is called
-    by [Perform](/routines/perform/), it doesn't reset the
-    [object global](/basics/global/) back to `d_obj`
-3.  We clear the [verbroutine](/globals/verbroutine/) global so that
+    by [Perform](routines/perform/), it doesn't reset the
+    [object global](basics/global/) back to `d_obj`
+3.  We clear the [verbroutine](globals/verbroutine/) global so that
     `DoGo` can't call the vehicle class's `before` property.

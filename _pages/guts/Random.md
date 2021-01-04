@@ -6,7 +6,7 @@ categories:
 ---
 
 `random` is a command for getting random numbers. It can be used for
-randomized action results, [jukebox code](/tips/music-engine/), or
+randomized action results, [jukebox code](tips/music-engine/), or
 what have you. `random` will return a number between 1 and the integer
 provided.
 
@@ -14,7 +14,7 @@ provided.
 
 In the case of music engine songs or character actions, you often don't
 want things to repeat themselves. You can combine your `random` call
-with a [while](/loops/while/) loop like this:
+with a [while](loops/while/) loop like this:
 
     local x,y
     x = some_object.last_value
@@ -32,4 +32,4 @@ value.
 
 For testing purposes, you can turn off randomization using either
 HugoFix commands or calling the appropriate
-[system](/guts/system/) number yourself somewhere in the code.
+[system](guts/system/) number yourself somewhere in the code.

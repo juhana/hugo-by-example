@@ -5,8 +5,8 @@ categories:
   - Global Variables
 ---
 
-`BGCOLOR` is a [global variable](/basics/global/) meant to hold the
-default background [color](/input-output/color/) of a game, so that the
+`BGCOLOR` is a [global variable](basics/global/) meant to hold the
+default background [color](input-output/color/) of a game, so that the
 command
 
     color TEXTCOLOR, BGCOLOR

@@ -5,8 +5,8 @@ categories:
   - Basics
 ---
 
-The **constant** command is a [declaration](/declarations/)
-used to create an [identifier](/definitions/identifier/) known to the
+The **constant** command is a [declaration](declarations/)
+used to create an [identifier](definitions/identifier/) known to the
 program.
 
 The Hugo Book does a pretty good job of explaining what constants are.
@@ -17,7 +17,7 @@ the compiler probably replaces every use of HAPPY with the value 1.
 
 Let's pretend we are coding a game where characters have moods. If we
 handled the moods with attributes, we'd burn through our attribute limit
-(a non-modifiable limit) in no time. [Global variables](/basics/variables/)
+(a non-modifiable limit) in no time. [Global variables](basics/variables/)
 also have a hard limit. Let's turn our moods into constants (and make a mood property):
 
     constant HAPPY 1
@@ -50,7 +50,7 @@ trick.
 ## Enumeration
 
 In the above constant-declaring, we could have saved ourselves some time
-using the [`enumerate`](/guts/enumerate/) command which
+using the [`enumerate`](guts/enumerate/) command which
 automatically applies consecutive values for us:
 
     enumerate start = 1 ! what number we want to start counting at. if just 'enumerate', we start at 0
@@ -83,8 +83,8 @@ integer value. To start with 1 and count by multiples of two:
 giving: A = 1, B = 2, C = 4, D = 8.
 
 -   As a side note, you can also use `enumerate` to give initial values
-    to [global variables](/basics/variables/)
-    following the instructions [here](/basics/variables/).
+    to [global variables](basics/variables/)
+    following the instructions [here](basics/variables/).
 
 ## Not a Man of Sorrow Constants
 

@@ -6,7 +6,7 @@ categories:
 ---
 
 `Opportune.h` started as the code from the [Informal
-[Questions](/tips/informal-questions/) page but was adapted and
+[Questions](tips/informal-questions/) page but was adapted and
 simplified so that it could be applied to more types of situations. Now
 it has been further adapted and commented for easy inclusion in a game.
 Download it [here](http://roody.gerynarsabode.org/hbe/opportune.h).
@@ -181,4 +181,4 @@ Download it [here](http://roody.gerynarsabode.org/hbe/opportune.h).
 This library extension isn't very ambitious, but it accomplishes what it
 sets out to do. Imagine a game that requires multiple, concurrent
 opportunities, though. Think you could amp up this extension using
-object property elements and [InList](/routines/inlist/) to do the job?
+object property elements and [InList](routines/inlist/) to do the job?

@@ -9,7 +9,7 @@ categories:
 following NPCs (defaults to 8). This slightly-modified version (some
 Future Boy! -specific code has been commented out) follows the
 instructions dictated by 
-[its license](/misc/future-boy-license/).
+[its license](misc/future-boy-license/).
 
 ## Usage
 

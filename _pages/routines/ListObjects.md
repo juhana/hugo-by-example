@@ -5,19 +5,19 @@ categories:
   - Routines
 ---
 
-`ListObjects(object)` lists all the possessions of the specified object in the appropriate form (according to the global [FORMAT](/globals/format/).
+`ListObjects(object)` lists all the possessions of the specified object in the appropriate form (according to the global [FORMAT](globals/format/).
 
-Possessions of possessions are listed recursively if [FORMAT](/globals/format/) does not contain the `NORECURSE_F` bit.
+Possessions of possessions are listed recursively if [FORMAT](globals/format/) does not contain the `NORECURSE_F` bit.
 
-Also calls: [WhatsIn](/routines/whatsin/)
+Also calls: [WhatsIn](routines/whatsin/)
 
 >Inside the tub is the butcher, the baker, and the candlestick-maker.
 
 In the above line, `ListObjects` provides "the butcher, the baker, and
 the candlestick-maker." The text before that was determined by
-[WhatsIn](/routines/whatsin/).
+[WhatsIn](routines/whatsin/).
 
-Check out the [FORMAT](/globals/format/) page for more listing options.
+Check out the [FORMAT](globals/format/) page for more listing options.
 
 ## The code
 

@@ -5,10 +5,10 @@ categories:
   - Routines
 ---
 
-SpecialDesc(obj) is called by [WhatsIn](/routines/whatsin/) and
-[ListObjects](/routines/listobjects/). It checks if objects have special
-[initial_desc](/properties/descriptions/) or
-[inv_desc](/properties/inv_desc/) property routines that preclude them
+SpecialDesc(obj) is called by [WhatsIn](routines/whatsin/) and
+[ListObjects](routines/listobjects/). It checks if objects have special
+[initial_desc](properties/descriptions/) or
+[inv_desc](properties/inv_desc/) property routines that preclude them
 from normal object listing in room descriptions and inventories (those
 routines then proceed to list everything else).
 
@@ -76,12 +76,12 @@ routines then proceed to list everything else).
     }
 
 As you can see, in applicable cases, an object's
-[initial_desc](/properties/descriptions/) or
-[inv_desc](/properties/inv_desc/) property is executed if present, and
+[initial_desc](properties/descriptions/) or
+[inv_desc](properties/inv_desc/) property is executed if present, and
 then `AddSpecialDesc` is called, which gives the object the
 `already_listed` global so it is not listed again with the rest of the
 inventory/container listing/whatever.
 
 ## See Also
 
-Check out the [SpecialDesc replacements page](/replacements/specialdesc/) for more info.
+Check out the [SpecialDesc replacements page](replacements/specialdesc/) for more info.

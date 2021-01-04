@@ -7,9 +7,9 @@ categories:
 
 ## SuperContainer class (library contribution)
 
-A "supercontainer" is an [object](/globals/object/) that works as both
-a [container](/attributes/container/) and a
-[platform](/attributes/platform/). For example, Hugo's default library has
+A "supercontainer" is an [object](globals/object/) that works as both
+a [container](attributes/container/) and a
+[platform](attributes/platform/). For example, Hugo's default library has
 no way of handling a desk that lets you put objects both on it and
 inside of it. It is instances like this where the SuperContainer class
 is useful.

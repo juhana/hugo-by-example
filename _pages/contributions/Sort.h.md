@@ -137,7 +137,7 @@ themselves instead of just numbers.
 Like we said in the introduction, `Sort.h` can be used for sorting
 `object.name`'s or other string properties by alphabetical order.
 Following are two additional routines that use
-[StringCompare](/strings/stringcompare/) to do so. If sorting a
+[StringCompare](strings/stringcompare/) to do so. If sorting a
 property other than `name`, change the code where applicable.
 
     ! We'll need an additional string array so we can properly compare uppercase strings
@@ -200,4 +200,4 @@ Here is a quick routine just for shaking things up:
         return (random(2) - 1)
     }
 
-See also: [SortProp](/routines/sortprop/)
+See also: [SortProp](routines/sortprop/)

@@ -6,7 +6,7 @@ categories:
 ---
 
 The value of the `player_person` 
-[global variable](/basics/global/) determines whether the
+[global variable](basics/global/) determines whether the
 game is told in a first, second, or third person.
 
 | player_person value | behavior              | example                                       |
@@ -23,7 +23,7 @@ correctly:
 
 ### first person player
 
-Set the [global variable](/basics/global/)
+Set the [global variable](basics/global/)
 `player_person` to `1`:
 
     player_character you "I"
@@ -34,7 +34,7 @@ Set the [global variable](/basics/global/)
 
 ### second person player
 
-Set the [global variable](/basics/global/)
+Set the [global variable](basics/global/)
 `player_person` to `2` (this is the default value):
 
     player_character you "you"
@@ -44,7 +44,7 @@ Set the [global variable](/basics/global/)
 
 ### third person
 
-Set the [global variable](/basics/global/)
+Set the [global variable](basics/global/)
 `player_person` to `3`:
 
     player_character jack "Jack"

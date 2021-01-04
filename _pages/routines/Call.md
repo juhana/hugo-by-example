@@ -5,9 +5,9 @@ categories:
   - Routines
 ---
 
-Occasionally, you'll write a [routine](/routines/) that uses
-other routines as its [arguments](/definitions/argument/). Take, for
-instance, the `SortArray` routine from [Sort.h](/contributions/sort.h/) uses
+Occasionally, you'll write a [routine](routines/) that uses
+other routines as its [arguments](definitions/argument/). Take, for
+instance, the `SortArray` routine from [Sort.h](contributions/sort.h/) uses
 other routines to provide the "rules" for how an array should be sorted:
 
     routine SortArray(data, num, comp_routine)
@@ -44,4 +44,4 @@ routine argument has to be prefaced with "array").
 
 As implied by the Hugo Book description, `call` would also be necessary
 if the applicable routine address was in the form of a 
-[global variable](/basics/global/) or [object property](/properties/).
+[global variable](basics/global/) or [object property](properties/).

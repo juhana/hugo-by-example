@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoDrop` is the [verb routine](/verb-routines/)
+`DoDrop` is the [verb routine](verb-routines/)
 responsible for processing "drop" commands.
 
 ## The code

@@ -11,7 +11,7 @@ locations are represented by rooms in the code. A room does not have to
 be an actual room, it can be used to represent someplace outdoors, a
 hall, or even a spaceship.
 
-In Hugo, a room is represented by an [object](/basics/objects/) that
+In Hugo, a room is represented by an [object](basics/objects/) that
 is defined in the standard library. The basic definition of a room gives
 its internal name, a display name, the room description and exits to
 other locations.
@@ -38,7 +38,7 @@ Line by line:
 -   **Line 1** Create a room object, with the internal name of
     **passenger_car** and displays **"Passenger car"** as the room name
     on the display.
--   **Line 3** [long_desc](/properties/descriptions/) is the
+-   **Line 3** [long_desc](properties/descriptions/) is the
     main description of the room, shown when first entered, or when the
     player types *look*
 -   **Lines 4-8** The actual description text.
@@ -54,7 +54,7 @@ work off of.
 
 1.  Create a `region` property.
         property region
-2.  Create an [object class](/basics/object_classes/) for each of your
+2.  Create an [object class](basics/object_classes/) for each of your
     regions.
         room library
         {

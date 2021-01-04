@@ -72,7 +72,7 @@ operating system.
 
 # Windows
 
-(For other Windows applications, see the [Windows Apps](/tools/windows-applications/) page.)
+(For other Windows applications, see the [Windows Apps](tools/windows-applications/) page.)
 
 ### ConTEXT
 
@@ -80,7 +80,7 @@ operating system.
 |---------------------------------|------|--------------------------------------------------------------------|
 | http://www.contexteditor.org/ | FREE | http://www.ifarchive.org/if-archive/programming/editors/Hugo.chl |
 
-### [EditPlus](/tools/editplus/)
+### [EditPlus](tools/editplus/)
 
 | Website                    | Cost | Syntax File                                                   |
 |----------------------------|------|---------------------------------------------------------------|

@@ -6,10 +6,10 @@ categories:
   - Routines
 ---
 
-`PrintStatusLine` is a [hugolib.h](/library/hugolib.h/)-defined
-[routine](/routines/) that draws the status bar (the window
-above the main window). It is called by [main](/routines/main/).
-Depending on the [STATUSTYPE](/globals/statustype/) value, besides the
+`PrintStatusLine` is a [hugolib.h](library/hugolib.h/)-defined
+[routine](routines/) that draws the status bar (the window
+above the main window). It is called by [main](routines/main/).
+Depending on the [STATUSTYPE](globals/statustype/) value, besides the
 room name, it'll show score and turns, time, or even nothing at all.
 
 ## The code

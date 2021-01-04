@@ -5,12 +5,12 @@ categories:
   - Routines
 ---
 
-`FindLight` is a [hugolib.h](/library/hugolib.h/)
-[routine](/routines/) that determines if a light source is
+`FindLight` is a [hugolib.h](library/hugolib.h/)
+[routine](routines/) that determines if a light source is
 nearby. If it finds one, it sets the
-[light_source](/globals/light_source/) [global](/basics/global/) to
+[light_source](globals/light_source/) [global](basics/global/) to
 that object. Otherwise, `FindLight` returns false and
-[DarkWarning](/guts/darkwarning/) is run.
+[DarkWarning](guts/darkwarning/) is run.
 
 ## The code
 

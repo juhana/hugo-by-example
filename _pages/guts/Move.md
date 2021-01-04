@@ -5,14 +5,14 @@ categories:
   - Hugo Guts
 ---
 
-`move` is an [object-tree](/basics/object_tree)-defying command that
+`move` is an [object-tree](basics/object_tree)-defying command that
 lets you move any object to another object willy-nilly. This, of course,
 is for behind-the-scenes operations like introducing a new element to
 the player character's location or moving something somewhere else.
 
 One simple way to dispose of an item is to move it to the default object
 `nothing` (of course, you could also just use the
-[remove](/guts/remove/) function).
+[remove](guts/remove/) function).
 
 ### Hugo Homework
 

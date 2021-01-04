@@ -16,7 +16,7 @@ provided.
 ## Uses
 
 This is useful for drawing floating boxes like those in
-[Boxdraw.h](/library-contributions/boxdraw.h/) or drawing maps like in the Automap
+[Boxdraw.h](library-contributions/boxdraw.h/) or drawing maps like in the Automap
 library contribution. It can even be used within
 menus to move the cursor to a corner where it is not
 a distraction.
@@ -25,7 +25,7 @@ a distraction.
 
 Be aware of where your cursor is after you're done with it. Sometimes
 you'll need to move it back to where it was. Also, in
-[glk](/definitions/glk/) clients like Gargoyle, `locate` only works in the
+[glk](definitions/glk/) clients like Gargoyle, `locate` only works in the
 status window. Trying to do it in the main window will be trouble.
 
 ## Example Code
@@ -45,5 +45,5 @@ then you can add this to the `init` routine:
                   locate 1 , 3
     ! (staying in the first column but moving three rows down from top so the game text starts up there)
 
-In [glk](/definitions/glk/) clients, text is drawn from the top anyway, so
+In [glk](definitions/glk/) clients, text is drawn from the top anyway, so
 now, all of our games look GREAT!

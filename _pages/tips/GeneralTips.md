@@ -45,7 +45,7 @@ this or that routine works.
 ### Return True For A Turn To Ensue
 
 When it comes to verb routines, sometimes it is easy to forget that
-returning false means [`main`](/routines/main/) is not called after the
+returning false means [`main`](routines/main/) is not called after the
 turn is over (so the turn counter doesn't go up, the status line isn't
 redrawn, events aren't run, etc.). When adding your own verbs, remember
 to return true when you want a turn to "count".
@@ -55,7 +55,7 @@ to return true when you want a turn to "count".
 Hugo accepts capitalized words in the naming of objects and their name
 properties, but since all text that a player enters is changed to
 lowercase, capitalized `noun` and `adjective`
-[properties](/properties/) will never be recognized. Keep this
+[properties](properties/) will never be recognized. Keep this
 in mind when you are doing string-matching to parser input, too.
 
 ### Correct String Property Formats
@@ -109,7 +109,7 @@ is preferable over
           \nThis is your second paragraph."
 
 The first version allows for easy inclusion of
-[Indents](/routines/indent/) if your code needs formatting. This is one
+[Indents](routines/indent/) if your code needs formatting. This is one
 of those things where you'll thank yourself later.
 
 ### Helpful ShORtcut
@@ -142,7 +142,7 @@ you'd like to keep track of.
 
 ### Checking Room Exits By Value
 
-The [MovePlayer](/routines/moveplayer/) routine has this interesting
+The [MovePlayer](routines/moveplayer/) routine has this interesting
 code that checks to see if a direction from a room is valid:
 
         if loc.type = direction
@@ -168,4 +168,4 @@ bananas mean more monkeys, and monkeys are always fun.
 
 If you want to keep non-hidden, non-quiet containers from listing their
 descriptions in room descriptions, check out the page 
-"[Blocking Contents Listing](/properties/blocking-contents-listing/)."
+"[Blocking Contents Listing](properties/blocking-contents-listing/)."

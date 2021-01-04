@@ -43,7 +43,7 @@ game is, you'll make slight additions (or negations).
 
 ### first person player
 
-Set the [global variable](/basics/global/)
+Set the [global variable](basics/global/)
 `player_person` to `1`:
 
     player_character you "I"
@@ -54,7 +54,7 @@ Set the [global variable](/basics/global/)
 
 ### second person player
 
-Set the [global variable](/basics/global/)
+Set the [global variable](basics/global/)
 `player_person` to `2` (this is the default value):
 
     player_character you "you"
@@ -64,7 +64,7 @@ Set the [global variable](/basics/global/)
 
 ### third person
 
-Set the [global variable](/basics/global/)
+Set the [global variable](basics/global/)
 `player_person` to `3`:
 
     player_character jack "Jack"
@@ -77,7 +77,7 @@ Set the [global variable](/basics/global/)
 ## changing characters
 
 For information on changing player characters, read the
-[Changing_Player_Characters](/strings/changing-player-characters/)
+[Changing_Player_Characters](strings/changing-player-characters/)
 page.
 
 # Non-Player Characters
@@ -108,7 +108,7 @@ like the following:
             }
         }
 
-For more information, check the [DoAsk](/verb-routines/doask/) page.
+For more information, check the [DoAsk](verb-routines/doask/) page.
 
 ### telling characters about things
 
@@ -190,7 +190,7 @@ Responses for commands to characters can be coded using the
     }
 
 More information can be found on the
-[order_response](/property/order_response/) page.
+[order_response](property/order_response/) page.
 
 ### characters reacting! to you!
 
@@ -209,7 +209,7 @@ an event:
     }
 
 Alternatively, you could also give the character a
-[react_after](/properties/react_after/) property:
+[react_after](properties/react_after/) property:
 
     character fred "fred"
     {

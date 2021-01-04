@@ -5,7 +5,7 @@ categories:
   - Global Variables
 ---
 
-The `FORMAT` [variable](/basics/variables/) is used to hold printing
+The `FORMAT` [variable](basics/variables/) is used to hold printing
 format mask constants which determine several aspects of the game.
 
 | Printing Format Mask Constant        | What It Does                                              |
@@ -13,7 +13,7 @@ format mask constants which determine several aspects of the game.
 | LIST_F                              | print itemized lists, not sentences                       |
 | NORECURSE_F                         | do not recurse object contents                            |
 | NOINDENT_F                          | do not indent listings                                    |
-| [DESCFORM_F](/guts/descform_f/) | alternate room description formatting                     |
+| [DESCFORM_F](guts/descform_f/) | alternate room description formatting                     |
 | GROUPPLURALS_F                      | list plurals together where possible                      |
 | NOPARENTHESES_F                     | ignore printing by ObjectIs (*is worn*, *is light*, etc.) |
 

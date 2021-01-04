@@ -5,5 +5,5 @@ categories:
   - Attributes
 ---
 
-The `openable` [attribute](/attributes/) denotes that an object
+The `openable` [attribute](attributes/) denotes that an object
 can be opened and closed.

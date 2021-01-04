@@ -51,8 +51,8 @@ newly written IF game). I didn't make it clear in the game that this
 typewriter plays IF games.
 
 As glad as I am to have figured out how to use
-[parse$](/parsing/parse$/) to capture words between quotes (and then
-using [StringDictCompare](/strings/stringdictcompare/)), despite trying
+[parse$](parsing/parse$/) to capture words between quotes (and then
+using [StringDictCompare](strings/stringdictcompare/)), despite trying
 to direct players to `TYPE "GAME COMMAND" ON TYPEWRITER`, many would
 ignore the quotes and break my code. I should have also entered the
 exact commands into the verb grammar to allow for not-quoted commands,

@@ -6,7 +6,7 @@ categories:
 ---
 
 `inherits` is a convenient command for when you'd like one object to its
-properties from more than one [object class](/basics/object_classes/).
+properties from more than one [object class](basics/object_classes/).
 
     <class1> <objectname> "name"
     {
@@ -22,7 +22,7 @@ properties from more than one [object class](/basics/object_classes/).
 
 More commonly, it is used as a convenient way to add properties quickly
 to objects not of a particular class.
-[Timesasked.h](/contributions/timesasked.h/) uses it like so:
+[Timesasked.h](contributions/timesasked.h/) uses it like so:
 
     class topics
     {

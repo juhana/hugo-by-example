@@ -81,10 +81,10 @@ simpler objects at opportune moments.
 
 If we do all of this object-and-pronoun-switching in a `before` or
 `after` routine, though, there are some complications.
-[Perform](/routines/perform/), at its end, automatically resets the
-[object](/globals/object/) global variable to
+[Perform](routines/perform/), at its end, automatically resets the
+[object](globals/object/) global variable to
 whatever it was in the beginning (which will still be the first item).
-On the next turn, [Parse](/routines/parse/) gets a little too excited if
+On the next turn, [Parse](routines/parse/) gets a little too excited if
 an `object` value exists. The offending code is:
 
         ! Last player-specified object

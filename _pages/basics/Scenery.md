@@ -27,8 +27,8 @@ From *objlib.h*:
         is static, hidden
     }
 
-The [static](/attributes/) attribute keeps the player from
-moving or getting the object. The [hidden](/attributes/)
+The [static](attributes/) attribute keeps the player from
+moving or getting the object. The [hidden](attributes/)
 attribute keeps the item from being listed as a room content. This is
 why the `scenery` class is often used for objects already mentioned in a
 room's description or for objects that are strongly implied.

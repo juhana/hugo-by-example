@@ -5,9 +5,9 @@ categories:
   - Basics
 ---
 
-*For information on the word array, see the [Word Array](/basics/word-array/) entry.*  
-*For information on string arrays, see the [String Arrays](/strings/string-arrays/) entry.*  
-*For information on multiple-element properties, see [Properties](/properties/).*
+*For information on the word array, see the [Word Array](basics/word-array/) entry.*  
+*For information on string arrays, see the [String Arrays](strings/string-arrays/) entry.*  
+*For information on multiple-element properties, see [Properties](properties/).*
 
 Arrays are a method of storing multiple-element information. They are
 convenient for saving lists or the states of several things at once.
@@ -25,7 +25,7 @@ bit unintuitive.
 
 ## Filling an array
 
-Now, in a [routine](/routines/) somewhere, we can fill the
+Now, in a [routine](routines/) somewhere, we can fill the
 array. There are several ways this can be done.
 
 ### One by one
@@ -62,8 +62,8 @@ To get the number of elements in an array quickly, refer to it as such:
 
 ## Arrays as routine parameters
 
-Occasionally, you'll want to write [routines](/routines/) that
-can be fed different arrays as [parameters](/definitions/parameter/). In
+Occasionally, you'll want to write [routines](routines/) that
+can be fed different arrays as [parameters](definitions/parameter/). In
 those cases, within the routine itself, you'll need to preface the
 parameter name with "array". Hugo needs a little assistance knowing that
 it is dealing with arrays.

@@ -12,8 +12,8 @@ categories:
 
 `StringCompare` is a surprisingly seldom-used string-handling routine.
 No available-source Hugo games actually use it, but it *is* used by the
-[alphabetization routines](/contributions/sort.h/) for
-the [Sort.h](/contributions/sort.h/) library contribution. First, they
+[alphabetization routines](contributions/sort.h/) for
+the [Sort.h](contributions/sort.h/) library contribution. First, they
 convert both string arrays to lowercase letters (as mixed case letters
-can screw up [lexical values](/strings/ascii-values/)), and then they
+can screw up [lexical values](strings/ascii-values/)), and then they
 use `StringCompare` to determine alphabetical order.

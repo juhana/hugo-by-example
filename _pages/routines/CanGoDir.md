@@ -8,11 +8,11 @@ categories:
 `CanGoDir` is an exit-checking routine. One would use it if he wants to
 check if the player is heading in a successful direction and wants to
 run some code or print something before the game executes
-[DoGo](/verb-routines/dogo/).
+[DoGo](verb-routines/dogo/).
 
 In its current incarnation, it'll return true if the player heads in a
 direction that returns a location or enters an open or unlocked door (or
-even just something with a [door_to](/properties/door_to/) property).
+even just something with a [door_to](properties/door_to/) property).
 
 It will not return true if the player is just getting out of a platform
 (like a chair) or container, but you can modify it to fit your needs.
@@ -70,7 +70,7 @@ direction! Slapstick!
 ## Final Notes
 
 As is, it should work fine with doors that use the door class.
-Otherwise, if you give [door_to](/properties/door_to/) properties to
+Otherwise, if you give [door_to](properties/door_to/) properties to
 other openable objects and only want them enterable when they are open,
 you'll have to do something like this:
 

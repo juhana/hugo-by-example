@@ -5,8 +5,8 @@ categories:
   - Attributes
 ---
 
-A [container](/attributes/container/) with the `quiet`
-[attribute](/attributes/) will not have its contents listed
+A [container](attributes/container/) with the `quiet`
+[attribute](attributes/) will not have its contents listed
 either in room listings or when a player looks at it. If the player uses
 the **&gt;LOOK IN** command and successfully sees the object's contents,
 though, the `quiet` attribute is cleared. The `quiet` attribute can also

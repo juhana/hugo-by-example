@@ -6,14 +6,14 @@ categories:
 ---
 
 `NewMenu` is the b\*\*\*\*\*\*d stepchild of Menu and
-the [Guilty Bastards hint system](/tips/hints/). It aims to make
+the [Guilty Bastards hint system](tips/hints/). It aims to make
 game menus quicker and easier to set-up, and hopefully, they'll look
 nice, too! Download it
 [here](http://roody.gerynarsabode.org/hbe/newmenu.zip).
 
 # Why NewMenu?
 
-The [Hugo Library's](/library/) Menu
+The [Hugo Library's](library/) Menu
 routine is a fine thing. It allows menus-within-menus and if you borrow
 code from Guilty Bastards, you can have a fairly kickin' hint system.
 Still, I, Roody Yogurt, wasn't completely happy with it. I found the

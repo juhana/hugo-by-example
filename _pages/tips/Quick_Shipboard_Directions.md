@@ -63,4 +63,4 @@ descriptions.
 
 But, because these are synonyms, the player can still use
 `north/south/east/west` to move about. If you don't want to have this
-happen, go take a look at [Tedious Shipboard Directions](/tips/tedious-shipboard-directions/).
+happen, go take a look at [Tedious Shipboard Directions](tips/tedious-shipboard-directions/).

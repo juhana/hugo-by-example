@@ -6,7 +6,7 @@ categories:
 ---
 
 The **case** statement is used to specify an action to take when the
-value examined by the [select](/basics/select/) statement matches the
+value examined by the [select](basics/select/) statement matches the
 particular case value. The following example from the book shows this:
 
     select hour
@@ -25,8 +25,8 @@ before the start of code for the particular case value and **}** at the
 end of the code for that case value.
 
 Unlike the C programming language, the match of a case value executes
-only the code for that value in that [select](/basics/select/)
+only the code for that value in that [select](basics/select/)
 statement; other cases are not executed; execution continues with the
 next statement after the **select** statement.
 
-See Also: [select](/basics/select/)
+See Also: [select](basics/select/)
