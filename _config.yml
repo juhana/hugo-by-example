@@ -14,6 +14,7 @@ related: false
 
 include:
   - _pages
+  - assets
 
 defaults:
   - values:
