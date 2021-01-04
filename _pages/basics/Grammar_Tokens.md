@@ -6,7 +6,7 @@ categories:
 ---
 
 There are many kinds of tokens we can use in our
-[[grammar](basics/grammar/) definitions. This page devotes some
+[grammar](basics/grammar/) definitions. This page devotes some
 attention to each one.
 
 ## Token List
@@ -135,7 +135,7 @@ This one is a bit more complicated than your average grammar token.
 
 On the player's side of things, the parser will accept any known object,
 like the
-[anything](#anything)
+[anything]({{page.url}}#anything)
 token. When the routine is executed, the parser hasn't yet determined
 `object` and `xobject`. You must provide a variable (like "var" there)
 that will be set to the object it is fed. If you have the routine return

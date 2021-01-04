@@ -55,9 +55,9 @@ Escape special characters with a backslash, e.g.
 
 ## Images
 
-Add image files to the /assets/images directory and display them with
+Add image files to the assets/images directory and display them with
 
-`![Description](/assets/images/filename.jpg)`
+`![Description](assets/images/filename.jpg)`
 
 
 ## Transcript examples
@@ -99,3 +99,12 @@ See the [Category Index](_pages/category-archive.md) for an example.
     <summary>Show answer</summary>
     Bruce Willis was Luke's father the whole time
     </details>
+
+
+## Page achor links
+
+For internal links to page chapters you need to include `{{page.url}}` at the start of the link:
+
+    [link label]({{page.url}}#headerID)
+
+The header id is the header text in lowercase, non-alphanumeric characters removed, spaces replaced with dashes ("My Header" -> "#my-header")

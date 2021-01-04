@@ -11,8 +11,8 @@ The `in_scope` [property](properties/) is defined by the
 [object](globals/object/) in the scope of an actor. It is like
 [found_in](scope/found_in/) except it works off of characters, not
 locations. It allows much cleaner code when used in conjuction with the
-[PutInScope](#putinscope) and
-[RemoveFromScope](#removefromscope) routines.
+[PutInScope]({{page.url}}#putinscope) and
+[RemoveFromScope]({{page.url}}#removefromscope) routines.
 
 ## in_scope (object [property](properties/))
 
@@ -29,8 +29,8 @@ to the object tree.
 ## PutInScope and RemoveFromScope
 
 If `in_scope` properties change within the course of the game, it is
-recommended that you use [PutInScope](#putinscope)
-and [RemoveFromScope](#removefromscope) to do so.
+recommended that you use [PutInScope]({{page.url}}#putinscope)
+and [RemoveFromScope]({{page.url}}#removefromscope) to do so.
 
 ### PutInScope
 

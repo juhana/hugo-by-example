@@ -18,7 +18,7 @@ written.
 
 All we have to do to get a script going is to fill the
 [hugolib.h](library/hugolib.h/)-defined `setscript` array, using the
-`Script` routine and a bunch of "[character routines](#Character_Routines)"
+`Script` routine and a bunch of "[character routines]({{page.url}}#character-routines)"
 (we'll get to that later).
 
 | calling form                                                                                        | description                                                                                       |
