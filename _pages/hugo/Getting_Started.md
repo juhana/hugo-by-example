@@ -18,11 +18,11 @@ within the program, be sure to associate it with **.h**, **.g**, and
 
 Editor without highlighting:
 
-![Editor without highlighting](assets/images/nohilite.png)
+![Editor without highlighting](assets/images/Nohilite.png)
 
 Editor *with* highlighting:
 
-![Editor with highlighting](assets/images/withhilite.png)
+![Editor with highlighting](assets/images/Withhilite.png)
 
 ## Look at a sample game
 
