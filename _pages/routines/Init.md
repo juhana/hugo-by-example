@@ -5,7 +5,7 @@ categories:
   - Routines
 ---
 
-`init` (short for "initialization") is the [routine](routine)
+`init` (short for "initialization") is the [routine](/routines/)
 that "sets the game up" when the game starts (or is restarted). Let's
 look at a commented `init` routine to get an idea of the kinds of things
 it can do:

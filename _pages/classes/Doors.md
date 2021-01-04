@@ -11,17 +11,17 @@ categories:
 Many games take place inside buildings (or boats, or spaceships) and one
 thing these places have in common is doors.
 
-The [Hugo Library](Hugo_Library) includes a door class to
+The [Hugo Library](/library/) includes a door class to
 make using doors in your game very easy. It will automatically take care
 of most of the drudge-work. It provides the appropriate response if the
 door is locked, closed or open, and will automatically open doors for
 players that go in their direction.
 
-The door [class](Object_Classes) is defined in the
-[objlib.h](Objlib) file (part of the Hugo Library). The
-property **between** is [aliased](alias) to the property
+The door [class](/basics/object_classes/) is defined in the
+*objlib.h* file (part of the Hugo Library). The
+property **between** is [aliased](/basics/alias/) to the property
 **found_in**, which means you won't be able to use
-[found_in](Found_in) in your door's definition.
+[found_in](/scope/found_in/) in your door's definition.
 
 It also defines the action to automatically open a door if a player
 tries to go through a closed door. (This will use up two turns in total,
@@ -43,7 +43,7 @@ Here's an example of a simple door between a bedroom and hall
       noun "door"
     }
 
-The between [property](properties) takes care of making the
+The between [property](/properties/) takes care of making the
 hall and bedroom accessible from each other.
 
 To make use of this door, the <direction>_to object in the
@@ -140,20 +140,20 @@ In this example, while in the hallway, the game will refer to the door
 
 #### Unseen Doors
 
-Since a door's `between` property is just an [alias](alias)
-of [found_in](found_in), doors aren't *technically* in the
-room (as far as the [object tree](object_Tree) is concerned,
-anyway). This means that the door's [short_desc](short_desc)
-is not normally called by [DescribePlace](DescribePlace).
+Since a door's `between` property is just an [alias](/basics/alias/)
+of [found_in](/scope/found_in/), doors aren't *technically* in the
+room (as far as the [object tree](/basics/object_tree) is concerned,
+anyway). This means that the door's [short_desc](/properties/descriptions/)
+is not normally called by [DescribePlace](/guts/describeplace/).
 There are some ways of getting around this:
 
 -   **Have the door be physically in one of the two rooms.**
     If you use this method, at least in *one* of the rooms, you can have
-    the door's [short_desc](short_desc) called (or
-    [when_open](when_open) and
-    [when_closed](when_closed), if you are so inclined). The
+    the door's [short_desc](/properties/descriptions/) called (or
+    [when_open](/properties/descriptions/) and
+    [when_closed](/properties/descriptions/), if you are so inclined). The
     other room will have to get by with a mention of the exit in the
-    room's [long_desc](long_desc).
+    room's [long_desc](/properties/descriptions/).
 -   **Have the door's description be an event**
     Of course, going this route means that the door's description will
     be printed *after* any other room objects, and you'll have to take
@@ -161,5 +161,5 @@ There are some ways of getting around this:
 -   **Just throw it all into the room's `long_desc`**
     The sometimes-unappealing-but-always-viable route is to just throw
     the door descriptions into the room's
-    [long_desc](long_desc). This way, you're always sure
+    [long_desc](/properties/descriptions/). This way, you're always sure
     where the door is going to be mentioned.

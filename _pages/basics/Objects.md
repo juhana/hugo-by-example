@@ -6,12 +6,12 @@ categories:
 ---
 
 An **object** is a thing which the game manipulates to accomplish tasks.
-An object is a single [variable](variables) that carries all
-[attributes](attributes) defined in the program, and can hold
-multiple values through [properties](properties) as well as
+An object is a single [variable](/basics/variables/) that carries all
+[attributes](/attributes/) defined in the program, and can hold
+multiple values through [properties](/properties/) as well as
 executable code. The object command is a
-[declaration](declarations), not something to be executed
-like a [routine](routine).
+[declaration](/declarations/), not something to be executed
+like a [routine](/routines/).
 
 Objects are the building blocks of the Hugo game world. They are used to
 represent everything from simple things such as a basketball to complex
@@ -25,22 +25,22 @@ An object is defined through the following specification:
     }
 
 The following are examples of object names: An "object" is used when you
-have to define a thing that is not defined by the [standard
-library](standard_library). If there is an existing object or
-a [class](Object_Classes) which defines an object that you
-can use, (like a [room](rooms) or a
-[character](characters)) you're probably better off using the
+have to define a thing that is not defined by the [standard library](/library/).
+If there is an existing object or
+a [class](/basics/object_classes/) which defines an object that you
+can use, (like a [room](/basics/rooms/) or a
+[character](/characters/)) you're probably better off using the
 predefined object and adding additional properties and resetting
-[attributes](attributes) that are different from what you
+[attributes](/attributes/) that are different from what you
 need.
 
-Every [attribute](attribute) defined in the program is
+Every [attribute](/attributes/) defined in the program is
 automatically assigned to an object, e.g. every object has the
-**[living](living)**, **[female](female)**, and
-*'[static](static)* attributes, along with all of the other
+**[living](/attributes/living/)**, **[female](/attributes/female/)**, and
+*'[static](/attributes/static/)* attributes, along with all of the other
 ones.
 
-Attributes are set or cleared through the [is](is) command.
+Attributes are set or cleared through the [is](/attributes/is/) command.
 Properties are added to an object by specifying them.
 
 Here is an example of a full object definition

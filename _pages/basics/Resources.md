@@ -88,7 +88,7 @@ the picture is not found, or a recoverable error occurs during loading
 of the pictures, the game will continue running (without the picture
 being displayed).
 
-the **resource.h** [header](headers) file has a couple of
+the **resource.h** [header](/definitions/headers/) file has a couple of
 useful routines for managing graphics.
 
     LoadPicture("resource_file", "picture_file_name")
@@ -111,7 +111,7 @@ pictures.
 **PictureinText()** is a little more complex (behind the scenes). It
 allows a picture to be displayed in the normal flow of text in the main
 window. Most games that use graphics use a separate
-[window](window) so that it does not interrupt the flow of
+[window](/input-output/window/) so that it does not interrupt the flow of
 the main text of the game.
 
 -   The **width** and **height** arguments give the fixed-width

@@ -5,8 +5,8 @@ categories:
   - Example Games
 ---
 
-This game was written for the [PAX East 2011
-Speed-IF](http://www.ifwiki.org/index.php/PAX_East_2011_Speed-IF)
+This game was written for the
+[PAX East 2011 Speed-IF](http://www.ifwiki.org/index.php/PAX_East_2011_Speed-IF)
 "competition." It took four or five hours to write, as the first several
 hours of the competition were used just to come up with a game idea.
 
@@ -42,8 +42,8 @@ The title, of course, is a nod to Hugo's sample game, The Vault of Hugo.
 
 First off, I should have done a better job describing the typewriter.
 Having written the game just before (and during) the IF Demo Fair, I
-took for granted that all players would be familiar with [the
-Automatypewriter](http://upnotnorth.net/projects/typewriter/), an
+took for granted that all players would be familiar with
+[the Automatypewriter](http://upnotnorth.net/projects/typewriter/), an
 electronic typewriter that was programmed to play Zork (the
 automatypewriter at PAX East 2011 was actually even more impressive; it
 was a 100 year old typewriter rigged up to do the same thing with a
@@ -51,8 +51,8 @@ newly written IF game). I didn't make it clear in the game that this
 typewriter plays IF games.
 
 As glad as I am to have figured out how to use
-[parse$](Parse$) to capture words between quotes (and then
-using [StringDictCompare](StringDictCompare)), despite trying
+[parse$](/parsing/parse$/) to capture words between quotes (and then
+using [StringDictCompare](/strings/stringdictcompare/)), despite trying
 to direct players to `TYPE "GAME COMMAND" ON TYPEWRITER`, many would
 ignore the quotes and break my code. I should have also entered the
 exact commands into the verb grammar to allow for not-quoted commands,

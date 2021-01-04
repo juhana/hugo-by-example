@@ -1,11 +1,11 @@
 ---
-title: "Addcontext"
-permalink: /guts/addcontext
+title: Addcontext
+permalink: /guts/addcontext/
 categories: 
   - Hugo Guts
 ---
 
-Unless a game is currently in a [pause](Pause), in most
+Unless a game is currently in a [pause](/input-output/pause/), in most
 official Hugo interpreters, right-clicking on the screen will bring up
 whatever context menu has been defined for the game (possible in v3 or
 later games).
@@ -16,7 +16,7 @@ In Future Boy!, Kent Tessman coded
 an adaptive context menu system that updated itself depending on the
 player object, the location, and the objects and characters nearby (this
 system is available as a library contribution
-[here](Context_Menu.h)). In Necrotic Drift, Robb Sherwin had
+[here](/contributions/context-menu.h/)). In Necrotic Drift, Robb Sherwin had
 a context menu that mirrored the options shown graphically to best
 approximate the menus used in Magnetic Scrolls games like Guild of
 Thieves and Jinxter. Conceivably, there are other novel uses yet to be

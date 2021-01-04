@@ -7,7 +7,7 @@ categories:
 
 `PrintEndGame(end_type)` provides the **\*\*\* YOU'VE WON THE GAME
 \*\*\*** (or variations thereof) text at the end of a game. It is called
-by the [EndGame](EndGame) routine.
+by the [EndGame](/routines/endgame/) routine.
 
 ### The code
 
@@ -35,7 +35,7 @@ by the [EndGame](EndGame) routine.
 Some people replace `PrintEndGame` with a simple "The game is
 over."-type text. Conversely, you could add more `select cases` so that
 your game offers all sorts of stylized end-messages, depending on what
-[endflag](Endflag) value you set to end the game.
+[endflag](/globals/endflag/) value you set to end the game.
 
     replace PrintEndGame(end_type)
     {

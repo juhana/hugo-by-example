@@ -7,9 +7,9 @@ categories:
 
 ### What it fixes
 
-1.  Removes the [jump](jump) command for easier replacing.
-    I've never had to [replace](replace)
-    [FindObject](FindObject), though.
+1.  Removes the [jump](/guts/jump/) command for easier replacing.
+    I've never had to [replace](/guts/replace/)
+    [FindObject](/scope/findobject/), though.
 
 ### The code
 

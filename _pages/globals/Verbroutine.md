@@ -7,24 +7,24 @@ categories:
 
 
 After the player's input, the Hugo engine compares it against the game's
-declared [grammar](grammar). If it finds a match, the address
-of the associated verb routine is stored in the [global
-variable](Variables#Global_Variables) `verbroutine` before
-going on to execute the various [before routines](Game_Loop)
+declared [grammar](/basics/grammar/). If it finds a match, the address
+of the associated verb routine is stored in the 
+[global variable](/basics/global/) `verbroutine` before
+going on to execute the various [before routines](/loops/game-loop/)
 and the verb routine itself. `verbroutine` is useful for many things.
 
 Specifically, `verbroutine` is set (or reset) after
-[PreParse](PreParse) but *before*
-[Perform](Perform) is called by the engine. While `PreParse`
+[PreParse](/parsing/preparse/) but *before*
+[Perform](/routines/perform/) is called by the engine. While `PreParse`
 is executed, `verbroutine` still equals its value from the previous
 turn. 
 
 ### Checking the current verbroutine
 
-Object properties like [react_before](react_before) and
-[react_before](react_before) need to use `verbroutine` to
+Object properties like [react_before](/properties/react_before/) and
+[react_before](/properties/react_before/) need to use `verbroutine` to
 work properly, but the same thing can be applied to
-[events](events) and other things.
+[events](/timers/events/) and other things.
 
 For instance, exit-checking routines will often print whatever text is
 within a room's direction properties, much to your chagrin. You can get
@@ -41,7 +41,7 @@ around this with code like this:
 
 ### Character Orders
 
-[order_response](order_response) can use `verbroutine` to
+[order_response](/property/order_response/) can use `verbroutine` to
 organize how the character should respond to several commands.
 
         ! from Kent Tessman's Spur
@@ -56,9 +56,9 @@ organize how the character should respond to several commands.
 ### Redirection
 
 Sometimes, interactions with objects should be redirected to another
-object. Look how Future Boy's redirection [object
-class](Object_Classes) uses it with the
-[Perform](Perform) routine:
+object. Look how Future Boy's redirection 
+[object class](/basics/object_classes/) uses it with the
+[Perform](/routines/perform/) routine:
 
     class reflector_object
     {
@@ -83,5 +83,5 @@ class](Object_Classes) uses it with the
 ### Clearing verbroutine
 
 Lastly, very rarely, you may want to clear the `verbroutine`. This
-[DoListen replacement](Replace_DoListen) clears the variable
+[DoListen replacement](/replacements/dolisten/) clears the variable
 to avoid executing `after` routines.

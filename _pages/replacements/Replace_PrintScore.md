@@ -12,7 +12,7 @@ categories:
 2.  The original also has an accidental new line, leaving the full stop
     stranded by itself.
 
-(See also: [Scoring](Scoring))
+(See also: [Scoring](/tips/scoring/))
 
 ### The code
 

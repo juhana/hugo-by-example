@@ -21,8 +21,7 @@ an automap feature that works off of game transcripts.
 
 ### Design
 
-[Text Block
-Writer](http://roody.gerynarsabode.org/hbe/TextBlockWriterSetup.exe) is
+[Text Block Writer](http://roody.gerynarsabode.org/hbe/TextBlockWriterSetup.exe) is
 a virtual index card program for writers. You can use it to plan out
 what objects you will need to code for rooms in advance.
 [Here](http://roody.gerynarsabode.org/textblock.jpg) is a screenshot.
@@ -31,8 +30,8 @@ allows for free distribution.
 
 ### File Comparison
 
-Let's say you hacked up one of the [IF Archive Hugo library
-contributions](http://ifarchive.smallwhitehouse.org/indexes/if-archiveXprogrammingXhugoXlibraryXcontributions.html)
+Let's say you hacked up one of the
+[IF Archive Hugo library contributions](http://ifarchive.smallwhitehouse.org/indexes/if-archiveXprogrammingXhugoXlibraryXcontributions.html)
 in an ugly fashion to work exactly like you'd like. Eventually, you
 might want to remind yourself exactly how it is different.
 [WinMerge](http://winmerge.org/) is perfect for this. It'll show both
@@ -51,4 +50,4 @@ text editor to do so).
 
 ### Text Editors
 
-For text editors, check out the [Supported Editors](Supported_Editors#Windows) page!
+For text editors, check out the [Supported Editors](/tools/editors/) page!

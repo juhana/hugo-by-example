@@ -5,14 +5,14 @@ categories:
   - Tips
 ---
 
-See also: [NewMenu.h](NewMenu.h)
+See also: [NewMenu.h](/contributions/newmenu/)
 
 Kent Tessman's game Guilty Bastards has a great adaptive hint system
 (more hints are added as you progress further in the game). This page
 contains the code from that game, only *slightly* modified.
 
 If you look at it, you'll see that the heart of it is a
-[Menu](Menu)-calling routine that organizes groups of hints
+Menu-calling routine that organizes groups of hints
 by category.
 
 ## The code

@@ -1,16 +1,16 @@
 ---
 title: ObjectIsLight
-permalink: /routines/ObjectIsLight/
+permalink: /routines/objectislight/
 categories: 
   - Routines
 ---
 
-*See also: [FindLight](FindLight)*
+*See also: [FindLight](/routines/findlight/)*
 
 `ObjectIsLight` checks if an object (or an object within it) has the
-[light](light) attribute. If it finds one, it sets that
-object as the [light_source](light_source)
-[global](global) and returns true.
+[light](/attributes/light/) attribute. If it finds one, it sets that
+object as the [light_source](/globals/light_source/)
+[global](/basics/global/) and returns true.
 
 ## The code
 

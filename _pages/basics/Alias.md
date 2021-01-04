@@ -7,12 +7,12 @@ categories:
 ---
 
 The **alias** parameter informs the compiler that a named
-[property](property) or [attribute](attribute) is
+[property](/properties/) or [attribute](/attributes/) is
 the same as another one, it is used to give an additional name for an
-existing defined [identifier](identifier).
+existing defined [identifier](/definitions/identifier/).
 
-Because of limits on the number of [attributes](attributes)
-(128) and [properties](properties) (default 256), and because
+Because of limits on the number of [attributes](/attributes/)
+(128) and [properties](/properties/) (default 256), and because
 the Hugo standard library uses more than 20 attributes, and more than 30
 properties, the Hugo language includes the ability to make an *alias*
 between a new attribute/property and an existing one. This allows you to
@@ -34,7 +34,7 @@ for attributes and
 properties.
 
 Let's take a look at this in action. In this game, a
-[character](Characters) can be a super hero or a normal
+[character](/characters/) can be a super hero or a normal
 person. We'll create an attribute called **super**. If a character has
 this attribute, they are a super hero, otherwise just a normal person.
 Looking through the standard library, we can see the pre-defined
@@ -59,6 +59,6 @@ pornographic adventures, and we're not going to go there!\]).
 
     }
 
-See Also: [attribute](attribute),
-[property](property),
-[declarations](declarations), [keywords](keywords)
+See Also: [attribute](/attributes/),
+[property](/properties/),
+[declarations](/declarations/), [keywords](/guts/keywords/)

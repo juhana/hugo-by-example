@@ -6,11 +6,11 @@ categories:
   - Directions
 ---
 
-**`door_to`** is a [property](property) defined by the
-[standard library](standard_library) which allows for
-**&gt;ENTER OBJECT** (where [`object`](object) leads to
-another location). Obviously, it is used by the [door
-class](Doors) defined in [objlib.h](Objlib), but
+**`door_to`** is a [property](/properties/) defined by the
+[standard library](/library/) which allows for
+**&gt;ENTER OBJECT** (where [`object`](/globals/object/) leads to
+another location). Obviously, it is used by the
+[door class](/classes/doors/) defined in *objlib.h*, but
 it can be used for lots of other things.
 
     room castle "Castle"

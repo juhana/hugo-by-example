@@ -1,13 +1,13 @@
 ---
 title: Gargoyle
-permalink: /interpreters/gargoyle
+permalink: /interpreters/gargoyle/
 categories: 
   - Interpreters
 ---
 
 Gargoyle is a multi-platform, multi-if-system interpreter for
 Interactive Fiction. It focuses on good typography in games. Because it
-uses a [Glk](Glk) API library, it does not support any
+uses a [Glk](/definitions/glk/) API library, it does not support any
 additional windows besides the status line. That said, there is support
 for both sound and graphics.
 
@@ -22,8 +22,8 @@ around this.
 ### Glk.h
 
 The more forceful approach is to use a library contribution like
-[Glk.h](Glk.h) to determine if your game is being played on a
-[Glk](Glk)-based interpreter. If it is, you can choose to not
+Glk.h to determine if your game is being played on a
+[Glk](/definitions/glk/)-based interpreter. If it is, you can choose to not
 play the music file or display the graphic, giving Gargoyle nothing to
 rip out of the resource file.
 
@@ -33,7 +33,7 @@ rip out of the resource file.
 
 Gargoyle only tries to play resource files if the configuration file
 tells it so. You'll notice that Gargoyle is distributed with a file
-called [`garglk.ini`](/interpreters/garglk.ini). Make a copy of that file and rename it to share the
+called `garglk.ini`. Make a copy of that file and rename it to share the
 same name as your game. Edit it and change the graphics and sound
 settings to the following:
 

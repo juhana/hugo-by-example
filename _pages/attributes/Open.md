@@ -5,14 +5,14 @@ categories:
   - Attributes
 ---
 
-`open` is an [attribute](attribute) given to objects that
+`open` is an [attribute](/attributes/) given to objects that
 are, um, open. It is often- but not always- paired with
-[openable](openable).
+[openable](/attribute/openable/).
 
 **Instances where `open` is used:**
 
--   An always-open [container](container) like a cauldron.
--   An [openable](openable)/closeable `container` like a
+-   An always-open [container](/attributes/container/) like a cauldron.
+-   An [openable](/attribute/openable/)/closeable `container` like a
     treasure chest.
--   An [openable](openable)/closeable non-container like a
-    [door](door).
+-   An [openable](/attribute/openable/)/closeable non-container like a
+    [door](/classes/doors/).

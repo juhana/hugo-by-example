@@ -5,6 +5,6 @@ categories:
   - Definitions
 ---
 
-**true** is a hard-coded [Boolean](Boolean) constant meaning 1.
+**true** is a hard-coded [Boolean](/operators/boolean/) constant meaning 1.
 
-See Also: [boolean](boolean), [keywords](keywords), [false](false)
+See Also: [boolean](/operators/boolean/), [keywords](/guts/keywords/), [false](/definitions/false)

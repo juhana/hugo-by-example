@@ -29,7 +29,7 @@ to refer to that."
 ### changing the default message
 
 The `extra_scenery` response is handled by the
-[Message](Messages) routine with this code:
+[Message](/basics/messages/) routine with this code:
 
         case &Parse
         {
@@ -40,4 +40,4 @@ The `extra_scenery` response is handled by the
                     ! ... goes on to list other cases
 
 So keep that in mind if you'd like to
-[change](Messages#Custom_or_New_Routine_Responses) it.
+[change](/basics/messages/) it.

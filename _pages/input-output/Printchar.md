@@ -6,11 +6,11 @@ categories:
   - Strings
 ---
 
-As described, `printchar` is a [print](print) command for
-printing one character at a time. It is often used for printing [string
-array](string_array) elements. In fact, the
-[routine](routine) [StringPrint](StringPrint) is
-just a combination of a [for loop](for) and `printchar`.
+As described, `printchar` is a [print](/input-output/print/) command for
+printing one character at a time. It is often used for printing
+[string array](/strings/string-arrays/) elements. In fact, the
+[routine](/routines/) [StringPrint](/strings/stringprint/) is
+just a combination of a [for loop](/loops/for/) and `printchar`.
 
 ### Example
 

@@ -5,7 +5,7 @@ categories:
   - Hugo Guts
 ---
 
-`run` is a command for executing [property routines](properties).
+`run` is a command for executing [property routines](/properties/).
 
 If <object> does not have <property>, or if <object>.<property> is not a
 routine, nothing happens. Otherwise, the property routine executes.

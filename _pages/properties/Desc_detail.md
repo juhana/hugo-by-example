@@ -5,8 +5,8 @@ categories:
   - Properties
 ---
 
-`desc_detail` is an [object](object)
-[property](property) meant to be filled with routines that
+`desc_detail` is an [object](/globals/object/)
+[property](/properties/) meant to be filled with routines that
 print messages such as " **(providing light**" or "*' (currently
 dark)*'", any of those things that might follow an object in an
 inventory or room listing (under the right circumstances). Two things to

@@ -6,7 +6,7 @@ categories:
 ---
 
 `RandMove` is Cardinal Teulbach's library contribution for random NPC
-movement. It replaces the [character script](Scripts) routine
+movement. It replaces the [character script](/characters/scripts/) routine
 `CharMove` and uses a new property to keep track of where characters can
 go. You can see it
 [here](http://ifarchive.smallwhitehouse.org/if-archive/programming/hugo/library/contributions/randmove.txt).
@@ -16,7 +16,7 @@ go. You can see it
 As this code was written for Hugo in the *2.1* days, it works
 surprisingly well. The one problem that someone might run into only
 comes up if you are compiling your game with
-[HugoFix](HugoFix). To fix it, change the following code:
+HugoFix. To fix it, change the following code:
 
     #ifset DEBUG
         if _sc_flag

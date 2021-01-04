@@ -39,7 +39,7 @@ this:
 
 The other kind of global is executed only when the player is in scope of
 a particular object. The object can be any kind of object really,
-including the location itself or a [`found_in`](Found_in)
+including the location itself or a [`found_in`](/scope/found_in/)
 object. This kind of object is defined like this:
 
     event in <object>  ! the "in" is optional
@@ -50,8 +50,8 @@ object. This kind of object is defined like this:
 If the `self` token is used in the event code, it'll refer to the object
 the event is attached to.
 
-[Fuses](Fuses_and_Daemons) and
-[daemons](Fuses_and_Daemons) are actually just
+[Fuses](/timers/fuses-and-daemons/) and
+[daemons](/timers/fuses-and-daemons/) are actually just
 object-attached events that are moved in and out of scope with
 `Activate` and `Deactivate` routines.
 
@@ -59,5 +59,5 @@ object-attached events that are moved in and out of scope with
 
 In a game without modified `DoWait` routines, waiting takes up three
 turns. If your events are designed to be run one step (or command) at a
-time, you'll have to insert set the [event_flag](Event_flag)
+time, you'll have to insert set the [event_flag](/globals/event_flag/)
 global to the right setting, depending on the behavior that you want.

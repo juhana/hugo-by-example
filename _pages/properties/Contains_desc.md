@@ -7,8 +7,8 @@ categories:
 
 Text within an object's `contains_desc` property replaces the "Inside
 the <container> is " or "<character> is holding " default text usually
-provided by [WhatsIn](WhatsIn) (well, the &WhatsIn case
-provided by the [Message](Messages) routine, to be exact). It
+provided by [WhatsIn](/routines/whatsin/) (well, the &WhatsIn case
+provided by the [Message](/basics/messages/) routine, to be exact). It
 also has the benefit of only being printed when there *are* items to be
 listed. Here are some usage examples:
 
@@ -24,7 +24,7 @@ listed. Here are some usage examples:
        holding 0
     }
 
-Here is one from [the Hugo Book](The_Hugo_Book):
+Here is one from [the Hugo Book](/hugo/hugo-book/):
 
     object woodcabinet "wooden cabinet"
     {

@@ -21,8 +21,8 @@ denoted with a colon symbol (":").
 
 There technically isn't any reason to avoid using `jump` , and it can be
 a nice shortcut when you don't want to use giant `if-then` blocks or
-plan out a [`while`](while) loop. Still, when you
-[replace](replace) a [routine](routine) that has
+plan out a [`while`](/loops/while/) loop. Still, when you
+[replace](/guts/replace/) a [routine](/routines/) that has
 jumps in it, the jumps are *not* replaced, so you'll have to rename all
 of the jumps and labels. Because of this alone, you may want to avoid
 jumps if you think the routine might be replaced at some point.

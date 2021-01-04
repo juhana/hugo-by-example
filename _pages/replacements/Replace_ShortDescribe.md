@@ -7,9 +7,9 @@ categories:
 
 ### What it fixes
 
-1.  Removes the [jump](jump) command.
-2.  In [SUPERBRIEF](verbosity) mode, even objects with
-    [short_desc](short_desc) properties are treated like
+1.  Removes the [jump](/guts/jump/) command.
+2.  In [SUPERBRIEF](/globals/verbosity/) mode, even objects with
+    [short_desc](/properties/descriptions/) properties are treated like
     they don't have them.
 
 ### The code

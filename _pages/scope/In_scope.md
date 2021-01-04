@@ -6,15 +6,15 @@ categories:
   - Properties
 ---
 
-The `in_scope` [property](property) is defined by the
-[standard library](standard_library). It puts an
-[object](object) in the scope of an actor. It is like
-[found_in](Found_in) except it works off of characters, not
+The `in_scope` [property](/properties/) is defined by the
+[standard library](/library/). It puts an
+[object](/globals/object/) in the scope of an actor. It is like
+[found_in](/scope/found_in/) except it works off of characters, not
 locations. It allows much cleaner code when used in conjuction with the
-[PutInScope](PutInScope) and
-[RemoveFromScope](RemoveFromScope) routines.
+[PutInScope](#putinscope) and
+[RemoveFromScope](#removefromscope) routines.
 
-## in_scope (object [property](Properties))
+## in_scope (object [property](/properties/))
 
     in_scope you
 
@@ -22,15 +22,15 @@ is a more-eloquent alternative to:
 
     found_in {return location}
 
-As is the case with [found_in](Found_in), although in the
+As is the case with [found_in](/scope/found_in/), although in the
 actor's scope, the object is not technically in the same room according
 to the object tree.
 
 ## PutInScope and RemoveFromScope
 
 If `in_scope` properties change within the course of the game, it is
-recommended that you use [PutInScope](In_scope#PutInScope)
-and [RemoveFromScope](In_scope#RemoveFromScope) to do so.
+recommended that you use [PutInScope](#putinscope)
+and [RemoveFromScope](#removefromscope) to do so.
 
 ### PutInScope
 

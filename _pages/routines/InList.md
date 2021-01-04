@@ -5,15 +5,15 @@ categories:
   - Routines
 ---
 
-`InList` is a [hugolib.h](hugolib.h)
-[routine](routine) invaluable to anyone who uses property
+`InList` is a [hugolib.h](/library/hugolib.h/)
+[routine](/routines/) invaluable to anyone who uses property
 arrays to hold information. Providing the routine with those parameters,
 `InList` will return true (specifically, it returns the
-[property](properties) element number) or false depending on
+[property](/properties/) element number) or false depending on
 whether `val` is in `object`'s `property` array. Routines like
-[CheckReach](CheckReach) use `InList` to check if objects are
+[CheckReach](/routines/checkreach/) use `InList` to check if objects are
 in other object's property (in `CheckReach`'s case, the
-[reach](reach) property).
+[reach](/properties/reach/) property).
 
 ## The code
 

@@ -5,8 +5,8 @@ categories:
   - Hugo Guts
 ---
 
-`AnyVerb` is a [hugolib.h](hugolib.h)
-[routine](routine) that allows for trapping for any verb in a
+`AnyVerb` is a [hugolib.h](/library/hugolib.h/)
+[routine](/routines/) that allows for trapping for any verb in a
 location without also affecting xverbs (Save, Restore, etc.).
 
 ## Why it's needed
@@ -66,7 +66,7 @@ Instead, we'll use `AnyVerb`, like so:
           }
     }
 
-Now, the `before` [block](block) is only run if the command
+Now, the `before` [block](/definitions/block/) is only run if the command
 is not an xverb. Right on!
 
 ## The code

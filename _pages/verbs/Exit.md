@@ -6,7 +6,7 @@ categories:
   - Directions
 ---
 
-**Exit** is a [verb](verb) defined by the [standard
-library](standard_library). It is used as a
-[direction](direction) in most cases, the equivalent of the
-user typing the command *[go](go) [out](out)*.
+**Exit** is a [verb](/declarations/verb/) defined by the
+[standard library](/library/). It is used as a
+[direction](/classes/direction/) in most cases, the equivalent of the
+user typing the command *[go](/verbs/go/) [out](/directions/out/)*.

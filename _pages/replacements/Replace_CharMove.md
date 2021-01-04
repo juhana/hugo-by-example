@@ -8,9 +8,9 @@ categories:
 ### What it fixes
 
 Exit-checking code works best when directions, in the case of
-[doors](doors), point to door objects themselves (not
+[doors](/classes/doors/), point to door objects themselves (not
 door.door_to properties like the Hugo Book suggests).
-[DoGo](DoGo) still works fine that way, but `CharMove` needs
+[DoGo](/verb-routines/dogo/) still works fine that way, but `CharMove` needs
 a little help. This is that help.
 
 ### The code

@@ -7,10 +7,9 @@ categories:
 
 # Description
 
-Fuses and daemons are object-attached [events](Events) that
+Fuses and daemons are object-attached [events](/timers/events/) that
 are moved in and out of scope (and therefore, starting or stopping them)
-with [`Activate`](Fuses_and_Daemons#Activating/Deactivating)
-and [`Deactivate`](Fuses_and_Daemons#Activating/Deactivating)
+with `Activate` and `Deactivate`
 routines. They are described here together mainly because most things
 done in one can also be done in the other (this author almost always
 uses fuses but knows at least one other author who always uses daemons).
@@ -35,7 +34,7 @@ properties.
 
 | fuse property | description                                                                                                           |
 |---------------|-----------------------------------------------------------------------------------------------------------------------|
-| timer         | the number of turns before the fuse event runs (can be set "by hand" or by `Activate(`<fuse name>`, `<timer turns>`)` |
+| timer         | the number of turns before the fuse event runs (can be set "by hand" or by `Activate(<fuse name>, <timer turns>)`     |
 | tick          | a routine that decrements timer by one and returns the number of turns remaining (i.e., the value of timer)           |
 
     fuse <name>
@@ -77,25 +76,25 @@ Both daemons and fuses are started and stopped by `Activate` and
 
 | Usage                         |
 |-------------------------------|
-| `Activate(`<daemon_object>`)` |
+| `Activate(<daemon_object>)` |
 
 *Starting daemons*
 
 | Usage                                                      |
 |------------------------------------------------------------|
-| `Activate(`<daemon_object>`,`<number_of_turns_in_timer>`)` |
+| `Activate(<daemon_object>,<number_of_turns_in_timer>)` |
 
 *Starting fuses*
 
 | Usage                           |
 |---------------------------------|
-| `Deactivate(`<daemon_object>`)` |
+| `Deactivate(<daemon_object>)` |
 
 *Stopping either*
 
 # The code for everything listed above
 
-For reference, here is the code from [hugolib.h](Hugolib.h)
+For reference, here is the code from [hugolib.h](/library/hugolib.h/)
 that defines all of this:
 
     !\

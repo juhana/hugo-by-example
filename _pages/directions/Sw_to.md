@@ -6,9 +6,9 @@ categories:
   - Properties
 ---
 
-`sw_to` is a [direction](direction) property given to
-[rooms](rooms). When a player types, "GO SOUTHWEST",
-[DoGo](DoGo) checks that value to see if there is another
+`sw_to` is a [direction](/classes/direction/) property given to
+[rooms](/basics/rooms/). When a player types, "GO SOUTHWEST",
+[DoGo](/verb-routines/dogo/) checks that value to see if there is another
 room in that direction.
 
     room twistypassage "A Maze of Twisty Passage"
@@ -18,5 +18,5 @@ room in that direction.
         sw_to twistypassage2
     }
 
-It is [aliased](alias) by the
-[order_response](order_response) property.
+It is [aliased](/basics/alias/) by the
+[order_response](/property/order_response/) property.

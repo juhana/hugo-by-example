@@ -6,8 +6,8 @@ categories:
 ---
 
 The **window.h** header file defines a basic window
-[class](Object_Classes) to make using
-[windows](window) in your game a little bit easier.
+[class](/basics/object_classes/) to make using
+[windows](/input-output/window/) in your game a little bit easier.
 
 Using the library, you need to **\#include "window.h"** after you've
 included **hugolib.h**
@@ -35,4 +35,4 @@ The window class also defines the following routines
 | win_clear | Clears the window (based on **win_textcolor** and **win_backcolor** |
 | win_end   | Deactivate the window (returns output to the "main" window) and returns the text and background colors to the previously defined colors. |
 
-See the article [window](window) for sample code that shows the class in use.
+See the article [window](/input-output/window/) for sample code that shows the class in use.

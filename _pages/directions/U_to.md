@@ -6,9 +6,9 @@ categories:
   - Properties
 ---
 
-`u_to` is a [direction](direction) property given to
-[rooms](rooms). When a player types, "GO UP",
-[DoGo](DoGo) checks that value to see if there is another
+`u_to` is a [direction](/classes/direction/) property given to
+[rooms](/basics/rooms/). When a player types, "GO UP",
+[DoGo](/verb-routines/dogo/) checks that value to see if there is another
 room in that direction.
 
     room twistypassage "A Maze of Twisty Passage"
@@ -18,4 +18,4 @@ room in that direction.
         u_to twistypassage2
     }
 
-It is [aliased](alias) by the [desc_detail](desc_detail) property.
+It is [aliased](/basics/alias/) by the [desc_detail](/properties/desc_detail/) property.

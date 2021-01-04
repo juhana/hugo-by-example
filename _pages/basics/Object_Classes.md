@@ -1,16 +1,16 @@
 ---
 title: Object Classes
-permalink: /basics/object_classes
+permalink: /basics/object_classes/
 categories:
   - Basics
 ---
 
 The **class** directive is a definition of a template
-[object](object), that is, a particular object that has some
-predefined [declarations](declarations) of
-[attributes](attributes), [code](code) including
-[before](before) and [after](after) code, and/or
-[properties](properties).
+[object](/globals/object/), that is, a particular object that has some
+predefined [declarations](/declarations/) of
+[attributes](/attributes/), [code](/definitions/code/) including
+[before](/properties/before/) and [after](/properties/after/) code, and/or
+[properties](/properties/).
 
 A class is defined the same way as an object
 
@@ -56,7 +56,7 @@ class, so it has nothing added to it.
 
 Object classes are a time-saving feature that are useful when a game has
 a lot of objects that share the same properties. Several classes are
-already defined in [objlib.h](Objlib). Some instances:
+already defined in *objlib.h*. Some instances:
 
     !----------------------------------------------------------------------------
     ! BASIC ROOM:

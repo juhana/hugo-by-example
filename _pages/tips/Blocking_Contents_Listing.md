@@ -5,8 +5,8 @@ categories:
   - Tips
 ---
 
-[**list_contents**](/properties/list_contents) is a [property](/properties) which is defined
-by the [standard library](standard_library).
+[**list_contents**](/properties/list_contents/) is a [property](/properties/) which is defined
+by the [standard library](/library/).
 
 One of the problems I've had is that containers are all-too happy to
 describe their contents to anyone who would listen. This might be OK,

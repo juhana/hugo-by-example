@@ -11,7 +11,7 @@ categories:
 
 During a `pause` is the only time the interpreter detects the
 "coordinates" of a mouse click. Otherwise, in most ports, it'll bring up
-a [context menu](Addcontext).
+a [context menu](/guts/addcontext/).
 
 By itself, the `pause` statement provides no text to tell the player
 that the game is paused, so be sure to bundle it with a **print "PRESS A

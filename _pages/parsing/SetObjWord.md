@@ -12,4 +12,4 @@ categories:
 
 This routine is for hardcore disambiguity parsing, it seems. The only
 place it is called in the Hugo Library or any released game source is in
-the routine `ParsePluralObjects` in [objlib.h](Objlib).
+the routine `ParsePluralObjects` in *objlib.h*.

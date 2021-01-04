@@ -5,7 +5,7 @@ categories:
   - Definitions
 ---
 
-**false** is a hard-coded [Boolean](Boolean) constant meaning 0.
+**false** is a hard-coded [Boolean](/operators/boolean/) constant meaning 0.
 
-See Also: [boolean](boolean),
-[keywords](keywords), [true](true)
+See Also: [boolean](/operators/boolean/),
+[keywords](/guts/keywords/), [true](/definitions/true/)

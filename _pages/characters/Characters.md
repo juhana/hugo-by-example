@@ -14,7 +14,7 @@ characters* that need responses to all sorts of situations.
 
 `player_character` objects, of course, represent the player.
 
-The player object class, as defined by [objlib.h](Objlib):
+The player object class, as defined by *objlib.h*:
 
     character player_character
     {
@@ -43,7 +43,7 @@ game is, you'll make slight additions (or negations).
 
 ### first person player
 
-Set the [global variable](Variables#Global_Variables)
+Set the [global variable](/basics/global/)
 `player_person` to `1`:
 
     player_character you "I"
@@ -54,7 +54,7 @@ Set the [global variable](Variables#Global_Variables)
 
 ### second person player
 
-Set the [global variable](Variables#Global_Variables)
+Set the [global variable](/basics/global/)
 `player_person` to `2` (this is the default value):
 
     player_character you "you"
@@ -64,7 +64,7 @@ Set the [global variable](Variables#Global_Variables)
 
 ### third person
 
-Set the [global variable](Variables#Global_Variables)
+Set the [global variable](/basics/global/)
 `player_person` to `3`:
 
     player_character jack "Jack"
@@ -77,7 +77,7 @@ Set the [global variable](Variables#Global_Variables)
 ## changing characters
 
 For information on changing player characters, read the
-[Changing_Player_Characters](Changing_Player_Characters)
+[Changing_Player_Characters](/strings/changing-player-characters/)
 page.
 
 # Non-Player Characters
@@ -108,7 +108,7 @@ like the following:
             }
         }
 
-For more information, check the [DoAsk](DoAsk) page.
+For more information, check the [DoAsk](/verb-routines/doask/) page.
 
 ### telling characters about things
 
@@ -190,7 +190,7 @@ Responses for commands to characters can be coded using the
     }
 
 More information can be found on the
-[order_response](order_response) page.
+[order_response](/property/order_response/) page.
 
 ### characters reacting! to you!
 
@@ -209,7 +209,7 @@ an event:
     }
 
 Alternatively, you could also give the character a
-[react_after](react_after) property:
+[react_after](/properties/react_after/) property:
 
     character fred "fred"
     {

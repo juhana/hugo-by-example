@@ -58,13 +58,13 @@ number:
      !!! ... more properties
     }
 
-(The [ordinal](ordinal) routine mentioned above generates the
+(The [ordinal](/library/library-suggestions/) routine mentioned above generates the
 st, rd, th extension on a number.)
 
 ## A simpler method
 
 To provide a dynamic name, do not define it in the object (or room's)
-header, define it as the **name** [property](property) and
+header, define it as the **name** [property](/properties/) and
 create code for it.
 
 The following example is for a gas meter, that if you hit it with a

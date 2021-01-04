@@ -5,7 +5,7 @@ categories:
   - Routines
 ---
 
-`SortProp` is a routine based on [Sort.h](Sort.h), altered to
+`SortProp` is a routine based on [Sort.h](/contributions/sort.h/), altered to
 work with object properties. One would use it with the same sorting
 routines.
 

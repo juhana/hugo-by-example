@@ -14,6 +14,6 @@ categories:
 up an example where we would use it. Let's say we wanted to do the
 *Hitchhiker's Guide to the Galaxy* thing of taking the player's first
 typo and rubbing it in their face much later in the game. We would use
-`StringCopy` to copy [parse$](Parse$) (where unknown words
+`StringCopy` to copy [parse$](/parsing/parse$/) (where unknown words
 are sent) to the string array of our choice so we can recall it later
-using [StringPrint](StringPrint).
+using [StringPrint](/strings/stringprint/).

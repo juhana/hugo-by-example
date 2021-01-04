@@ -14,11 +14,11 @@ open, can the object be locked, etc...
 
 Unlike some properties, there are no predefined attributes created by
 the compiler, although there are some which are predefined by the
-[standard libraries](standard_library). You can define a
+[standard libraries](/library/). You can define a
 maximum of 128 attributes, including those defined by the standard
-libraries. This is one of the [Hugo
-Compiler](Hugo_Compiler)'s *hard limits* (it can't be
-changed). Using the [alias](alias) command, you can get
+libraries. This is one of the [Hugo Compiler](/basics/compiler/)'s 
+*hard limits* (it can't be
+changed). Using the [alias](/basics/alias/) command, you can get
 around this limitation. There are several attributes defined in the Hugo
 standard library (in the order shown under *order defined*) in the
 following table.
@@ -277,7 +277,7 @@ create an attribute like so:
 
 ### Importance of proper object attribution
 
-Several verb [grammar tokens](Grammar) rely on attributes
+Several verb [grammar tokens](/basics/grammar/) rely on attributes
 being set correctly. This means that even when you want your game to
 deny a specific command, the proper attribute needs to be set for it to
 work correctly. Imagine, if you will, a television set with the
@@ -306,7 +306,7 @@ definition should be changed to:
 ### Aliases
 
 
-*Main Article: [alias](alias)*
+*Main Article: [alias](/basics/alias/)*
 
 If you need to define a lot of attributes and might run out of them,
 what you can do is define some attribute as an alias of another

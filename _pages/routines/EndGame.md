@@ -8,15 +8,15 @@ categories:
 `EndGame(end_type)` provides the **RESTART, RESTORE, (UNDO), or QUIT**
 dialogue at the end of a play session.
 
-Also see: [PrintEndGame](PrintEndGame)
+Also see: [PrintEndGame](/routines/printendgame/)
 
 ### The code
 
 Here is the `EndGame` routine. You may be particularly interested in how
 different switches affect its functionality. For instance, if your game
 has the NO_UNDO switch set, "undo" will not be listed as an option
-(this can also be accomplished by setting the `UNDO_OFF` [global
-variable](Variables#Global_Variables) to true).
+(this can also be accomplished by setting the `UNDO_OFF` 
+[global variable](/basics/global/) to true).
 
     !----------------------------------------------------------------------------
     ! EndGame(end_type)

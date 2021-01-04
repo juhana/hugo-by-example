@@ -5,13 +5,13 @@ categories:
   - Attributes
 ---
 
-`living` is an [attribute](attributes) given to living
-things. As such, it is an important part of the [character class definition](Character_Classes).
-The [standard library](standard_library) usually uses it in
-[grammar tokens](Grammar_Tokens) and routines to check for
-interactions with [characters](characters), but you could use
+`living` is an [attribute](/attributes/) given to living
+things. As such, it is an important part of the [character class definition](/classes/character-classes/).
+The [standard library](/library/) usually uses it in
+[grammar tokens](/basics/grammar-tokens/) and routines to check for
+interactions with [characters](/characters/), but you could use
 it for animals and such, too. You'll just have to take care to properly
-set object [pronouns](pronouns) and messages.
+set object [pronouns](/properties/pronoun/) and messages.
 
 ## Some Examples
 

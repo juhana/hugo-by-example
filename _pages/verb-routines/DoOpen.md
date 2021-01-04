@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoOpen` is the [verb routine](:Category:Verb_Routines)
+`DoOpen` is the [verb routine](/verb-routines/)
 responsible for processing "open" commands.
 
 ## The code

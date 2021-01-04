@@ -117,7 +117,7 @@ next example, we will recreate the "egress" code from *Ballyhoo*:
 
 NOTE: As shown, `YesorNo` is a nice and quick decision-coding solution,
 but if you want a more *authentic Ballyhoo egress experience*, go take a
-look at [Informal Questions](Informal_questions).
+look at [Informal Questions](/tips/informal-questions/).
 
 ### Alternatively!
 

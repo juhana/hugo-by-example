@@ -5,7 +5,7 @@ categories:
   - Library Contributions
 ---
 
-`NewAutomap`, an update to [Automap](Automap), is a library
+`NewAutomap`, an update to [Automap](/contributions/automap/), is a library
 extension that adds several mapping possible mapping functions to your
 game. One use is to show a quick map that will last one turn, and
 another option will turn on an automapper that stays on. Lastly, there
@@ -57,6 +57,6 @@ Here is everything a mappable room needs:
 ## Differences Between Glk and Non-Glk Performance
 
 In glk interpreters, all mapping is drawn in the status window since
-[locate](locate) doesn't work in the main window. In a
+[locate](/input-output/locate/) doesn't work in the main window. In a
 regular interpreter, the automapper is in a floating window beneath the
 status line.

@@ -5,10 +5,10 @@ categories:
   - Attributes
 ---
 
-**switchable** is a predefined [attribute](attribute) set to
-indicate that an [object](object) can be turned on and off.
+**switchable** is a predefined [attribute](/attributes/) set to
+indicate that an [object](/globals/object/) can be turned on and off.
 As such, it is often used in conjunction with
-[switchedon](switchedon).
+[switchedon](/attributes/switchedon/).
 
 Example:
 

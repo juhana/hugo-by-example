@@ -7,11 +7,11 @@ categories:
 
 ## Replacing SpecialDesc(obj)
 
-[SpecialDesc](SpecialDesc) is a routine called by
-[WhatsIn](WhatsIn) and [ListObjects](ListObjects).
+[SpecialDesc](/routines/specialdesc/) is a routine called by
+[WhatsIn](/routines/whatsin/) and [ListObjects](/routines/listobjects/).
 It checks if objects have special
-[initial_desc](Descriptions#initial_desc) or
-[inv_desc](Inv_desc) property routines that preclude them
+[initial_desc](/properties/descriptions/) or
+[inv_desc](/properties/inv_desc/) property routines that preclude them
 from normal object listing in room descriptions and inventories.
 Occasionally, one might want to replace it to better organize how these
 listings are handled.
@@ -25,7 +25,7 @@ a response like this:
 >You are wearing a top hat and a monocle. You are also carrying a cane.
 
 To do this, we could use the following replacement, which borrows code
-from [ListObjects](ListObjects) to list worn items all neat-like:
+from [ListObjects](/routines/listobjects/) to list worn items all neat-like:
 
     replace SpecialDesc(obj)
     {

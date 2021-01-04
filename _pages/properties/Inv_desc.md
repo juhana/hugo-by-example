@@ -8,7 +8,7 @@ categories:
 Sometimes one wants to split up the &gt;INVENTORY response somehow. The
 inv_desc object property is a built-in option for doing that
 (DoInventory calls WhatsIn(player), which calls
-[SpecialDesc(obj)](SpecialDesc), which checks for the
+[SpecialDesc(obj)](/routines/specialdesc/), which checks for the
 inv_desc property).
 
 Let's say you are writing a game where you can wield one weapon at a

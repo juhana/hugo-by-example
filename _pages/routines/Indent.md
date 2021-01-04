@@ -5,7 +5,7 @@ categories:
   - Routines
 ---
 
-`Indent` is a [hugolib.h](Hugolib.h) routine that prints the
+`Indent` is a [hugolib.h](/library/hugolib.h/) routine that prints the
 number of spaces specified by the `INDENT_SIZE` constant. It is used
 for- *wait, for it*- indenting text. It is called by several different
 Hugo library routines, but it is likely an author will want to call it,
@@ -20,7 +20,7 @@ game, if that is what you are going for.
 
 If you are using the `LIST_F` mask (which makes lists- like inventory-
 be shown as itemized lists, not sentences) for the
-[FORMAT](FORMAT) global, also setting `NOINDENT_F` will make
+[FORMAT](/globals/format/) global, also setting `NOINDENT_F` will make
 it so that those listed items are not indented.
 
 ### Why Indent?

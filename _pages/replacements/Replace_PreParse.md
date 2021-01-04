@@ -5,14 +5,14 @@ categories:
   - Replacements
 ---
 
-As the [PreParse](PreParse) page shows, `PreParse` can be
+As the [PreParse](/parsing/preparse/) page shows, `PreParse` can be
 used for a bunch of purposes.
 
 ## Redrawing the screen
 
 This version of `PreParse` was written to accompany the more-elaborate
-version of `PrintStatusLine` on the [Replace
-PrintStatusLine](Replace_PrintStatusLine) page.
+version of `PrintStatusLine` on the
+[Replace PrintStatusLine](/replacements/printstatusline/) page.
 
     replace PreParse
     {

@@ -5,8 +5,8 @@ categories:
   - Global Variables
 ---
 
-`TEXTCOLOR` is a [global variable](global) meant to hold the
-default foreground [color](color) of a game, so that the command
+`TEXTCOLOR` is a [global variable](/basics/global/) meant to hold the
+default foreground [color](/input-output/color/) of a game, so that the command
 
     color TEXTCOLOR, BGCOLOR
 

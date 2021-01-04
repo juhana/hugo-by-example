@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoLookIn` is the [verb routine](:Category:Verb_Routines)
+`DoLookIn` is the [verb routine](/verb-routines/)
 responsible for processing "look in" or "look on" commands.
 
 ## The code

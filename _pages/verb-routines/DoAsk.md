@@ -8,7 +8,7 @@ categories:
 `DoAsk` is the verblib.h verb routine that is called when players enter
 `>ASK CHARACTER ABOUT THING`.
 
-## Grammar definition (from [verblib.g](Verblib.h_g))
+## Grammar definition (from [verblib.g](/library/verblib/))
 
     verb "ask", "question", "consult"
         *                                                       DoAsk

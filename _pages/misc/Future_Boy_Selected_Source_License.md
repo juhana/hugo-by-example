@@ -1,6 +1,6 @@
 ---
 title: Future Boy! Source Code License
-permalink: /misc/future-boy-license
+permalink: /misc/future-boy-license/
 ---
 
 FUTURE BOY! SOURCE CODE LICENSE

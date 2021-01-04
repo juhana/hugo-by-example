@@ -8,8 +8,8 @@ categories:
 
 In most games, when you type **VERSION**, you get the same title,
 author, and release info one often gets at the beginning of the game.
-These routines are generic adaptions of `version.hug` from the [Future
-Boy Selected Source](Future_Boy_Selected_Source_License)
+These routines are generic adaptions of `version.hug` from the
+[Future Boy Selected Source](/misc/future-boy-license/)
 files for quick inclusion into games. Calling `Version` will result in
 this:
 
@@ -18,7 +18,7 @@ this:
 >Release 1.0 / Hugo v3.1 / Library 31031  
 >Serial Number: 092211
 
-To use, define the following [constants](Constants) in your game:
+To use, define the following [constants](/basics/constants/) in your game:
 
     constant TITLE "Annoyotron X: Annoyotron Takes Manhatten"
     constant TITLECOLOR LIGHT_RED ! has to be a number value if defined before "hugolib.h" is included

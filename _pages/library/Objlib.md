@@ -6,8 +6,8 @@ categories:
 ---
 
 The Hugo Object Library defines some of the base
-[classes](Object_Classes) used in many games. It is
-automatically included by the [hugolib.h](Hugolib.h) file
+[classes](/basics/object_classes/) used in many games. It is
+automatically included by the [hugolib.h](/library/hugolib.h/) file
 (The main file of the Hugo Standard Library)
 
 <table>

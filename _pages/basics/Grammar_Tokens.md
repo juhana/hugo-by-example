@@ -6,7 +6,7 @@ categories:
 ---
 
 There are many kinds of tokens we can use in our
-[grammar](Grammar) definitions. This page devotes some
+[[grammar](/basics/grammar/) definitions. This page devotes some
 attention to each one.
 
 ## Token List
@@ -110,8 +110,7 @@ attention to each one.
         * string "in" object          DoScrawl
 
 
-*Note: what the player enters in the quotes (&gt;SCRAWL "HUGO RULEZ" IN
-SAND) is sent to [`parse$`](Parse$)*
+*Note: what the player enters in the quotes (&gt;SCRAWL "HUGO RULEZ" IN SAND) is sent to [`parse$`](/parsing/parse$/)*
 
 
 #### `(RoutineName)`
@@ -162,4 +161,4 @@ classes, just single objects. It is useful when one object breaks the
 verb grammar's defaults, but you do not want to rewrite the grammar or
 verb routines. For instance, you have a window object that you want
 players to be able to look into but don't want to make the window a
-[container](Containers).
+[container](/basics/containers-and-platforms/).

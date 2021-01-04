@@ -5,7 +5,7 @@ categories:
   - Verb Routines
 ---
 
-`DoClose` is the [verb routine](:Category:Verb_Routines)
+`DoClose` is the [verb routine](/verb-routines/)
 responsible for processing "close" commands.
 
 ## The code

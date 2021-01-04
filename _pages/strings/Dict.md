@@ -16,7 +16,7 @@ function.
 - The `DoName` routine in The Vault of Hugo uses `dict` to allow
 players to name an "unnamed object."
 - Future Boy! uses it to write dictionary entries to be used with the
-[addcontext](Addcontext) function (which only accepts
+[addcontext](/guts/addcontext/) function (which only accepts
 dictionary entries).
 
 <table>

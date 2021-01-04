@@ -5,8 +5,8 @@ categories:
   - Hugo Guts
 ---
 
-`InsertWord` is a [hugolib.h](hugolib.h)-provided
-[routine](routine) for [word array](word_array)
+`InsertWord` is a [hugolib.h](/library/hugolib.h/)-provided
+[routine](/routines/) for [word array](/basics/word-array/)
 modification. Basically, it just makes space for you so that you may add
 words yourself.
 

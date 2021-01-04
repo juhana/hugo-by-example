@@ -5,5 +5,5 @@ categories:
   - Attributes
 ---
 
-The `clothing` [attribute](attribute) is given to objects
-that can be [worn](worn).
+The `clothing` [attribute](/attributes/) is given to objects
+that can be [worn](/attributes/worn/).

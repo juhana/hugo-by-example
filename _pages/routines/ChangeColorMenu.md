@@ -10,7 +10,7 @@ color of a Hugo game inside the game itself. This is what I came up
 with.
 
 (The numbers for the colors correspond to the enumerated color values in
-"COLOR CONSTANTS AND GLOBALS", in [hugolib.h](Hugolib.h).)
+"COLOR CONSTANTS AND GLOBALS", in [hugolib.h](/library/hugolib.h/).)
 
     routine ChangeColorMenu()
     {

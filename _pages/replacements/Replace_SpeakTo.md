@@ -5,13 +5,13 @@ categories:
   - Replacements
 ---
 
-*See also: [SpeakTo](SpeakTo)*
+*See also: [SpeakTo](/parsing/speakto/)*
 
 ### What it fixes
 
-1.  Removes the [jump](jump) command for easy replacing.
+1.  Removes the [jump](/guts/jump/) command for easy replacing.
 2.  Is pickier about when it sets and clears the
-    [speaking](speaking) global now.
+    [speaking](/globals/speaking/) global now.
 3.  Has some code to allow for successful (returning true)
     conversation-ending commands
 

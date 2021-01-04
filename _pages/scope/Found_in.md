@@ -6,12 +6,12 @@ categories:
   - Properties
 ---
 
-The `found_in` [property](property) is defined by the
-[standard library](standard_library) and is used for objects
+The `found_in` [property](/properties/) is defined by the
+[standard library](/library/) and is used for objects
 that are in multiple rooms. As such, they don't have specific parent
 objects like other objects.
 
-## found_in (object [property](Properties))
+## found_in (object [property](/properties/))
 
     object sun "sun"
     {
@@ -89,7 +89,7 @@ BLESSINGS" and get "Blessings look like you would expect." as a
 response. Still, that's not a command most players would think to do
 under those circumstances, and IF is all about smoke and mirrors anyway
 so it's a valid option.
-[Objlib.h](Objlib) aliases `found_in` to a couple other
+*objlib.h* aliases `found_in` to a couple other
 properties. In the door class definition, it is called `between` and is
 used to declare which rooms you can see a door from. It is also aliased
 to the `part_of` property for component objects since they are in scope
@@ -98,8 +98,8 @@ whenever their parent object is around.
 ### react_before, react_after, and events
 
 Since `found_in` objects are not "physically" in the room according to
-the [object tree](Object_Tree), any `react_before` or
-`react_after` code is ignored. [Event](Events) code, on the
+the [object tree](/basics/object_tree), any `react_before` or
+`react_after` code is ignored. [Event](/timers/events/) code, on the
 other hand, *is* run. Since events are run after any successful turn,
 while there's no way to replace `react_before`, you could easily emulate
 the behavior of `react_after`.

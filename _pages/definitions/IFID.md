@@ -8,8 +8,7 @@ categories:
 "IFID" stands for "interactive fiction identification." Just as the ISBN
 system does for books, the IFID system attempts to do for works of
 interactive fiction. Game IFID's should abide by the description
-provided by the [Treaty of
-Babel](http://ifwiki.org/index.php/Treaty_of_Babel).
+provided by the [Treaty of Babel](http://ifwiki.org/index.php/Treaty_of_Babel).
 
 ## New Hugo Game IFIDs
 
@@ -84,4 +83,4 @@ If a game is ported from one system to another (other than simply being moved fr
 ## "What else should I do?"
 
 If you want to be all saintly about it, go make an
-[iFiction](iFiction) file, too.
+[iFiction](/interpreters/ifiction/) file, too.

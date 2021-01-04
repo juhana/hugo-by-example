@@ -5,15 +5,14 @@ categories:
   - Example Games
 ---
 
-Baby Uncle New Year is a short game written by [Roody
-Yogurt](User:RoodyYogurt) for the [Even Newer New Year's
-Speed IF](http://ifwiki.org/index.php/Even_Newer_New_Year%27s_Speed_IF).
+Baby Uncle New Year is a short game written by Roody Yogurt for the
+[Even Newer New Year's Speed IF](http://ifwiki.org/index.php/Even_Newer_New_Year%27s_Speed_IF).
 Being Herr Yogurt, he submitted it late.
 
 -   This is a somewhat modified version, updated to make use of library
     contributions. Currently, it requires
-    [glk.h](glk.h),[opportune.h](opportune.h), and
-    [boxdrawglk.h](boxdrawglk.h).
+    glk.h, [opportune.h](/contributions/opportune.h/), and
+    *boxdrawglk.h*.
 -   It totally steals object-naming code from Vault of Hugo.
 
 ## The code

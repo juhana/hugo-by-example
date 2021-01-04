@@ -36,25 +36,24 @@ That gives us:
 
 What is confusing is that while DoSay understands `parse$` as "yohoho
 and a bottle of rum", parser monitoring (see
-[HugoFix](HugoFix)) will show that the engine still
+HugoFix) will show that the engine still
 understands `parse$` as "". This is because the current version of the
 Hugo library's parser monitoring accidentally prints `parse$` *before*
-parsing, so it hasn't been set yet. See "[Replace
-Parse](Replace_Parse)" and "[Replace
-ParseError](Replace_ParseError)".
+parsing, so it hasn't been set yet. See "[Replace Parse](/replacements/parse/)"
+and "[Replace ParseError](/replacements/parseerror/)".
 
 ### Pages with parse$
 
 Since `parse$` can be used so many different ways, we'll just point you
 to entries with examples that use it:
-[Comments In Transcripts](Comments_in_Transcripts) uses
+[Comments In Transcripts](/tips/comments-in-transcripts/) uses
 `parse$` to determine if the first character of the input line is an
 asterisk.
-[StringToNumber (routine)](StringToNumber) uses `parse$` for
+[StringToNumber (routine)](/strings/stringtonumber/) uses `parse$` for
 entering numbers.
-[StringDictCompare](StringDictCompare) uses it to write
+[StringDictCompare](/strings/stringdictcompare/) uses it to write
 quoted text to a string.
-[dict (routine)](Dict) will show how to use `parse$` to name
+[dict (routine)](/strings/dict/) will show how to use `parse$` to name
 objects in-game (like the Beyond Zork naming mechanic).
 
 ### `parse$` in parser messages

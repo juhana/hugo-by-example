@@ -8,4 +8,4 @@ categories:
 
 | calling form | description                                                                                                                       |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| `break`      | If the game is in a loop ([`for`](for),[`while`](while), etc.), `break` immediately exits the current loop. |
+| `break`      | If the game is in a loop ([`for`](/loops/for/),[`while`](/loops/while/), etc.), `break` immediately exits the current loop. |

@@ -12,7 +12,7 @@ categories:
 
 Actually, if you take a look at `StringDictCompare`'s code, you'll see
 that it just writes the dictionary entry to a string array and does a
-[StringCompare](StringCompare). Still, a step saved is a step
+[StringCompare](/strings/stringcompare/). Still, a step saved is a step
 saved, right?
 
 Here is a silly usage example:
@@ -54,6 +54,6 @@ player to *not* put the answer in quotes, we could have just had the line:
          ....
 
 Just checking for it automatically adds "l" to the dictionary table so
-we can use the word array instead of [parse$](Parse$). Still,
+we can use the word array instead of [parse$](/parsing/parse$/). Still,
 the author hasn't replaced this page yet because he couldn't think of a
 better example.

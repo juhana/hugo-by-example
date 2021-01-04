@@ -5,8 +5,8 @@ categories:
   - Global Variables
 ---
 
-`words` is a [hugolib.h](hugolib.h)-defined [global
-variable](Globals). Set each turn by the engine, it holds the
+`words` is a [hugolib.h](/library/hugolib.h/)-defined 
+[global variable](/basics/global/). Set each turn by the engine, it holds the
 total number of words used in the player input and is invaluable when
 writing parser-helping code. How it works:
 
@@ -57,9 +57,9 @@ Now, `a` will equal the number of words in the first command.
 
 ## changing `words`
 
-When deleting or adding words to the [word array](Word_Array)
-during [PreParse](PreParse), it is important to also update
+When deleting or adding words to the [word array](/basics/word-array/)
+during [PreParse](/parsing/preparse/), it is important to also update
 `words` to match the new total. This is why it is recommended to use
-utility routines like [InsertWord](InsertWord) or
-[DeleteWord](DeleteWord) for word array modification, as they
+utility routines like [InsertWord](/guts/insertword/) or
+[DeleteWord](/guts/deleteword/) for word array modification, as they
 update `word` for you.

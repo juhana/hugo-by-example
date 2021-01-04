@@ -6,5 +6,5 @@ categories:
 ---
 
 **Whitespace** is the invisible separators between
-[identifiers](identifier) and [operators](operator).
+[identifiers](/definitions/identifier/) and [operators](/operators/).
 In Hugo, space and tab are both valid as whitespace.

@@ -6,7 +6,7 @@ categories:
 ---
 
 `Version.h` is just a library-contribution version of the routines found
-on the [Version](Version) page, which in turn is an adaption
+on the [Version](/routines/version/) page, which in turn is an adaption
 of the "version.hug" file from the Future Boy! selected source. Download
 it (the library contribution, that is)
 [here](http://roody.gerynarsabode.org/hbe/version.h). 
@@ -15,7 +15,7 @@ it (the library contribution, that is)
 
 To use `version.h`:
 
-1.  Add the following to your [verb grammar](Grammar):
+1.  Add the following to your [verb grammar](/basics/grammar/):
         verb "version"
         *                          DoVersion
 2.  After "hugolib.h" is included, define the following constants:
@@ -27,7 +27,7 @@ To use `version.h`:
         constant WEBSITE "www.somewebsite.com"
 
     (The only one *really* necessary is `GAME_TITLE`.)
-3.  After that, [\#include](Include) "version.h".
+3.  After that, \#include "version.h".
 4.  Season to taste, and serve!
 
 ## The code

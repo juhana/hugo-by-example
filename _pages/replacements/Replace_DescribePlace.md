@@ -7,12 +7,12 @@ categories:
 
 ### What it fixes
 
-1.  [initial_desc](initial_desc) properties are still run in
+1.  [initial_desc](/properties/descriptions/#initial_desc) properties are still run in
     `SUPERBRIEF` mode.
 2.  In `SUPERBRIEF` mode, objects with
-    [short_desc](short_desc) properties are treated like
+    [short_desc](/properties/descriptions/) properties are treated like
     they don't have them.
-3.  The [DESCFORM_F](DESCFORM_F) [FORMAT](FORMAT)
+3.  The [DESCFORM_F](/guts/descform_f/) [FORMAT](/globals/format/)
     mask now adds a blank line between every grouping, not just the one
     between the room description and room contents.
 4.  Setting an array determines order of object listing (see below).
@@ -20,24 +20,24 @@ categories:
 ### How to use
 
 1.  Set the `DESCFORM_F FORMAT` mask by adding the following line to
-    [init](init) or somewhere:
+    [init](/routines/init/) or somewhere:
         FORMAT = FORMAT | DESCFORM_F
-2.  In [init](init), set the values in the
-    `DescribePlaceOrder` [array](array) if you want a
+2.  In [init](/routines/init/), set the values in the
+    `DescribePlaceOrder` [array](/basics/array/) if you want a
     non-default order. Like so:
             DescribePlaceOrder[0] = 1,2,4,5,6,3
 
     The "key" for the order is as follows:
 
-    1.  Contents of [parent](parent) of player (if the player
+    1.  Contents of [parent](/guts/parent/) of player (if the player
         is in or on something)
-    2.  Characters with [short_desc](short_desc)'s or
-        [initial_desc](initial_desc)'s
+    2.  Characters with [short_desc](/properties/descriptions/)'s or
+        [initial_desc](/properties/descriptions/#initial_desc)'s
     3.  Characters without descriptions
-    4.  Objects with [short_desc](short_desc)'s or
-        [initial_desc](initial_desc)'s
+    4.  Objects with [short_desc](/properties/descriptions/)'s or
+        [initial_desc](/properties/descriptions/#initial_desc)'s
     5.  Objects without descriptions
-    6.  Attachments and contents of [scenery](scenery)
+    6.  Attachments and contents of [scenery](/basics/scenery/)
         objects
 
 ### Requirements

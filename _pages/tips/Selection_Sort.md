@@ -5,12 +5,12 @@ categories:
   - Tips
 ---
 
-This is a [routine](routine) to perform a selection sort on
-an [array](array) in descending order. Please feel free to
+This is a [routine](/routines/) to perform a selection sort on
+an [array](/basics/array/) in descending order. Please feel free to
 modify and improve. [Here](http://en.wikipedia.org/wiki/Selection_sort)
 is the Wiki entry for Selection Sort.
 
-*See also: [Sort.h](Sort.h) (a selection sorting library
+*See also: [Sort.h](/contributions/sort.h/) (a selection sorting library
 contribution)*
 
 <!-- -->

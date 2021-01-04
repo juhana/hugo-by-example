@@ -5,10 +5,10 @@ categories:
   - Global Variables
 ---
 
-`system_status` is a [compiler](Hugo_Compiler)-defined
-[global variable](globals). It exists entirely to hold values
-returned from [system](system) or
-[resource](resources) calls. If a system function is not
+`system_status` is a [compiler](/basics/compiler/)-defined
+[global variable](/basics/global/). It exists entirely to hold values
+returned from [system](/guts/system/) or
+[resource](/basics/resources/) calls. If a system function is not
 available on the current interpreter being used, the `system` call will
 set `system_status` as -1. If there is no problem, `system_status` is
 set to 0. Some uses:
@@ -18,7 +18,7 @@ set to 0. Some uses:
     of a turtle, but this interpreter doesn't support graphics\]"
 2.  Two of Mike Snyder's games, Distress and Tales of the Traveling
     Swordsman, call `system(PAUSE_100TH_SECOND)` as a
-    [glk](glk) check
+    [glk](/definitions/glk/) check
 
 <!-- -->
 
@@ -34,8 +34,7 @@ set to 0. Some uses:
         }
     }
 
-*([Glk.h](Glk.h), on the other hand, checks "glk-ness" by
-checking display.windowlines.)*
+*(Glk.h, on the other hand, checks "glk-ness" by checking display.windowlines.)*
 
 ## system_status values
 

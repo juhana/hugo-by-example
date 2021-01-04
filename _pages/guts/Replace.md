@@ -11,18 +11,18 @@ feature that the first step of writing a Hugo game is not throwing the
 Hugo Library into a text editor and modifying it to your means. With
 `replace` we never have to change anything *within* the files
 themselves; everything can be handled externally. In the matter of
-[constants](Constants), one defines them before the library
+[constants](/basics/constants/), one defines them before the library
 files are **\#include**'d. For routines and object classes, yeah, we use
 `replace`.
 
 The replacement of routines is covered on the
-[routine](Routine#Replacing_a_previously_defined_routine)
-page, so we'll take a moment to go over the replacement of [object
-classes](Object_Classes): The main thing to keep in mind is
+[routine](/routines/)
+page, so we'll take a moment to go over the replacement of
+[object classes](/basics/object_classes/): The main thing to keep in mind is
 that this replacement *must* be declared before your game code has any
 objects of this particular class.
 So, let's pretend you have a game where every character is
-[unfriendly](Attributes), but you don't want to write "is
+[unfriendly](/attributes/), but you don't want to write "is
 unfriendly" on every character because that is SO MUCH WORK. You could
 do this:
 

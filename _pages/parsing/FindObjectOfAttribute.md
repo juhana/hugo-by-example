@@ -7,7 +7,7 @@ categories:
 ---
 
 `FindObjectOfAttribute` is just a modification of
-[FindObjectOfType](FindObjectOfType) to work with attributes
+[FindObjectOfType](/parsing/findobjectoftype/) to work with attributes
 instead of types. It was created mainly with characters in mind, who can
 be of type "character" or type "female_character". Now the author can
 check for attribute "living"! `FindObjectOfAttribute` ignores the player

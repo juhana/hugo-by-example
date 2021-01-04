@@ -14,9 +14,9 @@ applicable to multiple games.
 
 ## `Message` and `VMessage`
 
-The routines `Message` (in [hugolib.h](Hugolib.h)),
-`VMessage` (in [verblib.h](Verblib.h_g)), and `OMessage` (in
-[objlib.h](Objlib)) work in an identical fashion, so we will
+The routines `Message` (in [hugolib.h](/library/hugolib.h/)),
+`VMessage` (in [verblib.h](/library/verblib/)), and `OMessage` (in
+*objlib.h*) work in an identical fashion, so we will
 cover them together.
 
 
@@ -78,7 +78,7 @@ Lastly, an abridged `OMessage`
 Notice how `Message`, `VMessage`, and `OMessage` check for
 `NewMessages`, `NewVMessages`, and `NewOMessages` routines,
 respectively? Those are what we use to change messages or provide a new
-one. We'll [replace](Replace) them.
+one. We'll [replace](/guts/replace/) them.
 
     replace NewMessages(r, num, a, b)
     {

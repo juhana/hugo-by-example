@@ -22,7 +22,7 @@ the right, e.g. 6/3 is 2.
 
 1.  In an arithmetic expression, multiplies the two values together,
     e.g. 6\*3 is 18.
-2.  In an [enumerate](enumerate) command, used to specify an
+2.  In an [enumerate](/guts/enumerate/) command, used to specify an
     increment on the *step* parameter. In an example from the book:
 
 ```
@@ -42,7 +42,7 @@ operator produce a true/false result
 **not** : boolean operator which produces a result by inverting the "B"
 value to the right of the operator
 
-**[is](is)** : used to test whether an [attribute](attribute) is set in an [object](object)
+**[is](/attributes/is/)** : used to test whether an [attribute](/attributes/) is set in an [object](/globals/object/)
 
     if (Managers_Office is light)
 

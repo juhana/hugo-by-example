@@ -5,12 +5,12 @@ categories:
   - Hugo Guts
 ---
 
-`system` is a function built-in to the [Hugo
-engine](Hugo_Engine) that calls "low-level system functions."
+`system` is a function built-in to the
+[Hugo engine](/interpreters/he/) that calls "low-level system functions."
 While it's certainly possible to just call the system functions by their
-(built-in) number, [including](include)
-["system.h"](system.h) will define several
-[constants](constants) which act as a key. These functions
+(built-in) number, including
+["system.h"](/library/system.h/) will define several
+[constants](/basics/constants/) which act as a key. These functions
 include:
 
 <table>
@@ -31,12 +31,12 @@ include:
 <tr class="even">
 <td><p>21</p></td>
 <td><p>NORMALIZE_RANDOM</p></td>
-<td><p>Make random numbers predictable (used by <a href="HugoFix">HugoFix</a>)</p></td>
+<td><p>Make random numbers predictable (used by HugoFix)</p></td>
 </tr>
 <tr class="odd">
 <td><p>22</p></td>
 <td><p>INIT_RANDOM</p></td>
-<td><p>Restore “random” random values(used by <a href="HugoFix">HugoFix</a>)</p></td>
+<td><p>Restore “random” random values(used by HugoFix)</p></td>
 </tr>
 <tr class="even">
 <td><p>31</p></td>

@@ -5,7 +5,7 @@ categories:
   - Replacements
 ---
 
-[EndGame](EndGame) both calls the "Would you like to
+[EndGame](/routines/endgame/) both calls the "Would you like to
 \[R\]estart..." message and interprets whatever the player enters,
 directing it towards the right command. As important as this is to any
 game, the original routine isn't optimized for configurability (for
@@ -21,12 +21,12 @@ fix that, too.
 ### What it fixes
 
 1.  Adds an "end_type" parameter to
-    [Message(&EndGame)](Messages) calls, so that the messages
+    [Message(&EndGame)](/basics/messages/) calls, so that the messages
     can be adapted to the current ending (end_type is set to the
-    [endflag](endflag) value that initiated the endgame
+    [endflag](/globals/endflag/) value that initiated the endgame
     routines).
 2.  Moves the key-response code into another
-    [replaceable](replace) routine, which is hopefully easier
+    [replaceable](/guts/replace/) routine, which is hopefully easier
     to adapt. Checking for the value of end_type, one can make options
     only available under certain circumstances. After processing the
     command, set the `r` local value to `-1` if you want to stay within

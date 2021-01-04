@@ -8,13 +8,13 @@ categories:
 
 `NewParseError` allows you to replace individual parser messages
 including those defined by the engine (see the
-[ParseError](ParseError) entry for a list of error messages).
+[ParseError](/parsing/parseerror/) entry for a list of error messages).
 This is useful for catering existing error messages to your game.
 
 #### Example
 
 All you have to do is replace the `NewParseError` routine defined by
-[hugolib.h](Hugolib.h):
+[hugolib.h](/library/hugolib.h/):
 
     replace NewParseError(errornumber,obj)
     {

@@ -6,7 +6,7 @@ categories:
   - Object Tree
 ---
 
-The object tree is the hierarchy of [objects](objects) in the
+The object tree is the hierarchy of [objects](/basics/objects/) in the
 Hugo world that you create. The object tree is the internal
 representation of the relationships between the various objects in the
 game.
@@ -97,19 +97,15 @@ eldest(counter)</p></td>
 Now, let's take a look at the table if the player types the following
 commands in the game
 
-<div class="output">
-
-&gt;Get eggs. Put eggs on the plate.
-
-</div>
+>&gt;Get eggs. Put eggs on the plate.
 
 The object tree will now look like this:
 
-![<File:object_tree_2.jpg>](object_tree_2.jpg "File:object_tree_2.jpg")
+![Object tree](/assets/images/object tree 2.jpg)
 
 As you can see, the parent of *eggs* has become the *plate* object.
 
-When creating an object, use the `in `<object> command to place it in a
+When creating an object, use the `in <object>` command to place it in a
 certain part of the tree.
 
     object table "kitchen table"
@@ -129,8 +125,8 @@ default to **nothing**.
 
 ### The `nearby` property
 
-You can also use the command `nearby` or `nearby `<object> to give
-object the same parent as <object>, or if <object> is not specified, the
+You can also use the command `nearby` or `nearby <object>` to give
+object the same parent as `<object>`, or if `<object>` is not specified, the
 same parent as the last-defined object.
 
     object eraser "chalkboard eraser"
@@ -154,8 +150,8 @@ Generally, it's a lot safer to check up the object tree instead of down.
 **if child(object) = other_object** will only work when `other_object`
 is the oldest child in the tree.
 
-On the flip side of that coin, though, are statements like **if
-parent(object) = location**. If you're checking on the player, it'll be
+On the flip side of that coin, though, are statements like 
+**if parent(object) = location**. If you're checking on the player, it'll be
 false if the player is in a vehicle or on a platform (like a chair). If
 you're checking for an object, it'll be false if it's on a platform or
 in a container or in the player's possession, even. This might be
@@ -163,9 +159,9 @@ obvious right now- as you've just read this page- but it's easy to
 forget!
 
 To get around these issues, you'll want to use routines like
-[Contains](Contains), which checks to see if an object is a
+[Contains](/routines/contains/), which checks to see if an object is a
 child or grandchild of another object, or
-[FindObject](FindObject), which checks to see if an object is
+[FindObject](/scope/findobject/), which checks to see if an object is
 in a specific location. It even returns a special value if it can be
 seen but can't be reached (like in a closed, transparent container).
 

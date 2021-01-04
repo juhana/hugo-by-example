@@ -98,4 +98,4 @@ descriptions.
 
 So yeah, that's the longer way to do it. If command mimesis is not the
 most important thing in your game, go take a look at
-[Quick Shipboard Directions](Quick_Shipboard_Directions).
+[Quick Shipboard Directions](/tips/quick-shipboard-directions/).

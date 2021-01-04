@@ -5,7 +5,7 @@ categories:
   - Definitions
 ---
 
-`cheapglk` is the bare-bones version of [glk](glk). Cheapglk
+`cheapglk` is the bare-bones version of [glk](/definitions/glk/). Cheapglk
 codebases are often used for non-traditional IF environments, like when
 someone writes a play-IF-by-instant-message bot (or an IRC bot or what
 have you)- environments where fonts and things are ignored completely.

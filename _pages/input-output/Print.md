@@ -57,7 +57,7 @@ to force the print statement to start a new line.
 ------------------------------------------------------------------------
 
 The print statement can also be used to print out
-[variables](variables) or [constants](constants)
+[variables](/basics/variables/) or [constants](/basics/constants/)
 or data types.
 
 ```
@@ -71,14 +71,14 @@ print "The "; object.name; " is closed."
 >The coffee-can is closed.
 >&gt;_
 
-In line 1, we set the [variable](Variables) *age* to the
+In line 1, we set the [variable](/basics/variables/) *age* to the
 value of 100.
 In line 3, we print out some text and the *age* variable, specifying
 that we want to print the number value instead of the dictionary
 definition of *age*.
 In line 4, we print out some text and the value pointed to by
 *object.name* (in this case, the object.name is **coffee-can**) ( see
-[objects](objects) for more information. )
+[objects](/basics/objects/) for more information. )
 
 ### Printing from the text bank
 

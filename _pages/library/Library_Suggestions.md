@@ -1,6 +1,6 @@
 ---
 title: Library Suggestions
-permalink: /library/library-suggestions
+permalink: /library/library-suggestions/
 categories: 
   - Hugo Library
 ---
@@ -15,7 +15,7 @@ upon the world).
 New/improved property ideas go here (remember that name, before, after,
 noun, adjective and article are hard-coded into the compiler)
 
--   *[Dynamic Name](Dynamic_Name)* - This feature (called
+-   *[Dynamic Name](/tips/dynamic-name/)* - This feature (called
     **dynname**) causes the name of a room to be created dynamically,
     that is, programmatically. I had to put it in because changing the
     "name" property on a room in some cases triggered a "MORE" prompt
@@ -24,7 +24,7 @@ noun, adjective and article are hard-coded into the compiler)
 
 ### New Attributes
 
-The standard [attributes](attribute) are okay, but sometimes
+The standard [attributes](/attributes/) are okay, but sometimes
 you may want to do something different in a game. Here are a few
 suggestions you might use for attributes that aren't in the predefined
 list, but are useful for things in your game. And included are ideas on
@@ -39,7 +39,7 @@ Incoming_Teleport/Outgoing_Teleport, etc.
 
 -   **Abandoned** - Changes the description, make it more gothic.
 -   **Ammo** - that which reloads a **Weapon**, you can create a
-    [property](property) or another attribute to say what
+    [property](/properties/) or another attribute to say what
     kind, but you can just put a check in, if you had a "reload"
     command, if the item they want to reload isn't ammo, then you just
     ignore it
@@ -141,8 +141,8 @@ Incoming_Teleport/Outgoing_Teleport, etc.
 -   **New** - Or **old** or **young** or **used**
 -   **Noisy** - Some things might be, or **quiet** or **silent** or
     **loud**
--   **NOT** - while there is a "[not](not)"
-    [keyword](keyword), if a particular condition tends to
+-   **NOT** - while there is a `not`
+    keyword, if a particular condition tends to
     normally be negated, putting **NOT** as a prefix may be easier to
     understand; can be used as a modifier, **NotWet** instead of
     **Dry**, **NOTUsed** instead of **NEW**, **NotNew**, **NotFrozen**
@@ -257,13 +257,3 @@ etc. This handles numbers from 1 to 99.
          case 0
              return "th "
     }
-
-
-### Others
-
-Ok, so I added this page while at work, and couldn't really go through
-all the library files to come up with more section headers, but other
-stuff goes here.
-
-Just got home and printed out the files of the Standard Hugo Library
-(184 pages) so it's gonna take a while to go through them.

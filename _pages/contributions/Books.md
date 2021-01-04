@@ -20,8 +20,8 @@ categories:
 `Books.hug` is Kent Tessman's `ob_book.hug` file from the Future Boy!
 Selected Source release with a few changes (the name was changed, some
 lines were commented out, and a necessary routine from `misc.hug` was
-added). As such, it adheres to [its
-license](Future_Boy_Selected_Source_License). You can
+added). As such, it adheres to 
+[its license](/misc/future-boy-license/). You can
 download it [here](http://roody.gerynarsabode.org/hbe/books.hug).
 
 ## Book Example

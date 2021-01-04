@@ -5,16 +5,16 @@ categories:
   - Classes
 ---
 
-| From [objlib.h](Objlib)                                                                                                                                                                                                                                                                                                                       |
+| From *objlib.h*                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Components are essentially movable scenery objects, which are considered to be attached to another object. The part_of property is initialized with the object of which the new object is a component. Note that children of components are not listed in the room description; their children are, however, listed when directly examining the object. |
 
-# components (object [class](Object_Classes))
+# components (object [class](/basics/object_classes/))
 
 `Components`, simply enough, are objects that are *part of* another
 object. The way this is handled is not through some kind of container or
 platform modeling. Instead, it involves a bit of
-[scope](Scope) trickery. Let's take a look at the code:
+[scope](/scope/) trickery. Let's take a look at the code:
 
     property part_of alias found_in
 
@@ -57,11 +57,11 @@ platform modeling. Instead, it involves a bit of
     }
 
 The `component` class uses the `part_of`
-[property](Properties), which is just an
-[alias](Alias) of [found_in](Found_in). Like all
-[found_in](Found_in) objects, this means that the component
+[property](/properties/), which is just an
+[alias](/basics/alias/) of [found_in](/scope/found_in/). Like all
+[found_in](/scope/found_in/) objects, this means that the component
 object is not in the same room as its "parent" object according to the
-[object tree](Object_Tree), but it is accessible wherever
+[object tree](/basics/object_tree), but it is accessible wherever
 that object may be. As you can see above, it also has code to redirect
 certain commands to that "parent" object.
 

@@ -32,18 +32,13 @@ Hugor does not support movies or context menus.
 
 ## Links
 
--   [Hugor for
-    Linux](http://foss.aegean.gr/~realnc/hugor/hugor-linux.tar.bz2)
--   [Hugor for Intel Macs (OS X
-    10.5+)](http://foss.aegean.gr/~realnc/hugor/Hugor-intel.dmg)
--   [Hugor for PPC Macs (OS X
-    10.5)](http://foss.aegean.gr/~realnc/hugor/Hugor-ppc.dmg)
--   [Hugor for
-    Windows.](http://foss.aegean.gr/~realnc/hugor/Hugor-w32.zip)
+-   [Hugor for Linux](http://foss.aegean.gr/~realnc/hugor/hugor-linux.tar.bz2)
+-   [Hugor for Intel Macs (OS X 10.5+)](http://foss.aegean.gr/~realnc/hugor/Hugor-intel.dmg)
+-   [Hugor for PPC Macs (OS X 10.5)](http://foss.aegean.gr/~realnc/hugor/Hugor-ppc.dmg)
+-   [Hugor for Windows.](http://foss.aegean.gr/~realnc/hugor/Hugor-w32.zip)
 
 <!-- -->
 
--   [Original
-    thread](http://www.intfiction.org/forum/viewtopic.php?f=38&t=2570)
+-   [Original thread](http://www.intfiction.org/forum/viewtopic.php?f=38&t=2570)
     on intfiction.org.
 -   [Git](http://www.assembla.com/spaces/hugor) source code repository.

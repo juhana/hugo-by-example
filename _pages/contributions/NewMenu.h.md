@@ -5,15 +5,15 @@ categories:
   - Library Contributions
 ---
 
-`NewMenu` is the b\*\*\*\*\*\*d stepchild of [Menu](Menu) and
-the [Guilty Bastards hint system](Hints). It aims to make
+`NewMenu` is the b\*\*\*\*\*\*d stepchild of Menu and
+the [Guilty Bastards hint system](/tips/hints/). It aims to make
 game menus quicker and easier to set-up, and hopefully, they'll look
 nice, too! Download it
 [here](http://roody.gerynarsabode.org/hbe/newmenu.zip).
 
 # Why NewMenu?
 
-The [Hugo Library's](Hugo_Library) [Menu](Menu)
+The [Hugo Library's](/library/) Menu
 routine is a fine thing. It allows menus-within-menus and if you borrow
 code from Guilty Bastards, you can have a fairly kickin' hint system.
 Still, I, Roody Yogurt, wasn't completely happy with it. I found the
@@ -47,8 +47,8 @@ To fix these things, `NewMenu` attempts to do the following:
 
 To use NewMenu:
 
-1.  [\#include](Include) "newmenu.h" after "hugolib.h". If
-    you want "cheap" support, [\#set](set) `CHEAP` before
+1.  \#include "newmenu.h" after "hugolib.h". If
+    you want "cheap" support, \#set `CHEAP` before
     including "newmenu.h".
 2.  If you'd like to use the default menu, `#set USE_DEFAULT_MENU`
     before "newmenu.h" is included.
@@ -108,6 +108,8 @@ These are the choices that will populate the message.
 4.  `menu_text` is the text that shows up when someone chooses this
     option.
 5.  To lead to another menu, we can do this:
+
+<!-- -->
 
     option option_choice "CHOICE LEADING TO SUBMENU"
     {

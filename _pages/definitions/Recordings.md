@@ -6,11 +6,11 @@ categories:
   - Basics
 ---
 
-Recordings are similar to [transcripts](transcripts). Instead
+Recordings are similar to [transcripts](/definitions/transcript/). Instead
 of writing all text to a text file, only commands are saved. The main
 purpose of recordings is so that authors can quickly get through
 sections of games, as saved games won't work over multiple compiles.
-Anything entered at the main prompt or [input](input) is
+Anything entered at the main prompt or [input](/input-output/input/) is
 written to the file; individual keypresses during pauses and such are
 not.
 

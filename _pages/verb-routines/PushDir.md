@@ -215,7 +215,7 @@ That gives us:
 ### Requirements
 
 `DoPushDirTo` has been updated to require the
-[mobile](Attributes) attribute, as that is a seldom used
+[mobile](/attributes/) attribute, as that is a seldom used
 attribute somewhat meant for such things (it is also used for attachable
 objects, so if your game uses attachables, you may need to use something
 else). You also need to be mindful of your exit code, putting all "You

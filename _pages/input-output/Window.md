@@ -71,7 +71,7 @@ Because many interpreters are being run in a GUI (Windows/OS X), there's
 a chance that the player will be changing the size of the game window as
 play progresses. Because of this, it is a good idea not to hard-code the
 width and/or height of the sub window(s). Use the built-in
-[display](display) object to get the current window size.
+[display](/guts/display-object/) object to get the current window size.
 
     ! bad way, will not re-adjust itself when user resizes the game window.
     window 1, 1, 40, 15
@@ -95,9 +95,9 @@ width and/or height of the sub window(s). Use the built-in
 
 ## Using the window class
 
-In the [hugo library](Hugo_Library), there's a file that can
+In the [hugo library](/library/), there's a file that can
 be included that makes it a little easier to use windows by defining a
-window class (see [window.h](window.h))
+window class (see [window.h](/library/window.h/))
 
 Below is sample code that divides the game window into 3 windows, an
 extra description area in the upper left of the game screen, an

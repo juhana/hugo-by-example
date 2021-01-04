@@ -104,7 +104,7 @@ quick routine that handles this for us automatically!
                    }
         }
 3.  Now let's get into the actual score notification stuff. First, add a
-    "ScoreNotify" call to [main](main), after runevents and
+    "ScoreNotify" call to [main](/routines/main/), after runevents and
     RunScripts (but before PrintStatusLine):
         routine main
         {

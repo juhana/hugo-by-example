@@ -5,14 +5,14 @@ categories:
   - Routines
 ---
 
-`WhatsIn(object)` lists the possessions of the specified parent, according the form given by the global [FORMAT](FORMAT). Returns the number of objects listed. Also calls: [SpecialDesc](SpecialDesc), [ListObjects](ListObjects)
+`WhatsIn(object)` lists the possessions of the specified parent, according the form given by the global [FORMAT](/globals/format/). Returns the number of objects listed. Also calls: [SpecialDesc](/routines/specialdesc/), [ListObjects](/routines/listobjects/)
 
 Basically, `WhatsIn` is the routine that lists everything in an open or
 transparent container (or platform) when you `>LOOK` around or examine
 that aforementioned container. In older versions of the Hugo library,
 one would have to call `WhatsIn` manually, but these days, routines like
-[DescribePlace](DescribePlace), [DoLook](DoLook),
-or [DoLookIn](DoLookIn) will do it for you.
+[DescribePlace](/guts/describeplace/), [DoLook](/verb-routines/dolook/),
+or [DoLookIn](/verb-routines/dolookin/) will do it for you.
 
 >Inside the small mailbox is a leaflet.
 
@@ -23,7 +23,7 @@ prints, "You are carrying..." In the above example, the object (the
 mailbox) is a container, causing it to print, "Inside the "
 &lt;object name&gt; " is..."
 
-[ListObjects](ListObjects) is then called and lists all
+[ListObjects](/routines/listobjects/) is then called and lists all
 applicable objects in the right format.
 
 ## The code

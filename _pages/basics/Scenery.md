@@ -6,7 +6,7 @@ categories:
   - Classes
 ---
 
-From [objlib.h](Objlib):
+From *objlib.h*:
 
 >Scenery objects are accessible to actions, but are not individually listed as part of the room contents (although their children are). They are intended to be mentioned in the room description, and still require explicit names, articles, nouns, and adjectives. The type property of a scenery object should never be changed.
 
@@ -27,8 +27,8 @@ From [objlib.h](Objlib):
         is static, hidden
     }
 
-The [static](Attributes) attribute keeps the player from
-moving or getting the object. The [hidden](Attributes)
+The [static](/attributes/) attribute keeps the player from
+moving or getting the object. The [hidden](/attributes/)
 attribute keeps the item from being listed as a room content. This is
 why the `scenery` class is often used for objects already mentioned in a
 room's description or for objects that are strongly implied.

@@ -7,21 +7,21 @@ categories:
 
 Someone looking to play a Hugo game has several choices of interpreter:
 
-1.  [Hugo_engine](Hugo_engine)- As the official Hugo
+1.  [Hugo_engine](/interpreters/he/)- As the official Hugo
     interpreter, in many cases, this is what is encouraged among
     players. Unfortunately, Mac and Linux players often have trouble
     getting it set up, and movies no longer work under Windows 7.
-2.  [Hugor](Hugor)- Newcomer to the scene, interpreter Hugor
+2.  [Hugor](/interpreters/hugor/)- Newcomer to the scene, interpreter Hugor
     is a godsend to Mac and Linux players- and makes some nice design
     decisions to boot. For one thing, music is muted, not paused, when
     the screen is minimized, allowing authors to know exactly when songs
     will end. It doesn't play movies, but as far as Windows 7 is
     concerned, it also means the program won't hang.
-3.  [Gargoyle](Gargoyle)- A popular
-    [glk](glk)-based "multi-interpreter".
+3.  [Gargoyle](/interpreters/gargoyle/)- A popular
+    [glk](/definitions/glk/)-based "multi-interpreter".
 
 There are several other interpreters (of course, even the
-[Debugger](Debugger) can be used as an interpreter), but
+[Debugger](/basics/debugger/) can be used as an interpreter), but
 those three are the most popular. Just the same, some others-
 
 1.  **Hugo winglk**- There are some (well, at least one) official Hugo
@@ -34,5 +34,5 @@ those three are the most popular. Just the same, some others-
     non-multimedia games.
 3.  **ggzc ("the poor man's interactive fiction player")**- This
     bare-bones Linux interpreter may be a good way to check out how a
-    game looks in a [cheapglk](cheapglk) interpreter.
+    game looks in a [cheapglk](/definitions/cheapglk/) interpreter.
 4.  **IFP**- Some kind of Linux multi-interpreter.

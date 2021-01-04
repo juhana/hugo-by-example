@@ -7,13 +7,13 @@ categories:
 
 ### What it fixes
 
-1.  The `before` routine now returns a [direction](direction)
+1.  The `before` routine now returns a [direction](/classes/direction/)
     if it is a valid exit direction. Otherwise, it prints the regular
     "To walk, you'll have to get out..." message and returns true. This
     way, the `before` routine should be easy enough to
-    [replace](replace). If need be, the author can throw any
+    [replace](/guts/replace/). If need be, the author can throw any
     further modification into the vehicle's
-    [react_before](react_before) property.
+    [react_before](/properties/react_before/) property.
 
 ### The code
 

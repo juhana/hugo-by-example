@@ -5,8 +5,8 @@ categories:
   - Verbs
 ---
 
-**look** is a [verb](verb) defined by the [standard
-library](standard_library). It is used by the user to ask for
+**look** is a [verb](/declarations/verb/) defined by the
+[standard library](/library/). It is used by the user to ask for
 a description of the room they are inside.
 
-See Also: [examine](examine)
+See Also: [examine](/verbs/examine/)

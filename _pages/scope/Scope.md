@@ -11,12 +11,12 @@ player-character (PC for short) can interact with a specific object. For
 example, let's say the PC is in a kitchen, and he (or she) can see a
 breadbox, and that the breadbox is closed. Inside the breadbox is a key.
 
-The PC can interact with the breadbox. (He can e**x**amin it, pick it
+The PC can interact with the breadbox. (He can e**x**amine it, pick it
 up, etc...). The breadbox is said to be "in scope". Until he opens the
 box, he cannot interact with the key. The key is considered "out of
 scope".
 
-Generally, the Hugo [parser](parser) uses scope rules to
+Generally, the Hugo [parser](/categories/#parsing) uses scope rules to
 determine what the PC is referring to.
 
 ### Scope (Programming)
@@ -44,12 +44,8 @@ where it's defined.
 
 The above code sample will print out the following:
 
-<div class="output">
-
-Current global threat level is 3
-The local variable says "I'm local"
-
-</div>
+>Current global threat level is 3  
+>The local variable says "I'm local"
 
 If the gVariable line was left out of the above example, the compiler
 would stop and give you an error message.

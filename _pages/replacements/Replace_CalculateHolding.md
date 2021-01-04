@@ -7,10 +7,10 @@ categories:
 
 ### What it fixes
 
-[CalculateHolding](CalculateHolding) doesn't count
-[worn](worn) objects against a player's
-[capacity](capacity). Since the [mobile](mobile)
-[attribute](attribute) is [aliased](alias) to
+[CalculateHolding](/routines/calculateholding/) doesn't count
+[worn](/attributes/worn/) objects against a player's
+[capacity](/properties/capacity/). Since the [mobile](/attributes/mobile/)
+[attribute](/attributes/) is [aliased](/basics/alias/) to
 `worn`, in the rare instances that an object is `mobile` *and* can be
 picked up, those items are not being counted towards player (and
 container) capacities. This fixes that.

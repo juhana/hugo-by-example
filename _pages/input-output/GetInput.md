@@ -5,9 +5,9 @@ categories:
   - Input-Output
 ---
 
-`GetInput` is a small [hugolib.h](hugolib.h)
-[routine](routine) for printing a quick prompt and waiting
-for an [input](input).
+`GetInput` is a small [hugolib.h](/library/hugolib.h/)
+[routine](/routines/) for printing a quick prompt and waiting
+for an [input](/input-output/input/).
 
 ## The code
 

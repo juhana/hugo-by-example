@@ -6,7 +6,7 @@ categories:
   - Routines
 ---
 
-Here are a couple unofficial [routines](routines) for
+Here are a couple unofficial [routines](/routines/) for
 manipulating string arrays.
 
 ## Lowercase

@@ -5,6 +5,6 @@ categories:
   - Global Variables
 ---
 
-In a [score](Scoring)-tracking game, the 
-[global variable](Globals) `MAX_SCORE` is set to the maximum number
+In a [score](/tips/scoring/)-tracking game, the 
+[global variable](/basics/global/) `MAX_SCORE` is set to the maximum number
 of points the player can achieve. I mean, duh, really.

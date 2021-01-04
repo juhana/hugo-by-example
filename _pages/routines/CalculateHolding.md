@@ -5,14 +5,14 @@ categories:
   - Routines
 ---
 
-`CalculateHolding` is a [hugolib.h](hugolib.h)
-[routine](routine) used by [Acquire](Acquire) to
-determine how much a [container](container) is already
+`CalculateHolding` is a [hugolib.h](/library/hugolib.h/)
+[routine](/routines/) used by [Acquire](/guts/acquire) to
+determine how much a [container](/attributes/container/) is already
 holding (which then determines if it can receive anything else). This is
 one of the reasons that Hugo prefers that every container has
-[holding](holding) (which can just be "0", as
-`CalculateHolding` will rewrite it) and [capacity](capacity)
-[properties](properties).
+[holding](/properties/holding/) (which can just be "0", as
+`CalculateHolding` will rewrite it) and [capacity](/properties/capacity/)
+[properties](/properties/).
 
 ## The code
 

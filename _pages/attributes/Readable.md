@@ -5,11 +5,11 @@ categories:
   - Attributes
 ---
 
-The `readable` [attribute](attribute) signifies that an
+The `readable` [attribute](/attributes/) signifies that an
 object can be used with the verbs "read" and "peruse." Even still, the
-[Standard Library](Standard_Library) will just direct the
-action to [DoLook](DoLook), so without replacing [verb
-grammar](verb_grammar) or creating a `DoRead` routine, to
+[Standard Library](/library/) will just direct the
+action to [DoLook](/verb-routines/dolook/), so without replacing
+[verb grammar](/basics/grammar/) or creating a `DoRead` routine, to
 offer a different response, one could do something like this:
 
     object chainsaw "chainsaw"

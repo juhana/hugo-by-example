@@ -11,7 +11,7 @@ something keeps a command from being successfully executed, whether it
 be a mistyped word or referring to an unknown object or what have you.
 
 Normally, when we want to change particular error messages, we replace
-[NewParseError](NewParseError), but since we must be aware of
+[NewParseError](/parsing/newparseerror/), but since we must be aware of
 the various error numbers and what they stand for, it is good to be
 familiar with `ParseError`'s default messages.
 

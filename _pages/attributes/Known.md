@@ -5,16 +5,16 @@ categories:
   - Attributes
 ---
 
-`known` is an [attribute](attribute) for keeping track of
+`known` is an [attribute](/attributes/) for keeping track of
 whether a player has seen something yet. Unlike the
-[moved](moved) attribute, it requires no direct interaction.
+[moved](/attributes/moved/) attribute, it requires no direct interaction.
 For objects not originally defined with the `known` attribute, objects
-are given it by routines like [FindObject](FindObject),
-[DescribePlace](DescribePlace),
-[ShortDescribe](ShortDescribe),
-[AddSpecialDesc](AddSpecialDesc),
-[ListObjects](ListObjects), and
-[RunScripts](RunScripts) as you happen upon them.
+are given it by routines like [FindObject](/scope/findobject/),
+[DescribePlace](/guts/describeplace/),
+[ShortDescribe](/routines/shortdescribe/),
+AddSpecialDesc,
+[ListObjects](/routines/listobjects/), and
+[RunScripts](/routines/runscripts/) as you happen upon them.
 
 ## Using `known` to fake knowledge
 

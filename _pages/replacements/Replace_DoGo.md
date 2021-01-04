@@ -8,12 +8,12 @@ categories:
 ### What it fixes
 
 1.  Makes the "You'll have to get up..." message more
-    [platform](platform) and
-    [container](container) specific.
-2.  Has new [vehicle](vehicle)-specific code to allow
+    [platform](/attributes/platform/) and
+    [container](/attributes/container/) specific.
+2.  Has new [vehicle](/classes/vehicle/)-specific code to allow
     `parent(player).before` code with greater freedom for different
-    directions that will exit. Requires this [vehicle
-    replacement](replace_vehicle) to work.
+    directions that will exit. Requires this
+    [vehicle replacement](/replacements/vehicle/) to work.
 3.  Also removes the jump.
 
 ### The code

@@ -7,7 +7,7 @@ categories:
 
 ### What it fixes
 
-The original just has a typo in the [for](for) loop.
+The original just has a typo in the [for](/loops/for/) loop.
 
 ### The code
 

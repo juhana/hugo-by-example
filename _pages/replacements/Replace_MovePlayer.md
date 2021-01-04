@@ -7,12 +7,12 @@ categories:
 
 ### What it fixes
 
-If not interrupted by a [before](before) routine, the
-original sets [event_flag](event_flag) to
-[true](true) (1). This is annoying when you have already set
-[event_flag](event_flag) to 2 and don't want the player to
+If not interrupted by a [before](/properties/before/) routine, the
+original sets [event_flag](/globals/event_flag/) to
+[true](/definitions/true/) (1). This is annoying when you have already set
+[event_flag](/globals/event_flag/) to 2 and don't want the player to
 be interrupted with a "Do you want to keep waiting?" message. This fixes
-that. It also gets rid of the [jump](jump) command.
+that. It also gets rid of the [jump](/guts/jump/) command.
 
 ### The code
 

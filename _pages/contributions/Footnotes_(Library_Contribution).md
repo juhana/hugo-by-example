@@ -10,7 +10,7 @@ games like Guilty Bastards and Stationfall, attempts to make footnotes
 easy! Unlike those other games, this system uses a "chronological"
 design- footnotes are only accessible after the prompting text has been
 seen, and footnotes are numbered by the order they are seen. Compared to
-the method used in [Guilty Bastards](Guilty_Bastards_Infocom-Style_Footnotes),
+the method used in [Guilty Bastards](/tips/infocom-footnotes/),
 this system uses a footnote object (with its various aliased properties) to
 keep track of states instead of arrays and globals.
 
@@ -21,15 +21,15 @@ Now let's take a look!
 
 To use the footnotes library extension:
 
-1.  [\#include](Include) "footnotes.g" in your grammar and
+1.  \#include "footnotes.g" in your grammar and
     "footnotes.h" after "hugolib.h"
 2.  Before "footnotes.h" is included, define a constant called
     MAXFOOTNOTES that tells the game how many possible footnotes there
     are:
             constant MAXFOOTNOTES 20
-3.  Put the call "FootnoteNotify" in the [main](main) routine
+3.  Put the call "FootnoteNotify" in the [main](/routines/main/) routine
     *after* calls to routines that might possibly print text, like
-    [runevents](Events) and [RunScripts](Scripts).
+    [runevents](/timers/events/) and [RunScripts](/characters/scripts/).
 4.  Add a "PrintFootnote" routine to your game, like the following:
         routine PrintFootnote(num)
         {

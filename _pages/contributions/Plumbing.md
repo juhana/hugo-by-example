@@ -12,7 +12,7 @@ and toilets. It consists of an object class of each, a water class to
 fill them, and some additional verb routines for verbs often associated
 with such. It is a modified version of the `ob_plumb.hug` file from the
 Future Boy! Selected Source code release, and as such, adheres to 
-[its license](Future_Boy_Selected_Source_License).
+[its license](/misc/future-boy-license/).
 Very little testing has been put into this contribution.
 
 ## Usage
@@ -23,7 +23,7 @@ Copy as much as you need from `plumbing.h` or `plumbing.g` to your game
 
 ## Additional Notes
 
-The plumbing objects in these files are [scenery](scenery),
+The plumbing objects in these files are [scenery](/basics/scenery/),
 just like they are in the original Future Boy! files, so be aware of
 that. Also, there was a bug in the original where **EMPTY SINK** would
 result in the fill_water object being dropped to the floor in the

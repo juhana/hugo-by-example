@@ -5,8 +5,8 @@ categories:
   - Global Variables
 ---
 
-If the `obstacle` [global
-variable](Variables#Global_Variables) is set to *anything*,
+If the `obstacle` 
+[global variable](/basics/global/) is set to *anything*,
 any command to leave the room results in "&lt;`obstacle` object&gt;
 stops you from leaving."
 
@@ -19,7 +19,7 @@ This is used in games like Spur or Guilty Bastards when characters speak
 to the player over several turns (like, mini-cut scenes). Of course, it
 could be used for other things, too, but those games show how it
 *especially* works for character "infodumps" in games with
-[ASK/TELL](DoAsk) conversation systems (it is somewhat
+[ASK/TELL](/verb-routines/doask/) conversation systems (it is somewhat
 believable that a character might answer side questions mid-oration).
 The point is, you don't want the player leaving the room and ruining
 everything.
@@ -47,7 +47,7 @@ let it follow its natural course."
 
 ## Default response
 
-[Messages](VMessage)'s `obstacle` response code is such:
+[Messages](/basics/messages/)'s `obstacle` response code is such:
 
         case &DoGo
         {
@@ -56,4 +56,4 @@ let it follow its natural course."
                 MatchSubject(obstacle); " you from going anywhere."
 
 If you want a different message, you'll need to
-[change](Messages#Custom_or_New_Routine_Responses) it.
+[change](/basics/messages/) it.

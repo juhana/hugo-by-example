@@ -6,7 +6,7 @@ categories:
 ---
 
 EditPlus is a commercial text editor for Windows. Most of its features
-are described in further detail on the [Supported Editors](Supported_Editors)
+are described in further detail on the [Supported Editors](/tools/editors/)
 page, but you can download a zip
 [here](http://roody.gerynarsabode.org/hbe/windows/editplus.zip) that has
 several additional files to use with it, including some clip text files,
@@ -111,7 +111,7 @@ following:
 So, yeah, I've found it very useful, especially since I've had problems
 with the official Windows compiler frontend (it hates when I switch
 directories after having compiled something else). It also helps out to
-set up your [environment variables](environment_variables),
+set up your [environment variables](/tips/environment-variables/),
 though.
 
 **To use:** Under "Tools", select "Configure User Tools" and set up

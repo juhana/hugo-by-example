@@ -5,7 +5,7 @@ categories:
   - Routines
 ---
 
-[Hugolib.h](Hugolib.h) provides some "auxiliary math
+[Hugolib.h](/library/hugolib.h/) provides some "auxiliary math
 routines", providing a range of useful functions.
 
 | Routine        | Returns:                                        |
@@ -29,7 +29,7 @@ two numbers falls within a specified range:
             return false
     }
 
-In games with multiple [windows](window), `mod` is nice for
+In games with multiple [windows](/input-output/window/), `mod` is nice for
 determining if you have an odd or even screen width (in characters):
 
             if mod(display.screenwidth,2)

@@ -5,8 +5,8 @@ categories:
   - Hugo Guts
 ---
 
-`DescribePlace` is a [hugolib.h](hugolib.h)-defined
-[routine](routine) that describes a room and lists its
+`DescribePlace` is a [hugolib.h](/library/hugolib.h/)-defined
+[routine](/routines/) that describes a room and lists its
 contents. It is called when the player types &gt;LOOK or enters a room
 for the first time (if they aren't in SUPERBRIEF mode). Having some
 familiarity with `DescribePlace` is important for understanding the
@@ -268,11 +268,11 @@ tweak `DescribePlace` for something sometime. If you're dying to get in
 on the action, try these things:
 
 -   If the player has the game in SUPERBRIEF mode, room
-    [initial_desc](initial_desc) properties are skipped
+    [initial_desc](/properties/descriptions/#initial_desc) properties are skipped
     completely. This could be troublesome if important information is
     there. Tweak `DescribePlace` so they are run anyways.
 -   Even in SUPERBRIEF mode, room contents' full
-    [short_desc](short_desc) properties are printed. Tweak
+    [short_desc](/properties/descriptions/) properties are printed. Tweak
     `DescribePlace` so it treats those objects like they have no
     `short_desc` property.
 -   Robb Sherwin's characters never have `short_desc`. Tweak

@@ -6,7 +6,7 @@ categories:
 ---
 
 `NewBoxdraw.h` is an updated version of Cardinal Teulbachs'
-[Boxdraw.h](Boxdraw.h). If a game is being played on a glk
+[Boxdraw.h](/library-contributions/boxdraw.h/). If a game is being played on a glk
 client such as Gargoyle, the boxes and epigrams are drawn as just normal
 blocks of text.
 
@@ -23,7 +23,7 @@ blocks of text.
 ### Other notes
 
 Besides including this extension, you'll want to add this to the
-[main](main) routine-
+[main](/routines/main/) routine-
 
             if epigram_on
                Box(true,1)

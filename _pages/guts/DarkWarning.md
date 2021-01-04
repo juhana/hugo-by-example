@@ -5,7 +5,7 @@ categories:
   - Hugo Guts
 ---
 
-*From [hugolib.h](hugolib.h):*
+*From [hugolib.h](/library/hugolib.h/):*
 
 >MovePlayer calls DarkWarning when there is no light source in the new
 >location; replace it with a new DarkWarning routine for a more elaborate

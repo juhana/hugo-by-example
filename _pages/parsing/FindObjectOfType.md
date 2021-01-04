@@ -13,7 +13,7 @@ Boy!** executes `FindObjectOfType` which goes through every object in
 the current location and returns the first object found of a certain
 type (like, a book).
 
-See [FindObjectOfAttribute](FindObjectOfAttribute) for a
+See [FindObjectOfAttribute](/parsing/findobjectofattribute/) for a
 version that works off of attributes.
 
 ## The code

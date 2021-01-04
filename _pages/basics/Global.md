@@ -5,14 +5,14 @@ categories:
   - Basics
 ---
 
-The **global** command defines a public [variable](variables)
+The **global** command defines a public [variable](/basics/variables/)
 which is available anywhere in the program at any time. All references
 to a global refer to the same variable and must have a unique name,
 different from any other global variable,
-[attribute](attributes), [property](property), or
-[object](objects). It is a
-[declaration](declarations) and is not executable
-[code](code).
+[attribute](/attributes/), [property](/properties/), or
+[object](/basics/objects/). It is a
+[declaration](/declarations/) and is not executable
+[code](/definitions/code/).
 
         ! Global variable to store the number of chocolate cake slices.
         global  cake_slice_count
@@ -90,7 +90,7 @@ next command to the game.)</p></td>
 </tbody>
 </table>
 
-The [Hugo Library](Hugo_Library) also defines several global
+The [Hugo Library](/library/) also defines several global
 variables, including:
 
 <table>
@@ -175,4 +175,4 @@ variables, including:
 </tbody>
 </table>
 
-See Also: [local](local)
+See Also: [local](/basics/locals/)

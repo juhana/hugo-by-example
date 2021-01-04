@@ -9,7 +9,7 @@ categories:
 The `color` command changes the color of the text and/or the background.
 
 For example, to change the color of the text to blue, use the code
-`color BLUE`. The Hugo [standard library](standard_library)
+`color BLUE`. The Hugo [standard library](/library/)
 defines the sixteen standard colors as:
 
 | Value | Color   | Constant name | Sample | Value | Color         | Constant name  | Sample |
@@ -44,7 +44,7 @@ colors. These default colors have their own values:
 As you can see, games without custom color definitions automatically set
 their colors to these values. If you *do* change some colors in your
 game, it is best to change all of the color
-[globals](Variables#Global_Variables). There is no way for
+[globals](/basics/variables/). There is no way for
 the game to know what the default colors are and therefore can't tell if
 you have, say, BLUE on BLUE.
 

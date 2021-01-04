@@ -6,7 +6,7 @@ categories:
 ---
 
 `Automap` is a library extension that adds several mapping possible
-mapping functions to your game. [Automapglk](Automapglk), an
+mapping functions to your game. Automapglk, an
 updated version, is recommended as it'll work on more interpreters, but
 the original still works under official Hugo interpreters.
 
@@ -183,12 +183,12 @@ grammar:
 
 `       "map"                     display automap (small map), reckoning from`
 `                                 player's location`
-`       "map from `<object>`"       display automap (small map), reckoning from`
+`       "map from <object>"       display automap (small map), reckoning from`
 `                                 specified location`
 
 `       "map game"                display full-screen map, reckoning from`
 `                                 player's location`
-`       "map game from `<object>`"  display full-screen map, reckoning from`
+`       "map game from <object>"  display full-screen map, reckoning from`
 `                                 specified location`
 
 Note that rooms are not typically given nouns, which means that there is

@@ -24,8 +24,8 @@ First, you replace the `CustomError` routine:
          return true
     }
 
-Then, in [PreParse](PreParse) or a [verb grammar
-routine](Grammar_Tokens#.28RoutineName.29) or wherever, when
+Then, in [PreParse](/parsing/preparse/) or a
+[[verb grammar routine](/basics/grammar-tokens/) or wherever, when
 you want the custom parser error message to be called, call
 `ParseError(100)` (or whatever case number you are trying to call).
-[ParseError](ParseError) will do the rest.
+[ParseError](/parsing/parseerror/) will do the rest.

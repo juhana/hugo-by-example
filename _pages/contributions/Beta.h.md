@@ -7,7 +7,7 @@ categories:
 ---
 
 `Beta.h` is a slightly modified version of Mike Snyder's update of Bert
-Byfield's [Comments in Transcripts](Comments_in_Transcripts)
+Byfield's [Comments in Transcripts](/tips/comments-in-transcripts/)
 Hugo code (complicated, right?). Among other things, it has been made
 into the format of a library contribution for easy inclusion. You can
 download it [here](http://roody.gerynarsabode.org/hbe/beta.h)

@@ -11,7 +11,7 @@ task. It is the equivalent of a "subroutine", "procedure", or "function"
 in other programming languages.
 
 There are two types of routines, those that are used for processing
-*[verbs](verb)*, i.e. a piece of code when the task needs to
+*[verbs](/declarations/verb/)*, i.e. a piece of code when the task needs to
 define what happens when the player types a verb, and those that are
 *called* by other routines.
 
@@ -78,7 +78,7 @@ usually called by the programmer directly.*
 
 Sometimes, there's a routine that does *mostly* what you need it to do,
 but you need to customize it to fit with your game. There are also many
-pre-defined routines in the [verbstub.h](verbstub.h_g) file
+pre-defined routines in the *verbstub.h* file
 that actually need to be coded so they actually do something in your
 game.
 

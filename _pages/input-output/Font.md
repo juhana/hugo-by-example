@@ -23,7 +23,7 @@ embedded codes for readability.
 
 ### Font() routine
 
-The `Font()` routine takes [constants](constants) (defined in
+The `Font()` routine takes [constants](/basics/constants/) (defined in
 the standard library)
 
 <table>
@@ -134,7 +134,7 @@ Example (to match the output of the previous example):
 
 ## Text Colors
 
-The [color](color) command changes the color of the text
+The [color](/input-output/color/) command changes the color of the text
 and/or the background. Giving only a foreground color will result in
 colored text with the same background color. For example:
 

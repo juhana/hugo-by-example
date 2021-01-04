@@ -5,12 +5,12 @@ categories:
   - Basics
 ---
 
-"Reserved words" are words already defined by the [Hugo
-engine](Hugo_engine) or the [standard
-library](standard_library); therefore, they can't be used as
-names of new objects or [variables](variables) or what have
+"Reserved words" are words already defined by the 
+[Hugo engine](/interpreters/he/) or the [standard library](/library/);
+therefore, they can't be used as
+names of new objects or [variables](/basics/variables/) or what have
 you. One can get a basic idea of reserved words by looking at syntax
-files for [text editors](Supported_Editors), but this page
+files for [text editors](/tools/editors/), but this page
 will try to provide a mostly-complete list.
 
 ### General reserved words

@@ -10,8 +10,8 @@ anywhere (surprise, surprise). As authors, we often want to interject
 messages or otherwise modify the normal behavior, so a good
 understanding of `DoGo` is beneficial. In the section below, the `DoGo`
 routine is presented. Support for games that don't include
-[objlib.h](Objlib) has been omitted in an effort to make it
-slightly more readable (it's a multifaceted routine). __TOC__
+*objlib.h* has been omitted in an effort to make it
+slightly more readable (it's a multifaceted routine).
 
 ## The DoGo "walkthrough"
 
@@ -26,26 +26,26 @@ Reading it from top to bottom, we can see it do the following things:
         Uunfortunately, this code is only reached if the direction is
         "up" or "out" and if there *is* a `before` routine, a turn will
         pass (which is suboptimal for certain messages).
-2.  If the [obstacle](obstacle) variable has been set to an
+2.  If the [obstacle](/globals/obstacle/) variable has been set to an
     object, it prints the response "<object> stops you from going."
 3.  If the direction object is valid, jump ahead to the "valid
     direction" section.
 4.  If there isn't an object (or if there *is* an object but it isn't a
     direction object):
     1.  If no object, say "Which way?"
-    2.  If the object doesn't have a [door_to](door_to)
-        property, check if it's [enterable](Attributes). If
+    2.  If the object doesn't have a [door_to](/properties/door_to/)
+        property, check if it's [enterable](/attributes/). If
         so, enter the object.
     3.  Set the `moveto` local variable to the object's
-        [door_to](door_to) property.
-        1.  If `moveto` = 0 (there was no [door_to](door_to)
+        [door_to](/properties/door_to/) property.
+        1.  If `moveto` = 0 (there was no [door_to](/properties/door_to/)
             property), say "You can't enter that."
-        2.  If `moveto` = 1, the [door_to](door_to) property
+        2.  If `moveto` = 1, the [door_to](/properties/door_to/) property
             was just a printed string. DoGo will just leave it at that.
         3.  (at the bottom of the routine) Perform
-            [MovePlayer](MovePlayer)(`moveto`)
+            [MovePlayer](/routines/moveplayer/)(`moveto`)
 5.  If the object is a valid direction (or if the above
-    [door_to](door_to) code had returned a direction object
+    [door_to](/properties/door_to/) code had returned a direction object
     instead of a room object):
     1.  If the player is in an object:
         1.  If the player is on a platform, any direction other than
@@ -56,17 +56,17 @@ Reading it from top to bottom, we can see it do the following things:
             will successfully exit).
     2.  Reset `moveto` to whatever the current direction leads to.
         1.  If it returns an object with a
-            [door_to](door_to) property or a door, change
-            `moveto` to the [door_to](door_to) property.
+            [door_to](/properties/door_to/) property or a door, change
+            `moveto` to the [door_to](/properties/door_to/) property.
     3.  If `moveto` is false (there's no exit in that direction):
         1.  Check if the current location has a
-            [cant_go](Cant_go) property and print it. If
+            [cant_go](/properties/cant_go/) property and print it. If
             not, do the default "You can't go that way." message.
         2.  If `moveto` = 1, the direction only printed something.
     4.  Again, if the player is in something, there is a "You'll have to
         get up." message
     5.  Lastly- and we should only get to this code if `moveto` is set
-        to a viable room location- [MovePlayer](MovePlayer)
+        to a viable room location- [MovePlayer](/routines/moveplayer/)
         the player to that location.
 
 ## The code

@@ -1,14 +1,14 @@
 ---
 title: Halloween Horror Part I
-permalink: /example-games/halloween-horror-part-1
+permalink: /example-games/halloween-horror-part-1/
 categories: 
   - Example Games
 ---
 
 This is Roody Yogurt's update to a game originally released as "The Ecto
-Horror." It requires the [glk.h](glk.h) and
-[newmenu.h](newmenu.h) library extensions (and possibly
-[beta.h](beta.h)).
+Horror." It requires the glk.h and
+[newmenu.h](/contributions/newmenu/) library extensions (and possibly
+[beta.h](/contributions/beta.h/)).
 
 ## the code
 

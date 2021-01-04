@@ -11,7 +11,7 @@ possible to code a game like Melbourne House's The Hobbit or Infocom's
 Border Zone, where the player can just dumbly stare at the screen and
 NPCs move around without waiting for a command to be entered.
 
-Still, using the [time.h](Time_h) library extension, one
+Still, using the [time.h](/contributions/time.h/) library extension, one
 could *fake* a real-time game by having actions affected by the passage
 of real time.
 

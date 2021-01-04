@@ -5,8 +5,8 @@ categories:
   - Attributes
 ---
 
-**already_listed** is a predefined [attribute](attribute)
+**already_listed** is a predefined [attribute](/attributes/)
 used by the library when displaying objects during the
-*[look](look)* [verb](verb). It is an
-[alias](alias) for the attribute
-[workflag](workflag).
+*[look](/verbs/look/)* [verb](/declarations/verb/). It is an
+[alias](/basics/alias/) for the attribute
+[workflag](/attributes/workflag/).

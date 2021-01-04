@@ -5,9 +5,9 @@ categories:
   - Properties
 ---
 
-**react_before** is a [property](property) available for use
-by an [object](object), and is defined by the [standard
-library](standard_library).
+**react_before** is a [property](/properties/) available for use
+by an [object](/globals/object/), and is defined by the
+[standard library](/library/).
 
 ## react_before
 

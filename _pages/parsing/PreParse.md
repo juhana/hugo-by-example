@@ -6,7 +6,7 @@ categories:
   - Routines
 ---
 
-PreParse, as one might guess, is called by [Parse](Parse) and
+PreParse, as one might guess, is called by [Parse](/routines/parse/) and
 executed before the bulk of parsing is done.
 
 In `hugolib.h`, it looks like this:
@@ -15,21 +15,21 @@ In `hugolib.h`, it looks like this:
     {}
 
 It is an empty canvas just waiting to be painted
-([replaced](replace)) by you! PreParse can be used for
+([replaced](/guts/replace/)) by you! PreParse can be used for
 several techniques, some of which we will explore here.
 
 # Things to know about PreParse
 
--   When `PreParse` is called, [object](Object_(Global)) and
-    [xobject](xobject) have not been set by the engine yet.
+-   When `PreParse` is called, [object](/basics/global/) and
+    [xobject](/globals/xobject/) have not been set by the engine yet.
 -   `PreParse` is only called if the player's input line has been
-    successfully matched to [verb grammar](verb_grammar).
-    Otherwise, the engine calls [ParseError](ParseError)
+    successfully matched to [verb grammar](/basics/grammar/).
+    Otherwise, the engine calls [ParseError](/parsing/parseerror/)
     directly.
 -   When `PreParse` is called, the global
-    [verbroutine](verbroutine) still equals the verb routine
+    [verbroutine](/globals/verbroutine/) still equals the verb routine
     of the previous turn. It will be reset by the engine after
-    [Parse](Parse) is finished.
+    [Parse](/routines/parse/) is finished.
 
 # Uses for PreParse
 
@@ -143,9 +143,9 @@ Notice that it returns false so any PreParse routine code is also run.
 
 >**Important Note**
 >
->If you add or subtract words from the word array, be sure to update the `words` global or else [Parse](Parse) may not function correctly.
+>If you add or subtract words from the word array, be sure to update the `words` global or else [Parse](/routines/parse/) may not function correctly.
 
 So yeah, PreParse is useful indeed. Remember our slogan- "Got a problem
 the parser can't handle? That's 'PreParse'-terous!"
 
-See also: [Parse](Parse)
+See also: [Parse](/routines/parse/)

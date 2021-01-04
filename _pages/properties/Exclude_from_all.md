@@ -6,9 +6,9 @@ categories:
 ---
 
 `exclude_from_all`, when true, restricts an item from being included in
-multiple-object verbs like [DoGet](DoGet) (&gt;GET ALL) or
-[DoDrop](DoDrop) (&gt;DROP ALL). The
-[`scenery`](scenery) class is defined like this:
+multiple-object verbs like [DoGet](/verb-routines/doget/) (&gt;GET ALL) or
+[DoDrop](/verb-routines/dodrop/) (&gt;DROP ALL). The
+[`scenery`](/basics/scenery/) class is defined like this:
 
     class scenery
     {
@@ -26,7 +26,7 @@ multiple-object verbs like [DoGet](DoGet) (&gt;GET ALL) or
     }
 
 It won't show up for &gt;GET ALL, but it will for other verbs that use
-the [multi grammar token](Grammar_Tokens).
+the [multi grammar token](/basics/grammar-tokens/).
 
 ### Printing the failure
 

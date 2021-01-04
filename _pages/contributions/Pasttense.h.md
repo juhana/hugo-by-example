@@ -12,5 +12,5 @@ past tense- either in part or their entirety. You can download it
 ### Usage
 
 Just include "pasttense.h" after "verblib.h"/"verbstub.h" and set the
-[global variable](Variables#Global_Variables) `pasttense` to
+[global variable](/basics/global/) `pasttense` to
 *true* when you want the game to be past tense.

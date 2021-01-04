@@ -15,5 +15,5 @@ several minutes.
 As it is not even recommended to compile your final build using
 precompiled headers (as the game will be bulkier and less
 memory-efficient), we won't reiterate how to compile them here. Rest
-assured, it's all covered in [The Hugo Book](The_Hugo_Book)
+assured, it's all covered in [The Hugo Book](/hugo/hugo-book/)
 if you are in need.

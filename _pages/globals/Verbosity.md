@@ -5,7 +5,7 @@ categories:
   - Global Variables
 ---
 
-`verbosity` is a [global variable](Globals) that affects how
+`verbosity` is a [global variable](/basics/global/) that affects how
 room descriptions are printed. It is basically a legacy feature from
 olden days when the amount of room text could actually affect the
 loading times in the game (or even older olden days, when some people

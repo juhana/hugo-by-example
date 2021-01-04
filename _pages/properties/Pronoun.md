@@ -14,7 +14,7 @@ Take, for instance, the following response for `DoHit`:
 The word after "Venting" will be "your", "my", "his", "her", or "its",
 depending on what person the game is told in (and which applicable set
 of pronouns the player object has). The `pronoun` property is
-[aliased](alias) by the `pronouns` property.
+[aliased](/basics/alias/) by the `pronouns` property.
 
 A properly-filled pronoun property will have four elements:
 

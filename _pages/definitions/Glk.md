@@ -22,13 +22,13 @@ Broken things include:
 -   ability to have more than two windows (the two windows being the
     main window and status window)
 -   ability for the Hugo game to detect
-    [display.windowlines](Display_Object) accurately in the
-    main window; [locate](Locate) is also broken in the main
+    [display.windowlines](/guts/display-object/) accurately in the
+    main window; [locate](/input-output/locate/) is also broken in the main
     window
--   some [media](Resources) capabilities will work
+-   some [media](/basics/resources/) capabilities will work
     differently, if at all. For instance,
-    [resource.h](resource.h)'s `LoadPicture` will work with
-    [Gargoyle](Gargoyle), but `PictureInText` will cause the
+    resource.h's `LoadPicture` will work with
+    [Gargoyle](/interpreters/gargoyle/), but `PictureInText` will cause the
     interpreter to crash.
 
 ### "glk-detecting" code
@@ -48,5 +48,5 @@ interpreter:
     }
 
 Then, you could check for `glk` or execute `glkcheck` every time you
-want to do something fancy with windows, [locate](locate), or
-[resources](resources).
+want to do something fancy with windows, [locate](/input-output/locate/), or
+[resources](/basics/resources/).

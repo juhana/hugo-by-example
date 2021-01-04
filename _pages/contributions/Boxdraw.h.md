@@ -8,9 +8,9 @@ categories:
 `Boxdraw.h` is a library contribution for drawing colored text boxes
 written by Cardinal Teulbachs. Considering that games that use this will
 not play properly on glk interpreters such as Gargoyle (they do not like
-when the [locate](locate) command is used in the main text
+when the [locate](/input-output/locate/) command is used in the main text
 window), people are recommended to take a look at
-[Boxdrawglk](Boxdrawglk.h). This page mainly exists so people
+*Boxdrawglk.h*. This page mainly exists so people
 can see the original documentation.
 
 ### The original code

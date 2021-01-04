@@ -7,14 +7,14 @@ categories:
 
 `restore` is a built-in function for prompting a saved-game-restoring
 dialog. After a successful game restoration, all
-[globals](globals) and things are set to the value they were
-in the saved game, with the notable exception of the [word
-array](word_array). Most commonly, it is used by the verb
-routine [DoRestore](DoRestore).
+[globals](/basics/global/) and things are set to the value they were
+in the saved game, with the notable exception of the
+[word array](/basics/word-array/). Most commonly, it is used by the verb
+routine DoRestore.
 
 ### How to call
 
-`restore` returns a [true](true) or [false](false)
+`restore` returns a [true](/definitions/true/) or [false](/definitions/false)
 value based on its success, so it is called in the following manner:
 
     x = restore ! the x variable gets set to 1 or 0
