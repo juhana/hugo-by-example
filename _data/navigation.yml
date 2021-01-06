@@ -1,6 +1,8 @@
 main:
   - title: "Main Page"
     url: /
+  - title: "About"
+    url: /about/
   - title: "Index"
     url: /categories/
 
