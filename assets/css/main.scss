@@ -23,3 +23,16 @@ html {
     font-size: 18px;
   }
 }
+
+// custom footer
+.page__footer {
+  footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-copyright {
+    flex-grow: 1;
+  }
+}
