@@ -3,9 +3,13 @@ resource for those wanting to learn to use
 [Hugo](http://generalcoffee.com/hugo/gethugo.html) to develop
 Interactive Fiction games. 
 
+These articles are meant to be used as reference material to supplement
+[The Hugo Book](hugo/hugo-book/). Browse the [index](categories) to find
+the articles.
+
 Hugo is a very well designed system for creating games. It can create
 quite large games, and it also makes it very easy to add multimedia
-effects to the game (Pictures, videos and music)
+effects to the game (pictures, videos and music.)
 
 Some popular games that were created in Hugo include:
 
@@ -19,3 +23,4 @@ Some popular games that were created in Hugo include:
     Kent Tessman (this game showcases some of the multimedia
     capabilities of Hugo)
 
+See the [games page](hugo/games/) for more.
