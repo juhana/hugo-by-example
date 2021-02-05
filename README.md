@@ -101,7 +101,7 @@ See the [Category Index](_pages/category-archive.md) for an example.
     </details>
 
 
-## Page achor links
+## Page anchor links
 
 For internal links to page chapters you need to include `{{page.url}}` at the start of the link:
 
