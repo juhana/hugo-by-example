@@ -179,6 +179,7 @@ be used to create an IFID called *uuidgen*.
 	room STARTLOCATION "Start Location"
 	{
 	}
+
 ## A bare-bones shell
 
 By popular demand, the following is a only-what-you-need version of a
