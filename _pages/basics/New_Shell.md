@@ -20,165 +20,165 @@ generator at
 There is also a program that's available on many linux distros that can
 be used to create an IFID called *uuidgen*.
 
-    !::
-		! New Game (Shell)
-		!::
+	!::
+	! New Game (Shell)
+	!::
 
-		!:: Raise limits, if necessary (here are some of the limits you're likely to
-		!   run into first).
-		!$MAXROUTINES = 320
-		!$MAXDICT = 1024
-		!$MAXDICTEXTEND = 0 ! (needed for adding more dictionary words mid-game)
+	!:: Raise limits, if necessary (here are some of the limits you're likely to
+	!   run into first).
+	!$MAXROUTINES = 320
+	!$MAXDICT = 1024
+	!$MAXDICTEXTEND = 0 ! (needed for adding more dictionary words mid-game)
 
-		!:: Flags
-		!#set BETA                ! Compile with the comments-in-transcripts library
-										  !   addition
-		!#set HUGOFIX             ! Compile with HugoFix Debugging Library commands
-										  !   available (type $? in game)
-		!#set VERBSTUBS           ! Include the grammar and routines from verbstubs.g
-										  !   and verbstubs.h, respectively
-		!#set USE_ATTACHABLES     ! Use attachable items
-		!#set USE_PLURAL_OBJECTS  ! Use plural objects
-		!#set USE_ROLLABLES       ! Allow the pushing of mobile objects (needs Roodylib)
-		!#set USE_ROODYLIB
-		!#set USE_VEHICLES        ! Use vehicle objects
-		#set VERSIONS            ! Print library versions at compile time
+	!:: Flags
+	!#set BETA                ! Compile with the comments-in-transcripts library
+									  !   addition
+	!#set HUGOFIX             ! Compile with HugoFix Debugging Library commands
+									  !   available (type $? in game)
+	!#set VERBSTUBS           ! Include the grammar and routines from verbstubs.g
+									  !   and verbstubs.h, respectively
+	!#set USE_ATTACHABLES     ! Use attachable items
+	!#set USE_PLURAL_OBJECTS  ! Use plural objects
+	!#set USE_ROLLABLES       ! Allow the pushing of mobile objects (needs Roodylib)
+	!#set USE_ROODYLIB
+	!#set USE_VEHICLES        ! Use vehicle objects
+	#set VERSIONS            ! Print library versions at compile time
 
-		!:: switches              ! example how one can add compiler switches to source
-		#switches -s              ! print compilation statistics
+	!:: switches              ! example how one can add compiler switches to source
+	#switches -s              ! print compilation statistics
 
-		#ifset HUGOFIX
-		#set DEBUG
-		#endif
+	#ifset HUGOFIX
+	#set DEBUG
+	#endif
 
-		!:: Constants and global variables (some constants must be set before hugolib
-		!   is included):
+	!:: Constants and global variables (some constants must be set before hugolib
+	!   is included):
 
-		constant GAME_TITLE "GAME TITLE"
-		constant AUTHOR "YOUR NAME"
-		constant RELEASE "1.0"
-		!constant FIRST_PUBLICATION "(year)"  ! for previously released games
-		!constant BLURB "An Interactive Blah"
-		!constant IFID "put-IFID here"
-		!constant AFTER_PERIOD " "     ! include one space after full stops (as opposed
-												 !   to two)
-		!constant INDENT_SIZE 0        ! no indentation in room descriptions and room
-												 !   content listings
+	constant GAME_TITLE "GAME TITLE"
+	constant AUTHOR "YOUR NAME"
+	constant RELEASE "1.0"
+	!constant FIRST_PUBLICATION "(year)"  ! for previously released games
+	!constant BLURB "An Interactive Blah"
+	!constant IFID "put-IFID here"
+	!constant AFTER_PERIOD " "     ! include one space after full stops (as opposed
+											 !   to two)
+	!constant INDENT_SIZE 0        ! no indentation in room descriptions and room
+											 !   content listings
 
-		!:: Grammar Library Inclusions (grammar must come first)
-		#ifset USE_ROODYLIB
-		#include "roodylib.g"
-		#endif
+	!:: Grammar Library Inclusions (grammar must come first)
+	#ifset USE_ROODYLIB
+	#include "roodylib.g"
+	#endif
 
-		! new grammar needs to be defined before the including verblib
-		#include "verblib.g"        ! Verb Library
+	! new grammar needs to be defined before the including verblib
+	#include "verblib.g"        ! Verb Library
 
-		#include "hugolib.h"        ! Standard  Hugo Library
-		#ifset USE_ROODYLIB
-		#include "roodylib.h"         ! Hugo  Library Updates
-		#endif
+	#include "hugolib.h"        ! Standard  Hugo Library
+	#ifset USE_ROODYLIB
+	#include "roodylib.h"         ! Hugo  Library Updates
+	#endif
 
-		!::	Other Library Inclusions
+	!::	Other Library Inclusions
 
-		!::	Game Initialization	routine
-		routine init
-		{
-		!: First Things First
-			SetGlobalsAndFillArrays
-		!: Screen clear section
-		#ifclear _ROODYLIB_H
-			CenterTitle("Hugo Interactive Fiction")
-			cls
-		#ifset USE_PLURAL_OBJECTS
-			InitPluralObjects
-		#endif
-		#else
-			SimpleIntro
-			InitScreen
-		!: Set up any special libraries
-			Init_Calls
-		#endif
-		!: Game opening
-			IntroText
-			MovePlayer(location)
-		}
-
-
-		routine SetGlobalsAndFillArrays
-		{
-		!\ Uncomment and modify this section if your game has scoring and ranking.
-			MAX_SCORE = 50
-			ranking[0] = "Amateur Adventurer"
-			ranking[1] = "Competent Door-Unlocker"
-			ranking[2] = "Bomb-Meddling Adventurer"
-			ranking[3] = "Master Magic Wand Finder"
-			ranking[4] = "The Genuine Article Sample Game Solver"
-			MAX_RANK = 4  \!
-		! if using Roodylib, verbosity can be set to BRIEF, SUPERBRIEF, OR VERBOSE
-			verbosity = 2
-			counter = -1                    ! 1 turn before turn 0
-		! statustype options: 0 = no status, 1 = score/turns, 2 = time
-		! if using Roodylib, can be set to NO_STATUS, SCORE_MOVES, TIME_STATUS,
-		! CUSTOM_STATUS, INFOCOM_STYLE, MILITARY_TIME
-			STATUSTYPE = 1
-			TEXTCOLOR = DEF_FOREGROUND
-			BGCOLOR = DEF_BACKGROUND
-			SL_TEXTCOLOR = DEF_SL_FOREGROUND
-			SL_BGCOLOR = DEF_SL_BACKGROUND
-			INPUTCOLOR = MATCH_FOREGROUND
-		#if defined TITLECOLOR
-			TITLECOLOR = DEF_FOREGROUND
-		#endif
-			prompt = ">"
-			DEFAULT_FONT = PROP_ON
-		#if defined GAME_TITLE
-			display.title_caption = GAME_TITLE
-		#endif
-		#ifset _ROODYLIB_H
-			MakePlayer(you,2) ! sets player as you object, second person
-		#else
-			player = you
-		#endif
-			location = STARTLOCATION
-		}
-
-		routine IntroText
-		{
-			"Intro text goes here."
-		#if defined DoVersion
-			""
-			DoVersion
-		#endif
-
-		}
-
-		!::	Main game loop
-		routine main
-		{
-			counter = counter + 1
-			run location.each_turn
-			runevents
-			runscripts
-		#ifset _ROODYLIB_H
-			SpeakerCheck
-		#else
-			if parent(speaking) ~= location
-				speaking = 0
-		#endif
-			PrintStatusLine
-		#ifset _ROODYLIB_H
-			Main_Calls
-		#endif
-		}
+	!::	Game Initialization	routine
+	routine init
+	{
+	!: First Things First
+		SetGlobalsAndFillArrays
+	!: Screen clear section
+	#ifclear _ROODYLIB_H
+		CenterTitle("Hugo Interactive Fiction")
+		cls
+	#ifset USE_PLURAL_OBJECTS
+		InitPluralObjects
+	#endif
+	#else
+		SimpleIntro
+		InitScreen
+	!: Set up any special libraries
+		Init_Calls
+	#endif
+	!: Game opening
+		IntroText
+		MovePlayer(location)
+	}
 
 
-		player_character you "you"
-		{
-		}
+	routine SetGlobalsAndFillArrays
+	{
+	!\ Uncomment and modify this section if your game has scoring and ranking.
+		MAX_SCORE = 50
+		ranking[0] = "Amateur Adventurer"
+		ranking[1] = "Competent Door-Unlocker"
+		ranking[2] = "Bomb-Meddling Adventurer"
+		ranking[3] = "Master Magic Wand Finder"
+		ranking[4] = "The Genuine Article Sample Game Solver"
+		MAX_RANK = 4  \!
+	! if using Roodylib, verbosity can be set to BRIEF, SUPERBRIEF, OR VERBOSE
+		verbosity = 2
+		counter = -1                    ! 1 turn before turn 0
+	! statustype options: 0 = no status, 1 = score/turns, 2 = time
+	! if using Roodylib, can be set to NO_STATUS, SCORE_MOVES, TIME_STATUS,
+	! CUSTOM_STATUS, INFOCOM_STYLE, MILITARY_TIME
+		STATUSTYPE = 1
+		TEXTCOLOR = DEF_FOREGROUND
+		BGCOLOR = DEF_BACKGROUND
+		SL_TEXTCOLOR = DEF_SL_FOREGROUND
+		SL_BGCOLOR = DEF_SL_BACKGROUND
+		INPUTCOLOR = MATCH_FOREGROUND
+	#if defined TITLECOLOR
+		TITLECOLOR = DEF_FOREGROUND
+	#endif
+		prompt = ">"
+		DEFAULT_FONT = PROP_ON
+	#if defined GAME_TITLE
+		display.title_caption = GAME_TITLE
+	#endif
+	#ifset _ROODYLIB_H
+		MakePlayer(you,2) ! sets player as you object, second person
+	#else
+		player = you
+	#endif
+		location = STARTLOCATION
+	}
 
-		room STARTLOCATION "Start Location"
-		{
-		}
+	routine IntroText
+	{
+		"Intro text goes here."
+	#if defined DoVersion
+		""
+		DoVersion
+	#endif
+
+	}
+
+	!::	Main game loop
+	routine main
+	{
+		counter = counter + 1
+		run location.each_turn
+		runevents
+		runscripts
+	#ifset _ROODYLIB_H
+		SpeakerCheck
+	#else
+		if parent(speaking) ~= location
+			speaking = 0
+	#endif
+		PrintStatusLine
+	#ifset _ROODYLIB_H
+		Main_Calls
+	#endif
+	}
+
+
+	player_character you "you"
+	{
+	}
+
+	room STARTLOCATION "Start Location"
+	{
+	}
 ## A bare-bones shell
 
 By popular demand, the following is a only-what-you-need version of a
