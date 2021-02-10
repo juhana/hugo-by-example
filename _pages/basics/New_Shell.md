@@ -9,7 +9,7 @@ This is a updated version of the `shell.hug` that is available at the
 main Hugo webpage (and also available at the ifarchive). It was originally
 based on both on that original and a bit on the ScavHunt tutorial. You
 can download a version of it
-[here](https://drive.google.com/file/d/19fU-aDpwjD3HaxdH5sX6OSDSMkbooOht/view?usp=sharing).
+[here](https://github.com/hugoif/hugo-by-example/edit/gh-pages/_pages/basics/newshell.hug).
 
 This file includes several commonly used flags and switches that one
 can often forget are available. It also includes a
