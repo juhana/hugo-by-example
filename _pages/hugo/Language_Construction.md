@@ -2,8 +2,6 @@
 title: Language Construction
 permalink: /hugo/language-construction/
 ---
-## Language Construction
-
 The Hugo language is a hybrid of several features to provide a command
 processing system. The system consists of a [verb](declarations/verb/)
 definition section, a **[property](properties/)** and
