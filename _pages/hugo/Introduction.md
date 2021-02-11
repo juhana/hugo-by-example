@@ -19,7 +19,7 @@ You can look at code samples for several IF systems over at the [IF Wiki](http:/
 If you're curious how **Hugo** compares to general coding languages, [this page](hugo/language-construction/) goes into that to some degree.
 
 ## What is the point of this site?
-There's no better way to learn **Hugo** than to read the [Hugo Book](/hugo/hugo-book/), but Hugo By Example aspires to cover Hugo concepts in further detail, hopefully providing answers when authors don't completely understand anything and need a bit of a guiding hand.  Additionally, some pages are great for quick reference guides that any well-versed Hugo author will want to keep handy.
+There's no better way to learn **Hugo** than to read the [Hugo Book](hugo/hugo-book/), but Hugo By Example aspires to cover Hugo concepts in further detail, hopefully providing answers when authors don't completely understand anything and need a bit of a guiding hand.  Additionally, some pages are great for quick reference guides that any well-versed Hugo author will want to keep handy.
 
 ## What is the future of Hugo?
 **Hugo**'s author, Kent Tessman, has spent the years since its creation writing and honing a screenwriting app called [Fade In](https://www.fadeinpro.com/) (it's very good).  The maintenance of **Hugo**'s compilers and interpreters has largely fallen on others' shoulders.  The **Hugo** community has been graced with nice updates and improvements just within the last few years alone, and there is no telling what else the future holds.  Maybe you want to help write it?
