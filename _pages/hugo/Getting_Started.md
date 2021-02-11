@@ -91,7 +91,7 @@ You should now be ready to get started. If you run into trouble, you
 have the Hugo Book, the example games, and this website (including 
 [useful tips](categories/#tips)) at your disposal. You can also
 post coding questions at the 
-[Jolt Country's Hugo forum](http://www.joltcountry.com/phpBB2/viewforum.php?f=8) or
+[Jolt Country's Hugo forum](http://www.joltcountry.com/phpBB3/viewforum.php?f=8) or
 [intfiction.org's "other languages" forum](http://www.intfiction.org/forum/viewforum.php?f=16).
 Lastly, if you'd like real-time assistance, there's the \#Hugo channel on the
 [ifMUD](http://ifmud.port4000.com).
