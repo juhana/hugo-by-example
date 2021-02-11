@@ -24,3 +24,6 @@ Some popular games that were created in Hugo include:
     capabilities of Hugo)
 
 See the [games page](hugo/games/) for more.
+
+**2021 Update-**
+Hugo by Example has found a new home here on github thanks to the efforts of Juhana Leinonen!  For the near future, attention will be concentrated on updating remaining dead links and outdated information, but after that, we'll give some more attention to some of the Hugo progress that has occurred since HxE originally went offline- things like Roodylib (the Hugo library extension) and the new interpreter opcode system.  Welcome back!
