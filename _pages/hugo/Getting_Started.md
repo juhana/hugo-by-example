@@ -66,11 +66,13 @@ Unzip that.
 (Of course, there's nothing wrong if you have gotten a head start on
 this step. You'll be referring to The Hugo Book a lot.)
 
-Download Roody Yogurt's personal book
-[here](http://roody.gerynarsabode.org/hugo_book.pdf). If you're using an
+These [HTML and AsciiDoc versions](https://github.com/tajmone/hugo-book/releases/) are due to be updated and will eventually be the most current version of the Hugo Book.  You can also peruse [the online version](https://tajmone.github.io/hugo-book/).
+
+If you prefer a PDF, you can download Roody Yogurt's personal book
+[here](https://drive.google.com/file/d/1Co_xhNF42K1VRRirPHHy-537GBvORDw9/view?usp=sharing). If you're using an
 Adobe program, there's a chance you'll be able to see some extra
 comments that will offer a tad more light on some things or quicker
-navigation. Add more as you get to parts you think you'll want to refer
+navigation (including some corrections that will eventually make their way into the HTML version). Add more as you get to parts you think you'll want to refer
 to!
 
 Anyhow, now that you are armed with a nice editor, you have the power to
