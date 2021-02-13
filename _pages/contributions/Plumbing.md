@@ -6,7 +6,7 @@ categories:
   - Classes
 ---
 
-[Plumbing.zip](https://raw.githubusercontent.com/hugoif/library-contributions/main/plumbing.zip is a
+[Plumbing.zip](https://raw.githubusercontent.com/hugoif/library-contributions/main/plumbing.zip) is a
 library contribution that intends to save some time when coding sinks
 and toilets. It consists of an object class of each, a water class to
 fill them, and some additional verb routines for verbs often associated
