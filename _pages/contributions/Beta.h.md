@@ -10,7 +10,7 @@ categories:
 Byfield's [Comments in Transcripts](tips/comments-in-transcripts/)
 Hugo code (complicated, right?). Among other things, it has been made
 into the format of a library contribution for easy inclusion. You can
-download it [here](http://ifarchive.org/if-archive/programming/hugo/library/contributions/beta.h)
+download it [here](http://ifarchive.org/if-archive/programming/hugo/library/contributions/beta.h).
 
 ### Special notes
 
