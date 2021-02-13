@@ -9,7 +9,7 @@ categories:
 movement. It replaces the [character script](characters/scripts/) routine
 `CharMove` and uses a new property to keep track of where characters can
 go. You can see it
-[here](http://ifarchive.smallwhitehouse.org/if-archive/programming/hugo/library/contributions/randmove.txt).
+[here](http://ifarchive.org/if-archive/programming/hugo/library/contributions/randmove.txt).
 
 ### Required Modifications
 
