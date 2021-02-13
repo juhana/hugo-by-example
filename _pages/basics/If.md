@@ -37,73 +37,17 @@ The types of comparisons which may be made are as follows:
     they are both numbers, both boolean values, or both strings. The
     possible comparisons are as follows
 
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 15%" />
-<col style="width: 70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>operator</p></th>
-<th><p>comparison</p></th>
-<th><p>meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>&lt;</strong><br />
-(less than)</p></td>
-<td><p><em>value1</em> &lt; <em>value2</em></p></td>
-<td><p>if value1 is less than value2, the comparison is successful</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>&gt;</strong><br />
-(greater than)</p></td>
-<td><p><em>value1</em> &gt; <em>value2</em></p></td>
-<td><p>if value1 is greater than value2, the comparison is successful</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>=</strong><br />
-(equal)</p></td>
-<td><p><em>value1</em> = <em>value2</em></p></td>
-<td><p>if value1 is equal to value2, the comparison is successful</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>~=</strong><br />
-(not equal)</p></td>
-<td><p><em>value1</em> ~= <em>value2</em></p></td>
-<td><p>if value1 is not equal to value2, the comparison is successful</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>&lt;=</strong><br />
-(less than or equal)</p></td>
-<td><p><em>value1</em> &lt;= <em>value2</em></p></td>
-<td><p>if value1 is less than or equal to value2, the comparison is successful</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>&gt;=</strong><br />
-(greater than or equal)</p></td>
-<td><p><em>value1</em> &gt;= <em>value2</em></p></td>
-<td><p>if value1 is greater than or equal to value2, the comparison is successful</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>is</strong></p></td>
-<td><p><em>object1</em> is <em>attribute2</em></p></td>
-<td><p>if the specified attribute2 is set in object1, the comparison is successful</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>is not</strong></p></td>
-<td><p><em>object1</em> is not <em>attribute2</em></p></td>
-<td><p>if the specified attribute2 is not set in object1, the comparison is successful</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+
+| operator | comparison | meaning |
+| --- | --- | --- |
+| &lt; (less than) | `value1 < value2` | if value1 is less than value2, the comparison is successful |
+| &gt; (greater than) | `value1 > value2` | if value1 is greater than value2, the comparison is successful |
+| = (equal) | `value1 = value2` | if value1 is equal to value2, the comparison is successful |
+| ~= (not equal) | `value1 ~= value2` | if value1 is not equal to value2, the comparison is successful |
+| &lt;= (less than or equal) | `value1 <= value2` | if value1 is less than or equal to value2, the comparison is successful |
+| &gt;= (greater than or equal) | `value1 >= value2` | if value1 is greater than or equal to value2, the comparison is successful |
+| [is](attributes/is) | `object1 is attribute2` | if the specified attribute2 is set in object1, the comparison is successful |
+| is not | `object1 is not attribute2` | if the specified attribute2 is not set in object1, the comparison is successful |
 
 -   In a case 3 comparison, the operator is **not** and the result is
     tested to determine if it is false, and if the result is false, the

@@ -13,14 +13,14 @@ it will greatly help an author design his game.
 
 Let's quickly go over game loop over, as detailed by the Hugo Book:
 
-` 1. Init`
-` 2. Main (which calls PrintStatusLine, location.each_turn, runevents, RunScripts)`
-` 3. Input`
-` 4. Parsing`
-` 5. Grammar Matching`
-` 6. Before routines (as called by Perform in hugolib.h)`
-` 7. Verb routine (as called by Perform in hugolib) and after routines`
-` 8. Loop back to Main`
+1. Init
+2. Main (which calls PrintStatusLine, location.each_turn, runevents, RunScripts)
+3. Input
+4. Parsing
+5. Grammar Matching
+6. Before routines (as called by Perform in hugolib.h)
+7. Verb routine (as called by Perform in hugolib) and after routines
+8. Loop back to Main
 
 Let's discuss this.
 
@@ -40,23 +40,13 @@ Let's discuss this.
     found, the engine loops back to Input ("Line 3"). If successful,
     `verbroutine`, `object`, and `xobject` are set.
 -   **Before routines:** `Before` routines are checked this order:
-    <div align="center">
+    
+    1. `player.before`
+    2. `location.before`
+    3. `xobject.before` (only if the verbroutine <em>has</em> an xobject)
+    4. `object.before` (only if the verbroutine <em>has</em> an object)
 
-    <table>
-    <tbody>
-    <tr class="odd">
-    <td><p><code>player.before</code><br />
-    <code>location.before</code><br />
-    <code>xobject.before</code> (only if the verbroutine <em>has</em> an xobject)<br />
-    <code>object.before</code> (only if the verbroutine <em>has</em> an object)<br />
-    </p></td>
-    </tr>
-    </tbody>
-    </table>
-
-    </div>
-
-    `         After that, the game checks to see if there are any `[`react_before`](properties/react_before/)` properties that should be executed.`
+    After that, the game checks to see if there are any [`react_before`](properties/react_before/) properties that should be executed.
 -   **Verb routine :** If no `before` routine skipped over it, the verb
     routine executes as normal. `After` routines are also run.
 -   **The Loop Back** [Main](routines/main/) is executed again, taking

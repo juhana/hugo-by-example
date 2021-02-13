@@ -1,6 +1,7 @@
 ---
 title: Supported Editors
 permalink: /tools/editors/
+classes: wide
 categories: 
   - Tools
 ---
@@ -136,113 +137,12 @@ operating system.
 
 ## Comparison between Windows text editors
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Text Editor</p></th>
-<th><p>Do multi-line comments work?</p></th>
-<th><p>Keyword coloring extent and ease</p></th>
-<th><p>Project organization (ability to group source files by game)</p></th>
-<th><p>Ability to search multiple files for code examples</p></th>
-<th><p>Ability to compare differences between files</p></th>
-<th><p>Editor help menu works under Windows 7</p></th>
-<th><p>Can execute commands to window</p></th>
-<th><p>Tortoise svn support</p></th>
-<th><p>FTP support</p></th>
-<th><p>Other features</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>ConTEXT</strong></p></td>
-<td></td>
-<td><p>5 possible keyword groups; colors are easy to change</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>template, help file support</p></td>
-</tr>
-<tr class="even">
-<td><p><strong><a href="EditPlus">EditPlus</a></strong></p></td>
-<td></td>
-<td><p>easy to change update; lots of possible keyword groups</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>clip text support, autocomplete, templates, help file support, function list, configurable tool bar</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Emerald Editor</strong></p></td>
-<td></td>
-<td><p>10 possible keyword groups; colors easy to change</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>templates</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>gedit</strong></p></td>
-<td></td>
-<td><p>lots of possible keyword groups and colors; a pain to update and modify, though</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>text clips (called "tags")</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Notepad++</strong></p></td>
-<td></td>
-<td><p>easy to modify; only four keyword color groups available</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>didn't see</p></td>
-<td></td>
-<td><p>nothing of note</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Source Edit</strong></p></td>
-<td></td>
-<td><p>only one keyword group; color easy to change</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>Template support, configurable user tool bar, function list, window splitter</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>TextPad</strong></p></td>
-<td></td>
-<td><p>easy to modify; six keyword color groups available</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>clip library, spell check can be limited to strings, environment variables support, fairly configurable</p></td>
-</tr>
-</tbody>
-</table>
+| Text Editor | Do multi-line comments work? | Keyword coloring extent and ease | Project organization (ability to group source files by game) | Ability to search multiple files for code examples | Ability to compare differences between files | Editor help menu works under Windows 7 | Can execute commands to window | Tortoise svn support | FTP support | Other features |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ConTEXT |  | 5 possible keyword groups; colors are easy to change |  |  |  |  |  |  |  | template, help file support |
+| EditPlus |  | easy to change update; lots of possible keyword groups |  |  |  |  |  |  |  | clip text support, autocomplete, templates, help file support, function list, configurable tool bar |
+| Emerald Editor |  | 10 possible keyword groups; colors easy to change |  |  |  |  |  |  |  | templates |
+| gedit |  | lots of possible keyword groups and colors; a pain to update and modify, though |  |  |  |  |  |  |  | text clips (called "tags") |
+| Notepad++ |  | easy to modify; only four keyword color groups available |  |  |  |  |  | didn't see |  | nothing of note |
+| Source Edit |  | only one keyword group; color easy to change |  |  |  |  |  |  |  | Template support, configurable user tool bar, function list, window splitter |
+| TextPad |  | easy to modify; six keyword color groups available |  |  |  |  |  |  |  | clip library, spell check can be limited to strings, environment variables support, fairly configurable |

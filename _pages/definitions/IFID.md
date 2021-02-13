@@ -28,12 +28,12 @@ To include that number in your game, declare it as a constant first.
 Then, when you print in the title of your game (or have a &gt;VERSION or
 &gt;ABOUT response), have something like:
 
-            Font(BOLD_ON)
-            "Game Title"
-            Font(BOLD_OFF)
-            "Game Blurb"
-            print BANNER
-            print "IFID: "; IFID
+    Font(BOLD_ON)
+    "Game Title"
+    Font(BOLD_OFF)
+    "Game Blurb"
+    print BANNER
+    print "IFID: "; IFID
 
 ## "Legacy" Hugo Games
 
@@ -65,20 +65,11 @@ the same IFID. Luckily, the Treaty is very clear about this. Updates *do
 not* get a new IFID. The only time a new IFID should be issued is if the
 game is ported to another language.
 
-<table>
-<thead>
-<tr class="header">
-<th><p>From <em>The Treaty of Babel</em></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>As with published books, where an ISBN remains the same even if the book is reprinted with corrections, the IFID should be associated with a project, _not_ a specific story file compiled from it. A re-release with bug fixes should have the same IFID.<br />
-<br />
-If a game is ported from one system to another (other than simply being moved from one version of a system to the next, e.g., by being moved from TADS 2 to TADS 3), the port receives a new IFID. Again, this is analogous to books: a different-format reissue of a book, such as a paperback of what was previously hardback, gets a new ISBN.</p></td>
-</tr>
-</tbody>
-</table>
+From *The Treaty of Babel*:
+
+>As with published books, where an ISBN remains the same even if the book is reprinted with corrections, the IFID should be associated with a project, _not_ a specific story file compiled from it. A re-release with bug fixes should have the same IFID.
+>
+>If a game is ported from one system to another (other than simply being moved from one version of a system to the next, e.g., by being moved from TADS 2 to TADS 3), the port receives a new IFID. Again, this is analogous to books: a different-format reissue of a book, such as a paperback of what was previously hardback, gets a new ISBN.
 
 ## "What else should I do?"
 

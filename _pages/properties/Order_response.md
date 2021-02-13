@@ -1,6 +1,6 @@
 ---
 title: order_response
-permalink: /property/order_response/
+permalink: /properties/order_response/
 categories: 
   - Properties
 ---

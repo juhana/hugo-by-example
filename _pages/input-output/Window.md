@@ -16,38 +16,14 @@ The Hugo language includes the **window** command to make this possible.
 When a window is defined, cursor positioning, line-wrapping, etc. are
 limited to the size of the defined window.
 
-Using the **window** command.
+Using the **window** command:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>window Command Syntax</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><code>window 0</code></p></td>
-<td><p>Restores output to the full screen</p></td>
-</tr>
-<tr class="even">
-<td><p><code>window </code><em><code>n</code></em><br />
-<code>{ ... }</code></p></td>
-<td><p>Creates a window of <em>n</em> lines at the top of full window. Each line is also the full length of the of the screen.<br />
-(The statusline area is an example of this kind of window.)</p></td>
-</tr>
-<tr class="odd">
-<td><p><code>window </code><em><code>l</code></em><code>, </code><em><code>t</code></em><code>, </code><em><code>r</code></em><code>, </code><em><code>b</code></em><br />
-<code>{ ... }</code></p></td>
-<td><p>Creates a window with the left-top corner at <em>l, t</em> and the right-bottom at <em>r, b</em> where these character coordinates on the full screen.</p></td>
-</tr>
-<tr class="even">
-<td><p><code>window</code><br />
-<code>{...}</code></p></td>
-<td><p>Redraws the last window</p></td>
-</tr>
-</tbody>
-</table>
+| Command Syntax | Description |
+| --- | --- |
+| window 0 | Restores output to the full screen |
+| window n { ... } | Creates a window of n lines at the top of full window. Each line is also the full length of the of the screen. (The statusline area is an example of this kind of window.) |
+| window l, t, r, b { ... } | Creates a window with the left-top corner at l, t and the right-bottom at r, b where these character coordinates on the full screen. |
+| window { ... } | Redraws the last window |
 
 The output to the defined window only lasts as long as the code that is
 in between the { } characters. Outside the characters, the output

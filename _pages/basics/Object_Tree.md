@@ -1,6 +1,6 @@
 ---
 title: Object Tree
-permalink: /basics/object_tree
+permalink: /basics/object-tree
 categories:
   - Basics
   - Object Tree
@@ -34,65 +34,31 @@ children of the kitchen are table, counter and the player character. The
 There are a number of built-in functions that can be used to read the
 object tree:
 
-| Function   | Definition                                                                                             |
-|------------|--------------------------------------------------------------------------------------------------------|
-| parent()   | Returns the parent of the object                                                                       |
-| sibling()  | Returns the next sibling                                                                               |
-| child()    | Returns the child of the object                                                                        |
-| youngest() | Returns the youngest child of the object                                                               |
-| elder()    | Returns the older sibling (the next object to the left on the object tree graph)                       |
-| eldest()   | Returns the oldest child of the object (same as child())                                               |
-| younger()  | Returns the younger sibling (the next object to the right on the object tree graph); same as sibling() |
-| children() | Returns the number of children the object has                                                          |
+| Function     | Definition                                                                                             |
+|--------------|--------------------------------------------------------------------------------------------------------|
+| `parent()`   | Returns the parent of the object                                                                       |
+| `sibling()`  | Returns the next sibling                                                                               |
+| `child()`    | Returns the child of the object                                                                        |
+| `youngest()` | Returns the youngest child of the object                                                               |
+| `elder()`    | Returns the older sibling (the next object to the left on the object tree graph)                       |
+| `eldest()`   | Returns the oldest child of the object (same as child())                                               |
+| `younger()`  | Returns the younger sibling (the next object to the right on the object tree graph); same as sibling() |
+| `children()` | Returns the number of children the object has                                                          |
 
 Each of these functions takes a single object as an argument. If we were
 to use the functions on the above table, they would return the
 following:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Function</p></th>
-<th><p>Returns</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>parent(table)</p></td>
-<td><p>kitchen</p></td>
-</tr>
-<tr class="even">
-<td><p>sibling(table)<br />
-younger(table)</p></td>
-<td><p>counter</p></td>
-</tr>
-<tr class="odd">
-<td><p>child(counter)<br />
-eldest(counter)</p></td>
-<td><p>eggs</p></td>
-</tr>
-<tr class="even">
-<td><p>youngest(kitchen)</p></td>
-<td><p>player</p></td>
-</tr>
-<tr class="odd">
-<td><p>elder(table)</p></td>
-<td><p>0 (<strong><em>nothing</em></strong>)</p></td>
-</tr>
-<tr class="even">
-<td><p>elder(plate)</p></td>
-<td><p>0 (<strong><em>nothing</em></strong>)</p></td>
-</tr>
-<tr class="odd">
-<td><p>children(kitchen)</p></td>
-<td><p>3 (number of objects that are directly below <em>kitchen</em>)</p></td>
-</tr>
-<tr class="even">
-<td><p>children(eggs)</p></td>
-<td><p>0</p></td>
-</tr>
-</tbody>
-</table>
+| Function | Returns |
+| --- | --- |
+| `parent(table)` | kitchen |
+| `sibling(table)`<br>`younger(table)` | counter |
+| `child(counter)`<br>`eldest(counter)` | eggs |
+| `youngest(kitchen)` | player |
+| `elder(table)` | 0 (nothing) |
+| `elder(plate)` | 0 (nothing) |
+| `children(kitchen)` | 3 (number of objects that are directly below kitchen) |
+| `children(eggs)` | 0 |
 
 Now, let's take a look at the table if the player types the following
 commands in the game

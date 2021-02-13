@@ -26,57 +26,20 @@ embedded codes for readability.
 The `Font()` routine takes [constants](basics/constants/) (defined in
 the standard library)
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Constant</p></th>
-<th><p>Effect</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><code>BOLD_ON</code></p></td>
-<td><p>to start <strong>bold</strong> text<br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><code>BOLD_OFF</code></p></td>
-<td><p>to stop <strong>bold</strong> text<br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><code>ITALIC_ON</code></p></td>
-<td><p>to start <em>italic</em> text<br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><code>ITALIC_OFF</code></p></td>
-<td><p>to stop <em>italic</em> text<br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><code>UNDERLINE_ON</code></p></td>
-<td><p>to start <ins>underline</ins> text<br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><code>UNDERLINE_OFF</code></p></td>
-<td><p>to stop <ins>underline</ins> text</p></td>
-</tr>
-<tr class="odd">
-<td><p><code>PROP_ON</code></p></td>
-<td><p>Start Proportional printing</p></td>
-</tr>
-<tr class="even">
-<td><p><code>PROP_OFF</code></p></td>
-<td><p>Stop proportional printing</p></td>
-</tr>
-</tbody>
-</table>
+| Constant | Effect |
+| --- | --- |
+| BOLD_ON | to start **bold** text  |
+| BOLD_OFF | to stop **bold** text  |
+| ITALIC_ON | to start *italic* text  |
+| ITALIC_OFF | to stop *italic* text  |
+| UNDERLINE_ON | to start <ins>underlined</ins> text  |
+| UNDERLINE_OFF | to stop <ins>underlined</ins> text |
+| PROP_ON | Start `proportional` printing |
+| PROP_OFF | Stop `proportional` printing |
 
 Example:
 
-``` numberLines
+```
 ...INSIDE SOME ROUTINE SOMEWHERE...
 Font(BOLD_ON)
 "This text will print bold, "
@@ -96,16 +59,12 @@ Font(UNDERLINE_OFF)
 The output of this program will look something like this (for
 interpreters that support it):
 
-<div class="output">
-
-**This text will print bold.**
-But this text will not.
-<ins>**This text will print Bold AND underlined**</ins>
-<ins>And this text will just be underlined.</ins>
-Back to normal text
-&gt;<span style="text-decoration: blink;">_</span>
-
-</div>
+>**This text will print bold.**  
+>But this text will not.  
+><ins>**This text will print Bold AND underlined**</ins>  
+><ins>And this text will just be underlined.</ins>  
+>Back to normal text  
+>&gt;_
 
 ### Embedded Control Codes
 
@@ -116,7 +75,7 @@ The following control codes are used for embedded text:
 | \\B          | Start **bold** text.              |
 | \\b          | End **bold** text.                |
 | \\I          | Start *italic* text.              |
-| \\i          | End ''italic' text.               |
+| \\i          | End *italic* text.               |
 | \\U          | Start <ins>underlined</ins> text. |
 | \\u          | End <ins>underlined</ins> text.   |
 

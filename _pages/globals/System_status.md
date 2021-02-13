@@ -42,40 +42,10 @@ Besides 0 and -1, `system_status` can be set to several other values,
 depending. Here is the full range (keep in mind that many of these are
 used for resource files):
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Constant Name<br />
-(as defined by "system.h" or "resources.h")</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>STAT_NOERROR</p></td>
-<td><p>System or resource call worked</p></td>
-</tr>
-<tr class="even">
-<td><p>-1</p></td>
-<td><p>STAT_UNAVAILABLE</p></td>
-<td><p>Function not available on current interpreter</p></td>
-</tr>
-<tr class="odd">
-<td><p>101</p></td>
-<td><p>STAT_NOFILE</p></td>
-<td><p>File wasn't found</p></td>
-</tr>
-<tr class="even">
-<td><p>102</p></td>
-<td><p>STAT_NORESOURCE</p></td>
-<td><p>Resource wasn't found</p></td>
-</tr>
-<tr class="odd">
-<td><p>103</p></td>
-<td><p>STAT_LOADERROR</p></td>
-<td><p>File found but did not load properly</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Constant Name (as defined by "system.h" or "resources.h") | Meaning |
+| --- | --- | --- |
+| 0 | STAT_NOERROR | System or resource call worked |
+| -1 | STAT_UNAVAILABLE | Function not available on current interpreter |
+| 101 | STAT_NOFILE | File wasn't found |
+| 102 | STAT_NORESOURCE | Resource wasn't found |
+| 103 | STAT_LOADERROR | File found but did not load properly |

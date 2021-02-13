@@ -13,55 +13,13 @@ While it's certainly possible to just call the system functions by their
 [constants](basics/constants/) which act as a key. These functions
 include:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Constant Name<br />
-(as defined by "system.h")</p></th>
-<th><p>What It Does</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>11</p></td>
-<td><p>READ_KEY</p></td>
-<td><p>Reads keypress (doesn't pause game)</p></td>
-</tr>
-<tr class="even">
-<td><p>21</p></td>
-<td><p>NORMALIZE_RANDOM</p></td>
-<td><p>Make random numbers predictable (used by HugoFix)</p></td>
-</tr>
-<tr class="odd">
-<td><p>22</p></td>
-<td><p>INIT_RANDOM</p></td>
-<td><p>Restore “random” random values(used by HugoFix)</p></td>
-</tr>
-<tr class="even">
-<td><p>31</p></td>
-<td><p>PAUSE_SECOND</p></td>
-<td><p>Pause for one second</p></td>
-</tr>
-<tr class="odd">
-<td><p>32</p></td>
-<td><p>PAUSE_100TH_SECOND</p></td>
-<td><p>Pause one hundredth of a second (used by "abuses" like Hugo Tetris)</p></td>
-</tr>
-<tr class="even">
-<td><p>41</p></td>
-<td><p>GAME_RESET</p></td>
-<td><p>Returns true after restore or undo (oddly, it doesn't work for restarts)</p></td>
-</tr>
-<tr class="odd">
-<td><p>51</p></td>
-<td><p>SYSTEM_TIME</p></td>
-<td><p>Stores system time in parse$</p></td>
-</tr>
-<tr class="even">
-<td><p>61</p></td>
-<td><p>MINIMAL_INTERFACE</p></td>
-<td><p>Returns true for minimal ports</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Constant Name (as defined by "system.h") | What It Does |
+| --- | --- | --- |
+| 11 | READ_KEY | Reads keypress (doesn't pause game) |
+| 21 | NORMALIZE_RANDOM | Make random numbers predictable (used by HugoFix) |
+| 22 | INIT_RANDOM | Restore “random” random values(used by HugoFix) |
+| 31 | PAUSE_SECOND | Pause for one second |
+| 32 | PAUSE_100TH_SECOND | Pause one hundredth of a second (used by "abuses" like Hugo Tetris) |
+| 41 | GAME_RESET | Returns true after restore or undo (oddly, it doesn't work for restarts) |
+| 51 | SYSTEM_TIME | Stores system time in parse$ |
+| 61 | MINIMAL_INTERFACE | Returns true for minimal ports |

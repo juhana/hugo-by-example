@@ -29,150 +29,41 @@ different from any other global variable,
 
 Some reserved global variables are defined by the compiler:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Variable name</p></th>
-<th><p>Used for</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><b><a href="object_(Global)">object</a></b></p></td>
-<td><p>Direct object of a verb action</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="xobject">xobject</a></b></p></td>
-<td><p>Indirect object</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="self">self</a></b></p></td>
-<td><p>Self-referential object</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="words">words</a></b></p></td>
-<td><p>Total number of words in word array</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="player">player</a></b></p></td>
-<td><p>The player object</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="actor">actor</a></b></p></td>
-<td><p>Player, or a char. (for scripts)</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="Location">location</a></b></p></td>
-<td><p>Location of the player object</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Verbroutine">verbroutine</a></b></p></td>
-<td><p>Current verb routine</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="Endflag">endflag</a></b></p></td>
-<td><p>If non-false, run <a href="EndGame">EndGame</a></p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="prompt">prompt</a></b></p></td>
-<td><p>The character(s) used for the prompt (to let the<br />
-player know when it's time to type their next command<br />
-next command to the game.)</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="objects">objects</a></b></p></td>
-<td><p>Total number of objects</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="system_status">system_status</a></b></p></td>
-<td><p>After certain operations</p></td>
-</tr>
-</tbody>
-</table>
+| Variable name | Used for |
+| --- | --- |
+| [object](globals/object) | Direct object of a verb action |
+| [xobject](globals/xobject) | Indirect object |
+| [self](globals/self) | Self-referential object |
+| [words](globals/words) | Total number of words in word array |
+| [player](globals/player) | The player object |
+| [actor](globals/actor) | Player, or a char. (for scripts) |
+| [location](globals/location) | Location of the player object |
+| [verbroutine](globals/verbroutine) | Current verb routine |
+| [endflag](globals/endflag) | If non-false, run EndGame |
+| [prompt](globals/prompt) | The character(s) used for the prompt (to let the player know when it's time to type their next command next command to the game.) |
+| objects | Total number of objects |
+| [system_status](globals/system_status) | After certain operations |
 
 The [Hugo Library](library/) also defines several global
 variables, including:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Variable name</p></th>
-<th><p>Used for</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><b><a href="STATUSTYPE">STATUSTYPE</a></b></p></td>
-<td><p>The type of information used in the status bar<br />
- 0 - no status<br />
- 1 - score/turns<br />
- 2 - time of day</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="TEXTCOLOR">TEXTCOLOR</a></b></p></td>
-<td><p>The default color of the text that is printed<br />
-<i>for interpreters that support it</i></p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="player_person">player_person</a></b></p></td>
-<td><p>1=first, 2=second, 3=third</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Scoring">MAX_SCORE</a></b></p></td>
-<td><p>Total possible score in game</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="FORMAT">FORMAT</a></b></p></td>
-<td><p>Contains bitmap of format masks</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="DEFAULT_FONT">DEFAULT_FONT</a></b></p></td>
-<td><p>0=monospaced normal text</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="UNDO_OFF">UNDO_OFF</a></b></p></td>
-<td><p>Overrides undo when true</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="counter">counter</a></b></p></td>
-<td><p>Elapsed turns (or time, as desired)</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="score">score</a></b></p></td>
-<td><p>Accumulated score</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="verbosity">verbosity</a></b></p></td>
-<td><p>For room descriptions<br />
- 0 - BRIEF<br />
- 1 - SUPERBRIEF<br />
- 2 - VERBOSE</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="speaking">speaking</a></b></p></td>
-<td><p>Set to whatever character the player is currently speaking to</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="old_location">old_location</a></b></p></td>
-<td><p>The previous location</p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="obstacle">obstacle</a></b></p></td>
-<td><p>if set to an object, that object prevents the player from leaving the room</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="light_source">light_source</a></b></p></td>
-<td><p>Current object providing light (can be the location); set by <a href="FindLight">FindLight</a></p></td>
-</tr>
-<tr class="odd">
-<td><p><b><a href="Event_flag">event_flag</a></b></p></td>
-<td><p><code>event_flag</code> value determines whether actions like waiting should be interrupted</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="need_newline">need_newline</a></b></p></td>
-<td><p>true when newline should be printed</p></td>
-</tr>
-</tbody>
-</table>
+| Variable name | Used for |
+| --- | --- |
+| [STATUSTYPE](globals/statustype) | The type of information used in the status bar 0 - no status 1 - score/turns 2 - time of day |
+| [TEXTCOLOR](globals/textcolor) | The default color of the text that is printed for interpreters that support it |
+| [player_person](globals/player_person) | 1=first, 2=second, 3=third |
+| [MAX_SCORE](globals/max_score) | Total possible score in game |
+| [FORMAT](globals/format) | Contains bitmap of format masks |
+| [DEFAULT_FONT](globals/default_font) | 0=monospaced normal text |
+| [UNDO_OFF](globals/undo_off) | Overrides undo when true |
+| [counter](globals/counter) | Elapsed turns (or time, as desired) |
+| [score](globals/score) | Accumulated score |
+| [verbosity](globals/verbosity) | For room descriptions 0 - BRIEF 1 - SUPERBRIEF 2 - VERBOSE |
+| [speaking](globals/speaking) | Set to whatever character the player is currently speaking to |
+| [old_location](globals/old_location) | The previous location |
+| [obstacle](globals/obstacle) | if set to an object, that object prevents the player from leaving the room |
+| [light_source](globals/light_source) | Current object providing light (can be the location); set by FindLight |
+| [event_flag](globals/event_flag) | event_flag value determines whether actions like waiting should be interrupted |
+| [need_newline](globals/need_newline) | true when newline should be printed |
 
 See Also: [local](basics/locals/)

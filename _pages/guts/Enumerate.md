@@ -9,21 +9,12 @@ categories:
 to either [constants](basics/constants/) or
 [global variables](basics/variables/).
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Usage</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>enumerate [globals] [ start=&lt;starting value&gt; ] [ step &lt;+|-|*|/&gt; &lt;number to add/subtract/multiply/divide by&gt; ]<br />
-{<br />
-&lt;constant/global #1&gt; , &lt;constant/global # 2&gt;, &lt;constant/global # 3&gt;, ! etc<br />
-}</p></td>
-</tr>
-</tbody>
-</table>
+## Usage
+
+    enumerate [globals] [ start=<starting value> ] [ step <+|-|*|/> <number to add/subtract/multiply/divide by> ]
+    {
+        <constant/global #1> , <constant/global # 2>, <constant/global # 3>, ! etc
+    }
 
 ## "No Frills" Enumeration
 
