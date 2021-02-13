@@ -1,6 +1,6 @@
 ---
 title: Boxdraw.h
-permalink: /library-contributions/boxdraw.h/
+permalink: /contributions/boxdraw.h/
 categories: 
   - Library Contributions
 ---

@@ -1,6 +1,7 @@
 ---
 title: List of Hugo Games
 permalink: /hugo/games/
+classes: wide
 ---
 
 These games were written in Hugo!

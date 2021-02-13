@@ -13,7 +13,7 @@ This article will describe using the compiler from the command line.
 
 ### Notes
 
-In Microsoft Windows, you can get to the command line by clicking on the Start menu, selecting run and entering  `commmand` (Windows XP) or `cmd` (Vista/Windows 7)
+In Microsoft Windows, you can get to the command line by clicking on the Start menu, selecting run and entering `cmd`
 
 In Linux, just open your favorite terminal emulator (gnome-terminal/xterm/konsole).
 
@@ -33,18 +33,14 @@ The full structure of the command is:
 -   **&lt;sourcefile\[.hug\]&gt;** the source code you're compiling.
     (**.hug** is optional, if your file is called *GreatGame.hug*, the
     hc program is smart enough to add the **.hug** if you leave it off.
--   **&lt;objectfile&gt; the name of the game file (if you want it to be
+-   **&lt;objectfile&gt;** the name of the game file (if you want it to be
     different than the name of the source).
 
 The simplest command line command is simply **hc &lt;sourcefile&gt;**. For
 example, if your source file is called *GreatGame.hug* you can just type
 the following to compile your game.
 
-<div class="command">
-
-`hc GreatGame`
-
-</div>
+    hc GreatGame
 
 ### Command Line Switches
 
@@ -67,7 +63,7 @@ the following to compile your game.
 | **-x** | Ignore switches in source code                        | This causes the compiler to ignore any of these switches that are used inside the source file, overriding what the author wanted done.                                                                                                 |
 
 These switches can also be combined such as: `-ls` which combines both
-the -l switch and the -s switch.
+the `-l` switch and the `-s` switch.
 
 ### Limit Settings
 
@@ -81,19 +77,13 @@ large.
 To see what the limits are set to on your system, just type the
 following:
 
-<div class="command">
+    hc $list
 
-hc $list
-
-</div>
-
-*Note:* In Linux or Mac OS, you will need to "escape" the $ with a
-backslash \\ so that the command shell doesn't try to interpret $list as
-a variable instead of the command $list
+>*Note:* In Linux or Mac OS, you will need to "escape" the $ with a
+>backslash \\ so that the command shell doesn't try to interpret $list as
+>a variable instead of the command $list
 
 You should see something like the following:
-
-<div class="output">
 
     $ hc \$list
     ---------------------------------------------------------------
@@ -113,97 +103,34 @@ You should see something like the following:
     Modify non-static default limits using:  $<setting>=<new limit>
     ---------------------------------------------------------------
 
-</div>
-
 For example, if you need more than 256 aliases, the option
 **$MAXALIASES=350** needs to be added to the command line like so:
 
-<div class="command">
+**Windows**
 
-hc $MAXALIASES=350 GreatGame
-*or*
-hc \\$MAXALIASES=350 GreatGame
-*on Linux or OS X*
+    hc $MAXALIASES=350 GreatGame
 
-</div>
+**Linux/OS X**
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Limit Name</p></th>
-<th><p>Definition</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>MAXATTRIBUTES</strong></p></td>
-<td><p>The maximum number of definable attributes, not counting aliases (CANNOT BE CHANGED)</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXGLOBALS</strong></p></td>
-<td><p>The maximum bumber of definable global variables (CANNOT BE CHANGED)</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MAXLOCALS</strong></p></td>
-<td><p>The maximum number of local variables allowed in a routine, including the arguments passed to the routine (CANNOT BE CHANGED)</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXALIASES</strong></p></td>
-<td><p>The maximum number of aliases that may be defined for attributes and/or properties<br />
-Set with <em>$MAXALIASES=<num></em></p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MAXARRAYS</strong></p></td>
-<td><p>The maximum number of arrays that may be defined (not the total array space)<br />
-Set with <em>$MAXARRAYS=<num></em></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXCONSTANTS</strong></p></td>
-<td><p>The maximum number of constants that can be defined<br />
-Set with <em>$MAXCONSTANTS=<num></em></p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MAXDICT</strong></p></td>
-<td><p>The maximum number of entries that the compiler can put in the dictionary table.<br />
-Set with <em>$MAXDICT=<num></em></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXDICTEXTEND</strong></p></td>
-<td><p>The number of bytes (not entries) available for dynamic dictionary extension during runtime. One dictionary entry requires a byte for every letter and an extra byte that holds the total number of letters.<br />
-Set with <em>$MAXDICTEXTEND=<num></em></p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MAXEVENTS</strong></p></td>
-<td><p>The maximum number of global events or object-linked events.<br />
-Set with <em>$MAXEVENTS=<num></em></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXFLAGS</strong></p></td>
-<td><p>The maximum number of compiler flags that may be set at one time.<br />
-Set with <em>$MAXFLAGS=<num></em></p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MAXLABELS</strong></p></td>
-<td><p>The maximum number of labels that may be defined during compilation.<br />
-Set with <em>$MAXLABELS=<num></em></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXOBJECTS</strong></p></td>
-<td><p>The maximum number of objects that may be defined during compilation.<br />
-Set with <em>$MAXOBJECTS=<num></em></p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>MAXPROPERTIES</strong></p></td>
-<td><p>The maximum number of properties that may be defined.<br />
-Set with <em>$MAXPROPERTIES=<num></em></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MAXROUTINES</strong></p></td>
-<td><p>The maximum number of stand-alone routines that may be defined.<br />
-Set with <em>$MAXROUTINES=<num></em></p></td>
-</tr>
-</tbody>
-</table>
+    hc \\$MAXALIASES=350 GreatGame
+
+
+| Limit Name | Definition | How to change |
+|------------|------------|---------------|
+| MAXATTRIBUTES | The maximum number of definable attributes, not counting aliases | cannot be changed |
+| MAXGLOBALS | The maximum bumber of definable global variables | cannot be changed |
+| MAXLOCALS | The maximum number of local variables allowed in a routine, including the arguments passed to the routine | cannot be changed |
+| MAXALIASES | The maximum number of aliases that may be defined for attributes and/or properties | `$MAXALIASES=<num>` |
+| MAXARRAYS | The maximum number of arrays that may be defined (not the total array space) | `$MAXARRAYS=<num>` |
+| MAXCONSTANTS | The maximum number of constants that can be defined | `$MAXCONSTANTS=<num>` |
+| MAXDICT | The maximum number of entries that the compiler can put in the dictionary table | `$MAXDICT=<num>` |
+| MAXDICTEXTEND | The number of bytes (not entries) available for dynamic dictionary extension during runtime. One dictionary entry requires a byte for every letter and an extra byte that holds the total number of letters. | `$MAXDICTEXTEND=<num>` |
+| MAXEVENTS | The maximum number of global events or object-linked events | `$MAXEVENTS=<num>` |
+| MAXFLAGS | The maximum number of compiler flags that may be set at one time | `$MAXFLAGS=<num>` |
+| MAXLABELS | The maximum number of labels that may be defined during compilation | `$MAXLABELS=<num>` |
+| MAXOBJECTS | The maximum number of objects that may be defined during compilation | `$MAXOBJECTS=<num>` |
+| MAXPROPERTIES | The maximum number of properties that may be defined | `$MAXPROPERTIES=<num>` |
+| MAXROUTINES | The maximum number of stand-alone routines that may be defined | `$MAXROUTINES=<num>` |
 
 ### Sample Compilation
 
@@ -245,13 +172,13 @@ kept in the same directory as your game source.
 Working this way can waste disk space if you have several copies of the
 library files on your computer. It's more effecient to keep the library
 files in one place, and then tell the compiler where to look for them
-when you *\#include* them in your source code.
+when you `#include` them in your source code.
 
 You can tell the compiler where certain files are kept by adding a bit
 of code on the command line (like the switches above).
 
-Currently there are six 'directories' that the Hugo compiler understands
-on the command line
+Currently there are six "directories" that the Hugo compiler understands
+on the command line:
 
 | Directory Name | Files found there                                                       |
 |----------------|-------------------------------------------------------------------------|
@@ -263,26 +190,20 @@ on the command line
 | **temp**       | Temporary comile-time files.                                            |
 
 You use the following syntax to declare a directory for the Hugo
-compiler `hc @directory=`<real-path-to-directory> **Note:** In Linux/OS
-X, depending on the shell you are using (usually Bash), you will need to
-escape the **@** symbol to make sure that the shell doesn't try to
-interpret the @dir as a command. Samples:
+compiler:
+
+    hc @directory=<real-path-to-directory> 
+
+**Note:** In Linux/OS X, depending on the shell you are using (usually Bash), you will need to
+escape the **@** symbol to make sure that the shell doesn't try to interpret the @dir as a command. Samples:
 
 **Windows**
 
-<div class="command">
-
-hc @lib=C:\\Users\\CoolDude\\HugoLibrary GreatGame.hug
-
-</div>
+    hc @lib=C:\\Users\\CoolDude\\HugoLibrary GreatGame.hug
 
 **Linux/OS X**
 
-<div class="command">
-
-hc \\@lib=/home/coolDude/HugoLib GreatGame.hug
-
-</div>
+    hc \\@lib=/home/coolDude/HugoLib GreatGame.hug
 
 To avoid the hassle of always remembering to type @dir=path-to-whatever
 when you want to compile your source, you can set up what are known as
@@ -300,18 +221,13 @@ In Windows, environment variables can be set by the following steps:
 3.  Click **Environment variables**
 4.  Click **New** and add the name (HUGO_*directory*) and the value
 
-Or, you can download a free program called *varpanel* that makes editing
+Or, you can download a free program called [varpanel](http://www.softpedia.com/get/Programming/Other-Programming-Files/Varpanel.shtml) that makes editing
 environment variables much easier. 
-[varpanel download](http://www.softpedia.com/get/Programming/Other-Programming-Files/Varpanel.shtml)
 
 In Linux/OS X (using the bash shell), edit your **.bashrc** file. (Yes,
-there is a period in front of the name) and add the following line(s)
+there is a period in front of the name) and add the following line:
 
-<div class="command">
-
-**export HUGO_LIB=*"/path/to/hugo/library"***
-
-</div>
+    export HUGO_LIB="/path/to/hugo/library"
 
 After adding the lines to bash, you'll need to close and re-open the
 terminal for the changes to take affect.

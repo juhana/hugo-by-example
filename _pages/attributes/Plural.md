@@ -1,6 +1,6 @@
 ---
 title: plural
-permalink: /routines/plural/
+permalink: /attributes/plural/
 categories: 
   - Attributes
 ---

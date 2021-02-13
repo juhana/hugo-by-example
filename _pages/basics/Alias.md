@@ -27,11 +27,13 @@ another name given) to *moved*.
 
 To make an alias of your own, just use:
 
-**`attribute`**` `<new attribute>` `**`alias`**` `<existing attribute>
+**`attribute`** `<new attribute>` **`alias`** `<existing attribute>`
+
 for attributes and
 
-**`property`**` `<new property>` `**`alias`**` `<existing property> for
-properties.
+**`property`** `<new property>` **`alias`** `<existing property>`
+
+for properties.
 
 Let's take a look at this in action. In this game, a
 [character](characters/) can be a super hero or a normal

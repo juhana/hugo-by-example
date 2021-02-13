@@ -1,6 +1,6 @@
 ---
 title: openable
-permalink: /attribute/openable/
+permalink: /attributes/openable/
 categories: 
   - Attributes
 ---

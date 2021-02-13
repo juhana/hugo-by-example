@@ -23,231 +23,38 @@ around this limitation. There are several attributes defined in the Hugo
 standard library (in the order shown under *order defined*) in the
 following table.
 
-<table style="width:98%;">
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 32%" />
-<col style="width: 32%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Attribute name</p></th>
-<th><p>Attribute<br />
-value</p></th>
-<th><p>Order<br />
-defined</p></th>
-<th><p>Used for</p></th>
-<th><p>Notes</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="active">active</a></p></td>
-<td><p>14</p></td>
-<td><p>17</p></td>
-<td><p>Set if an object is active</p></td>
-<td><p>(alias for <strong>switchedon</strong>)</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="already_listed">already_listed</a></p></td>
-<td><p>23</p></td>
-<td><p>28</p></td>
-<td><p><em>For library use.</em></p></td>
-<td><p>(alias for <strong>workflag</strong>)</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="clothing">clothing</a></p></td>
-<td><p>15</p></td>
-<td><p>18</p></td>
-<td><p>Set if an object can be worn</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="container">container</a></p></td>
-<td><p>18</p></td>
-<td><p>22</p></td>
-<td><p>Set if an object can contain things (have something <em>put in</em> them).</p></td>
-<td><p>Conflicts with <strong>platform</strong> (see below)</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="enterable">enterable</a></p></td>
-<td><p>17</p></td>
-<td><p>21</p></td>
-<td><p>Set an object may be entered</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="female">female</a></p></td>
-<td><p>05</p></td>
-<td><p>07</p></td>
-<td><p>Set if a character is female (default is male)</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="hidden">hidden</a></p></td>
-<td><p>20</p></td>
-<td><p>24</p></td>
-<td><p>Set if an object is not listed</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="known">known</a></p></td>
-<td><p>00</p></td>
-<td><p>01</p></td>
-<td><p>Set when an object is known by the player</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="light">light</a></p></td>
-<td><p>11</p></td>
-<td><p>13</p></td>
-<td><p>Set if an object is/provides light</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="living">living</a></p></td>
-<td><p>04</p></td>
-<td><p>06</p></td>
-<td><p>Set if an object is a character</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="lockable">lockable</a></p></td>
-<td><p>08</p></td>
-<td><p>10</p></td>
-<td><p>Set if an object can be locked</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="locked">locked</a></p></td>
-<td><p>09</p></td>
-<td><p>11</p></td>
-<td><p>Set if an object is locked</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="mobile">mobile</a></p></td>
-<td><p>16</p></td>
-<td><p>20</p></td>
-<td><p>Set if an object may be moved around.</p></td>
-<td><p>(alias for <strong>worn</strong>)</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="moved">moved</a></p></td>
-<td><p>01</p></td>
-<td><p>02</p></td>
-<td><p>Set when an object has been moved</p></td>
-<td><p>aliased by <em>visited</em></p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="open">open</a></p></td>
-<td><p>07</p></td>
-<td><p>09</p></td>
-<td><p>Set if an object is open</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="openable">openable</a></p></td>
-<td><p>06</p></td>
-<td><p>08</p></td>
-<td><p>Set if an object can be opened</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="platform">platform</a></p></td>
-<td><p>19</p></td>
-<td><p>23</p></td>
-<td><p>Set if an object can contain things (have something <em>put on</em> them).</p></td>
-<td><p>Conflicts with <strong>container</strong> (see below)</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="plural">plural</a></p></td>
-<td><p>03</p></td>
-<td><p>05</p></td>
-<td><p>Set for plural objects</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="quiet">quiet</a></p></td>
-<td><p>21</p></td>
-<td><p>25</p></td>
-<td><p>Set if a container/platform is quiet (contents not initially listed).</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="readable">readable</a></p></td>
-<td><p>12</p></td>
-<td><p>14</p></td>
-<td><p>Set if an object can be read</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="special">special</a></p></td>
-<td><p>24</p></td>
-<td><p>29</p></td>
-<td><p>For miscellaneous use.</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="static">static</a></p></td>
-<td><p>02</p></td>
-<td><p>04</p></td>
-<td><p>Set for an object that cannot be taken</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="switchable">switchable</a></p></td>
-<td><p>13</p></td>
-<td><p>15</p></td>
-<td><p>Set if an object can be switched on/off</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="switchedon">switchedon</a></p></td>
-<td><p>14</p></td>
-<td><p>16</p></td>
-<td><p>Set if an object is switched on</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="transparent">transparent</a></p></td>
-<td><p>22</p></td>
-<td><p>26</p></td>
-<td><p>Set if an object is not opaque. (It can be seen through)</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="unfriendly">unfriendly</a></p></td>
-<td><p>10</p></td>
-<td><p>12</p></td>
-<td><p>Set if a character is an opponent</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="visited">visited</a></p></td>
-<td><p>01</p></td>
-<td><p>03</p></td>
-<td><p>Set when a room has been visited</p></td>
-<td><p>(alias for <strong>moved</strong>)</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="workflag">workflag</a></p></td>
-<td><p>23</p></td>
-<td><p>27</p></td>
-<td><p><em>For library use.</em></p></td>
-<td><p>aliased by <em>already_listed</em></p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="worn">worn</a></p></td>
-<td><p>16</p></td>
-<td><p>19</p></td>
-<td><p>Set if an object is being worn.</p></td>
-<td><p>aliased by <em>mobile</em></p></td>
-</tr>
-</tbody>
-</table>
+| Attribute name | Attribute value | Order defined | Used for | Notes | 
+|----------------|-----------------|---------------|----------|-------| 
+| [active](attributes/active) | 14 | 17 | Set if an object is active | (alias for [switchedon](attributes/switchedon)) | 
+| [already_listed](attributes/already_listed) | 23 | 28 | For library use. | (alias for [workflag](attributes/workflag)) | 
+| [clothing](attributes/clothing) | 15 | 18 | Set if an object can be worn |  | 
+| [container](attributes/container) | 18 | 22 | Set if an object can contain things (have something put in them). | Conflicts with platform (see below) | 
+| [enterable](attributes/enterable) | 17 | 21 | Set an object may be entered |  | 
+| [female](attributes/female) | 05 | 07 | Set if a character is female (default is male) |  | 
+| [hidden](attributes/hidden) | 20 | 24 | Set if an object is not listed |  | 
+| [known](attributes/known) | 00 | 01 | Set when an object is known by the player |  | 
+| [light](attributes/light) | 11 | 13 | Set if an object is/provides light |  | 
+| [living](attributes/living) | 04 | 06 | Set if an object is a character |  | 
+| [lockable](attributes/lockable) | 08 | 10 | Set if an object can be locked |  | 
+| [locked](attributes/locked) | 09 | 11 | Set if an object is locked |  | 
+| [mobile](attributes/mobile) | 16 | 20 | Set if an object may be moved around. | (alias for [worn](attributes/worn)) | 
+| [moved](attributes/moved) | 01 | 02 | Set when an object has been moved | aliased by [visited](attributes/visited) | 
+| [open](attributes/open) | 07 | 09 | Set if an object is open |  | 
+| [openable](attributes/openable) | 06 | 08 | Set if an object can be opened |  | 
+| [platform](attributes/platform) | 19 | 23 | Set if an object can contain things (have something put on them). | Conflicts with [container](attributes/container) (see below) | 
+| [plural](attributes/plural) | 03 | 05 | Set for plural objects |  | 
+| [quiet](attributes/quiet) | 21 | 25 | Set if a container/platform is quiet (contents not initially listed). |  | 
+| [readable](attributes/readable) | 12 | 14 | Set if an object can be read |  | 
+| [special](attributes/special) | 24 | 29 | For miscellaneous use. |  | 
+| [static](attributes/static) | 02 | 04 | Set for an object that cannot be taken |  | 
+| [switchable](attributes/switchable) | 13 | 15 | Set if an object can be switched on/off |  | 
+| [switchedon](attributes/switchedon) | 14 | 16 | Set if an object is switched on |  | 
+| [transparent](attributes/transparent) | 22 | 26 | Set if an object is not opaque (it can be seen through.) |  | 
+| [unfriendly](attributes/unfriendly) | 10 | 12 | Set if a character is an opponent |  | 
+| [visited](attributes/visited) | 01 | 03 | Set when a room has been visited | (alias for [moved](attributes/moved)) | 
+| [workflag](attributes/workflag) | 23 | 27 | For library use. | aliased by [already_listed](attributes/already_listed) | 
+| [worn](attributes/worn) | 16 | 19 | Set if an object is being worn. | aliased by [mobile](attributes/mobile) | 
+
 
 After the attributes mentioned in the above table, you have a total of
 104 available (non-aliased) attributes left that you can define for your
@@ -286,13 +93,14 @@ following `before` code:
     Object TV "television"
     {
         is static   !  Can't be moved
+
         before {
-               object DoSwitchOff
-                      {
-                      "You'd turn off the tv, but you're pretty sure \"Wheel of Misfortune\" is on next."
-                      return true
-                      }
-               }
+            object DoSwitchOff
+            {
+                "You'd turn off the tv, but you're pretty sure \"Wheel of Misfortune\" is on next."
+                return true
+            }
+        }
     }
 
 Without the `switchable` attribute, &gt;TURN OFF TV will get the
@@ -301,7 +109,7 @@ players will be left to wonder when- *if ever*- "Wheel of Misfortune"
 will air. Don't do that to them. In this example, the second line of the
 definition should be changed to:
 
-            is static, switchable   !  Can't be moved, can be turned on
+    is static, switchable   !  Can't be moved, can be turned on
 
 ### Aliases
 

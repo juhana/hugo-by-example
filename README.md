@@ -1,3 +1,5 @@
+# Adding content
+
 ## Formatting
 
 ### Line length
@@ -108,3 +110,34 @@ For internal links to page chapters you need to include `{{page.url}}` at the st
     [link label]({{page.url}}#headerID)
 
 The header id is the header text in lowercase, non-alphanumeric characters removed, spaces replaced with dashes ("My Header" -> "#my-header")
+
+
+## Wide pages
+
+To make a page wider, add this to the header:
+
+    classes: wide
+
+Note that if the page has a table of contents it'll be shown at the start of the page.
+
+
+# Development tools
+
+## Local server
+
+If you want to see how the pages look on your own computer before committing changes to the actual web site, install [Jekyll](https://jekyllrb.com) and run:
+
+```
+bundle exec jekyll serve --livereload --incremental
+```
+
+See https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
+
+
+## Checking for broken links
+
+While the local server is running:
+
+```
+npx broken-link-checker http://localhost:4000 -ro --exclude="ifdb"
+```
