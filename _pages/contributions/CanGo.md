@@ -8,7 +8,7 @@ categories:
 **CanGo** is a library contribution written by Cardinal Teulbachs and
 uploaded to the IF Archive in 2000. It is a nice array/routine combo
 that allows for automatic exit-listing in games. You can get it
-[here](http://ifarchive.smallwhitehouse.org/if-archive/programming/hugo/library/contributions/cango.h).
+[here](http://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h).
 It should work for you fine as long as you follow these rules:
 
 1.  Keep direction property code clean, as described
