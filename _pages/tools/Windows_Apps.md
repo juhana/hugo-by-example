@@ -14,7 +14,7 @@ writing or plotting out a game.
 great for plotting out the room layout of your future game. Of course,
 it is also useful for mapping out other people's games, too.
 
-[Trizbort](http://trizbort.genstein.net/index.php#overview) is another
+[Trizbort](https://www.trizbort.com/) is another
 fine mapping program. It doesn't have some of the quick keyboard
 shortcuts that GUEmap has, but it makes much prettier maps. Plus, it has
 an automap feature that works off of game transcripts.
