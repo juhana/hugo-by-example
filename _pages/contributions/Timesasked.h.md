@@ -8,7 +8,7 @@ categories:
 `Timesasked.h` provides a system for keeping track of times that a
 character has been asked or told about various objects/topics. It also
 has some support for notifying the player of currently-available topics.
-Download it [here](http://roody.gerynarsabode.org/hbe/timesasked.zip).
+Download it [here](https://raw.githubusercontent.com/hugoif/library-contributions/main/timesasked.zip).
 
 
 ## The code
