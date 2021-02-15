@@ -15,6 +15,7 @@ These contributions are largely unchanged since their release.
 
 | Name | Description | Hugo Version | Status | On Archive? |
 |------|-------------|--------------|--------|-------------|
+| [Beta](contributions/beta.h) | Modified version of the [Comments in Transcripts](tips/comments-in-transcripts) code.<br>Allows testers to type: **&gt;\* [tester's comments]**. | 2.8 | Works fine | [no](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/beta.h) |
 | [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | 3.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/books.hug) |
 | [CanGo](contributions/cango) | A routine that provides exit descriptions for rooms | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h) |
 | [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | 3.1 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
@@ -40,7 +41,6 @@ These are contributions that are currently being updated.
 
 | Name | Description | Latest Version | Status | On Archive? |
 |------|-------------|----------------|--------|-------------|
-| [Beta](contributions/beta.h) | Modified version of the [Comments in Transcripts](tips/comments-in-transcripts) code.<br>Allows testers to type: **&gt;\* [tester's comments]**. | 2.5 | Works fine | [no](http://roody.gerynarsabode.org/hbe/beta.h) |
 | [Follow](contributions/follow) | Future Boy! routines for better NPC following by Kent Tessman | 1.7 | Works great | [no](http://roody.gerynarsabode.org/hbe/follow.h) | 
 | [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | 1.2 | Works great | [no](http://roody.gerynarsabode.org/hbe/footnotes.zip) | 
 | [NewAutomap](contributions/newautomap) | Glk-compliant version of [Automap](contributions/automap) | 1.2 | See notes | [no](http://roody.gerynarsabode.org/hbe/newautomap.zip) |
