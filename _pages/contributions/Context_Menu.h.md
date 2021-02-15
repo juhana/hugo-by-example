@@ -9,7 +9,7 @@ Kent Tessman's Future Boy! has an adaptive context menu system. This
 library contribution is *that* menu system, slightly adapted for general
 usage. As such, it follows the
 [Future Boy Selected Source license](misc/future-boy-license/).
-You can download it [here](http://roody.gerynarsabode.org/hbe/context_menu.h).
+You can download it [here](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.h).
 
 ## Usage
 
@@ -20,17 +20,13 @@ objects like this:
     room jetplane "On A Jetplane"
     {
          build_menu
-              {
               AddtoMenu("Jump out")
-              }
     }
 
     object newspaper "newspaper"
     {
          build_menu
-              {
               AddtoMenu("Read newspaper")
-              }
     }
 
 ## Special Notes
