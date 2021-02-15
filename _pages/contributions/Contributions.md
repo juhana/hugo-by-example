@@ -16,7 +16,7 @@ These contributions are largely unchanged since their release.
 | Name | Description | Hugo Version | Status | On Archive? |
 |------|-------------|--------------|--------|-------------|
 | [Beta](contributions/beta.h) | Modified version of the [Comments in Transcripts](tips/comments-in-transcripts) code.<br>Allows testers to type: **&gt;\* [tester's comments]**. | 2.8 | Works fine | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/beta.h) |
-| [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | 3.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/books.hug) |
+| [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/books.hug) |
 | [CanGo](contributions/cango) | A routine that provides exit descriptions for rooms | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h) |
 | [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | 3.1 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
 | [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/context_menu.h) |
@@ -28,6 +28,7 @@ These contributions are largely unchanged since their release.
 | Printf | A routine to print a formatted string, similar to C's printf() | 3.1.03 | Should work fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/printf.hug) |
 | Ptalk | Robb Sherwin's port of Adam Cadre's "Phototalk" | 2.5 | Variations of this used in most of Sherwin's games | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/ptalk.zip) |
 | [RandMove](contributions/randmove) | Code for random NPC movement scripting | 2.1 | Works with slight change; [this page](contributions/randmove) also suggests a replacement | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/randmove.txt) |
+| [Simpletalk](contributions/simpletalk.h) | Simplified version of Robb Sherwin's "Phototalk" extension port, modified to be #include-able | 2.4 | Works fine | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/simpletalk.zip) |
 | [Sort](contributions/sort.h) | Configurable extension for sorting arrays in several ways | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/sort.zip) |
 | [Spellsys](contributions/spellsys) | Library for doing Spellcaster-type spells | 2.2 | Won't compile as-is, but its page has information on how to fix | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/spellsys.zip) |
 | Strfnc | A set of additional string functions | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/strfnc.h) |
@@ -49,7 +50,6 @@ These are contributions that are currently being updated.
 | [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 2.5 | Works fine | [no](http://roody.gerynarsabode.org/hbe/newmenu.zip)
 | [Opportune](contributions/opportune.h) | Small extension for quick 1-turn WINDOWS OF OPPORTUNITY (or questions) | 1.3 | Works fine | [no](http://roody.gerynarsabode.org/hbe/opportune.h) |
 | [PastTense](contributions/pasttense.h) | Extension for changing verblib and various messages to past tense | 1.2 | Not really tested | [no](http://roody.gerynarsabode.org/hbe/pasttense.h) |
-| [Simpletalk](contributions/simpletalk.h) | Simplified version of Robb Sherwin's "Phototalk" extension port, modified to be #include-able | 1.5 | Works fine | [no](http://roody.gerynarsabode.org/hbe/simpletalk.zip) |
 | [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/timesasked.zip) |
 | [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to games | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/version.h) |
 
