@@ -19,7 +19,7 @@ These contributions are largely unchanged since their release.
 | [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/books.hug) |
 | [CanGo](contributions/cango) | A routine that provides exit descriptions for rooms | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h) |
 | [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | 3.1 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
-| [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/context_menu.h) |
+| [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.h) |
 | Converse | Chris Tate's conversation system based on "Pytho's Mask" | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/converse.zip) |
 | [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
 | [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](http://hugo.gerynarsabode.org/images/a/a6/Multikey.h) | 
@@ -51,7 +51,7 @@ These are contributions that are currently being updated.
 | [Opportune](contributions/opportune.h) | Small extension for quick 1-turn WINDOWS OF OPPORTUNITY (or questions) | 1.3 | Works fine | [no](http://roody.gerynarsabode.org/hbe/opportune.h) |
 | [PastTense](contributions/pasttense.h) | Extension for changing verblib and various messages to past tense | 1.2 | Not really tested | [no](http://roody.gerynarsabode.org/hbe/pasttense.h) |
 | [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/timesasked.zip) |
-| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to games | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/version.h) |
+| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.h) |
 
 
 ### Outdated Library Contributions
