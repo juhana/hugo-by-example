@@ -7,7 +7,7 @@ categories:
 
 `MapGen` is yet another one of Cardinal Teulbach's library
 contributions. It assigns random connections to a set of rooms. Download it
-[here](http://ifarchive.smallwhitehouse.org/if-archive/programming/hugo/library/contributions/mapgen.h).
+[here](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h).
 There are some rules in its use:
 
 1.  Rooms must be defined a certain way (see below).
