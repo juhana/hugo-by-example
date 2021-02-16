@@ -22,7 +22,8 @@ These contributions are largely unchanged since their release.
 | [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.h) |
 | Converse | Chris Tate's conversation system based on "Pytho's Mask" | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/converse.zip) |
 | [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
-| [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](http://hugo.gerynarsabode.org/images/a/a6/Multikey.h) | 
+| [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](http://hugo.gerynarsabode.org/images/a/a6/Multikey.h)
+| [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 3.4 | Works fine | [no](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
 | Phone | A telephone class | 2.2 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/phone.txt) |
 | [Plumbing](contributions/plumbing) | A library contribution that provides nearly <em>nothing but the kitchen sink</em> | 3.1 | Barely tested | [no](http://roody.gerynarsabode.org/hbe/plumbing.zip) |
 | Printf | A routine to print a formatted string, similar to C's printf() | 3.1.03 | Should work fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/printf.hug) |
@@ -47,7 +48,6 @@ These are contributions that are currently being updated.
 | [NewAutomap](contributions/newautomap) | Glk-compliant version of [Automap](contributions/automap) | 1.2 | See notes | [no](http://roody.gerynarsabode.org/hbe/newautomap.zip) |
 | [NewBoxdraw](contributions/newboxdraw.h) | Updated version of the [Boxdraw.h](contributions/boxdraw.h) to work better with glk interpreters | 1.4 | Works fine | [no](http://roody.gerynarsabode.org/hbe/newboxdrawglk.h) |
 | NewConverse | An update to Chris Tate's conversation system based on "Pytho's Mask" | 2.0 | Works great. | [no](http://roody.gerynarsabode.org/hbe/newconverse.zip) | 
-| [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 2.5 | Works fine | [no](http://roody.gerynarsabode.org/hbe/newmenu.zip)
 | [Opportune](contributions/opportune.h) | Small extension for quick 1-turn WINDOWS OF OPPORTUNITY (or questions) | 1.3 | Works fine | [no](http://roody.gerynarsabode.org/hbe/opportune.h) |
 | [PastTense](contributions/pasttense.h) | Extension for changing verblib and various messages to past tense | 1.2 | Not really tested | [no](http://roody.gerynarsabode.org/hbe/pasttense.h) |
 | [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/timesasked.zip) |
