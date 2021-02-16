@@ -53,9 +53,9 @@ color schemes of their original versions.
 
 | Gargoyle configuration file                                            | Hugo game                                                                    |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [pirate.ini](http://roody.gerynarsabode.org/gargoyle/pirate.ini)       | [Pirate Adventure](http://ifarchive.org/if-archive/games/hugo/pirate.hex)    |
-| [pmime.ini](http://roody.gerynarsabode.org/gargoyle/pmime.ini)         | [Pantomime](http://ifarchive.org/if-archive/games/hugo/pmime.hex)            |
-| [scourgdos.ini](http://roody.gerynarsabode.org/gargoyle/scourgdos.ini) | [A Crimson Spring](http://ifarchive.org/if-archive/games/hugo/scourgdos.hex) |
+| [pirate.ini](assets/pirate.ini)       | [Pirate Adventure](http://ifarchive.org/if-archive/games/hugo/pirate.hex)    |
+| [pmime.ini](assets/pmime.ini)         | [Pantomime](http://ifarchive.org/if-archive/games/hugo/pmime.hex)            |
+| [scourgdos.ini](assets/scourgdos.ini) | [A Crimson Spring](http://ifarchive.org/if-archive/games/hugo/scourgdos.hex) |
 
 Also, both
 [Cryptozookeeper](http://www.joltcountry.com/index.php/robbsherwin_videogame/cryptozookeeper)
