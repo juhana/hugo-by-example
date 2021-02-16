@@ -9,7 +9,7 @@ Kent Tessman's Future Boy! has an adaptive context menu system. This
 library contribution is *that* menu system, slightly adapted for general
 usage. As such, it follows the
 [Future Boy Selected Source license](misc/future-boy-license/).
-You can download it [here](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.h).
+You can download it [here](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.hug).
 
 ## Usage
 
