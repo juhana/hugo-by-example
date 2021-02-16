@@ -6,7 +6,7 @@ categories:
 ---
 
 `Opportune.h` started as the code from the [Informal
-[Questions](tips/informal-questions/) page but was adapted and
+Questions](tips/informal-questions/) page but was adapted and
 simplified so that it could be applied to more types of situations. Now
 it has been further adapted and commented for easy inclusion in a game.
 Download it [here](https://raw.githubusercontent.com/hugoif/library-contributions/main/opportune.h).
