@@ -10,7 +10,7 @@ Now that we're on github, there a chance (however tiny) that someone found this 
 github repositories.  If you're not familiar with interactive fiction, the often-parser-based text games
 that saw their commercial heyday back in the 1980s, you might want to read the [Interactive Fiction Technology Foundation IF FAQ](https://iftechfoundation.org/frequently-asked-questions/).
 
-## Is Hugo right for me?
+## Still deciding what interactive fiction language is right for you?
 If you are checking out interactive fiction languages to see what appeals most to you, look at some example
 game code and decide how intuitive it feels.  You can peruse some game sources [here on this site](https://hugoif.github.io/hugo-by-example/categories/#example-games) and at the 
 [IF Archive](https://www.ifarchive.org/indexes/if-archive/games/source/hugo/).
