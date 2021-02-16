@@ -9,7 +9,7 @@ categories:
 the [Guilty Bastards hint system](tips/hints/). It aims to make
 game menus quicker and easier to set-up, and hopefully, they'll look
 nice, too! Download it
-[here](http://roody.gerynarsabode.org/hbe/newmenu.zip).
+[here](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h).
 
 # Why NewMenu?
 
@@ -19,10 +19,12 @@ code from Guilty Bastards, you can have a fairly kickin' hint system.
 Still, I, Roody Yogurt, wasn't completely happy with it. I found the
 routine-based nature of its menu files a bit confusing- especially since
 the hint system was object-based. On top of that, Hugo menus weren't
-showing up on cheapglk interpreters like ifMUD's Floyd, as all menu
+showing up on cheapglk interpreters like ifMUD's Floyd (\*), as all menu
 choices are written in the status window, a window that Floyd ignores
 altogether. Lastly, I thought menu text was a bit ugly in transcripts
 and could use a little *notation*.
+
+(\* ifMUD's Floyd has since been updated to print status windows, but it's still quite possible to come across an interpreter that doesn't so this functionality is still useful.)
 
 To fix these things, `NewMenu` attempts to do the following:
 
@@ -30,7 +32,7 @@ To fix these things, `NewMenu` attempts to do the following:
 2.  Keep menu options in the status window so they are not printed to
     the transcript.
 3.  Strengthen the relation between regular menus and hint menus.
-4.  In glk menus, asterisk placement is changed, and in "cheapglk mode",
+4.  In glk menus, asterisk placement is changed, and in "cheap menu" mode,
     the menu is printed out in the main window.
 5.  Make Menus-within-menus more intuitive.
 6.  Under regular and glk interpreters, hidden text is printed that
@@ -45,13 +47,7 @@ To fix these things, `NewMenu` attempts to do the following:
 
 # The Set-Up
 
-To use NewMenu:
-
-1.  \#include "newmenu.h" after "hugolib.h". If
-    you want "cheap" support, \#set `CHEAP` before
-    including "newmenu.h".
-2.  If you'd like to use the default menu, `#set USE_DEFAULT_MENU`
-    before "newmenu.h" is included.
+To use NewMenu, just \#include "newmenu.h" after "hugolib.h". 
 
 # Creating Your Menu
 
