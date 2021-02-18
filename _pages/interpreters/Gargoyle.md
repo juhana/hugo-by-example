@@ -61,3 +61,9 @@ Also, both
 [Cryptozookeeper](http://www.joltcountry.com/index.php/robbsherwin_videogame/cryptozookeeper)
 and [Tales of the Traveling Swordsman](http://ifarchive.org/indexes/if-archiveXgamesXcompetition2006XhugoXtales_ts.html)
 were distributed with Gargoyle configuration files included.
+
+## Links
+
+-   [Latest Gargoyle releases](https://github.com/garglk/garglk/releases)
+-   [Original Homepage](http://ccxvii.net/gargoyle/)
+
