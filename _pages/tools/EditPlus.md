@@ -5,12 +5,9 @@ categories:
   - Tools
 ---
 
-EditPlus is a commercial text editor for Windows. Most of its features
-are described in further detail on the [Supported Editors](tools/editors/)
-page, but you can download a zip
-[here](assets/editplus.zip) that has
-several additional files to use with it, including some clip text files,
-an autocomplete file (created by Robb Sherwin), and some templates.
+EditPlus is a commercial text editor for Windows. [This](assets/editplus.zip) is a compilation of
+additional files to use with it, including some clip text,
+an autocomplete (created by Robb Sherwin), and some templates.
 
 # Favorite Features and How To Use Them
 
