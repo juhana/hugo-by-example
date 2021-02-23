@@ -8,141 +8,22 @@ categories:
 
 You can use any text editor to view, edit, and write
 Hugo source files, but the ones on this list can make working with Hugo
-code easier by coloring certain groups of Hugo keywords. Download links
-to the syntax definition files that you need for each editor in order
-for it to highight Hugo code are provided. This listed is ordered by
-operating system.
+code easier by coloring certain groups of Hugo keywords.
 
-# Linux
+Most Hugo syntax files (the settings that allow for the colorization of the code) are available at the [IF Archive](https://www.ifarchive.org/indexes/if-archive/programming/editors/).
 
-### emacs
+# Linux and Mac
 
-| Website                              | Cost | Syntax File                       |
-|--------------------------------------|------|-----------------------------------|
-| http://www.gnu.org/software/emacs/ | FREE | http://hg.0branch.com/hugo-mode |
+If you are new to programming (with no text editor preferences) or your favorite text editor does not have Hugo syntax support, [Kate](https://kate-editor.org/) is a good option.  You can find syntax files for it on the IF Archive.
 
-### gedit
-
-| Website                            | Cost | Syntax File                                     |
-|------------------------------------|------|-------------------------------------------------|
-| http://projects.gnome.org/gedit/ | FREE | http://hugo.gerynarsabode.org/files/hugo.lang |
-
-### Kate
-
-| Website                   | Cost | Syntax File                                              |
-|---------------------------|------|----------------------------------------------------------|
-| http://kate-editor.org/ | FREE | http://hugo.gerynarsabode.org/hbe/syntax/Kate/hugo.xml |
-
-### UltraEdit
-
-| Website                                  | Cost  | Syntax File                                                             |
-|------------------------------------------|-------|-------------------------------------------------------------------------|
-| http://www.ultraedit.com/products.html | \~$60 | http://ifarchive.org/if-archive/programming/editors/hugo_wordfile.txt |
-
-### Vim
-
-| Website                       | Cost | Syntax File                               |
-|-------------------------------|------|-------------------------------------------|
-| http://vim.sourceforge.net/ | free | http://hg.0branch.com/hugo-vim/overview |
-
-# Mac
-
-### emacs
-
-| Website                              | Cost | Syntax File                       |
-|--------------------------------------|------|-----------------------------------|
-| http://www.gnu.org/software/emacs/ | FREE | http://hg.0branch.com/hugo-mode |
-
-### gedit
-
-| Website                            | Cost | Syntax File                                     |
-|------------------------------------|------|-------------------------------------------------|
-| http://projects.gnome.org/gedit/ | FREE | http://hugo.gerynarsabode.org/files/hugo.lang |
-
-### UltraEdit
-
-| Website                                  | Cost  | Syntax File                                                             |
-|------------------------------------------|-------|-------------------------------------------------------------------------|
-| http://www.ultraedit.com/products.html | \~$60 | http://ifarchive.org/if-archive/programming/editors/hugo_wordfile.txt |
-
-### Vim
-
-| Website                       | Cost | Syntax File                               |
-|-------------------------------|------|-------------------------------------------|
-| http://vim.sourceforge.net/ | free | http://hg.0branch.com/hugo-vim/overview |
+Additionally, these [emacs](http://hg.0branch.com/hugo-mode) and [Vim](http://hg.0branch.com/hugo-vim/overview) syntax files are not on the IF Archive.
 
 # Windows
 
 (For other Windows applications, see the [Windows Apps](tools/windows-applications/) page.)
 
-### ConTEXT
+Since Hugo by Example's creation, [Notepad++](http://notepad-plus-plus.org/) has really cemented its place as the best freeware text editor option for offline Hugo coding.
 
-| Website                         | Cost | Syntax File                                                        |
-|---------------------------------|------|--------------------------------------------------------------------|
-| http://www.contexteditor.org/ | FREE | http://www.ifarchive.org/if-archive/programming/editors/Hugo.chl |
+Among paid text editors, [EditPlus](tools/editplus/) has a page of tips and tricks for getting the most out of its features.
 
-### [EditPlus](tools/editplus/)
-
-| Website                    | Cost | Syntax File                                                   |
-|----------------------------|------|---------------------------------------------------------------|
-| http://www.editplus.com/ | $35  | http://roody.gerynarsabode.org/hbe/syntax/editplus/hugo.stx |
-
-### emacs
-
-| Website                              | Cost | Syntax File                       |
-|--------------------------------------|------|-----------------------------------|
-| http://www.gnu.org/software/emacs/ | FREE | http://hg.0branch.com/hugo-mode |
-
-### Emerald Editor
-
-| Website                         | Cost | Syntax File                                      |
-|---------------------------------|------|--------------------------------------------------|
-| http://www.emeraldeditor.com/ | FREE | http://roody.gerynarsabode.org/emeraldhugo.zip |
-
-### gedit
-
-| Website                            | Cost | Syntax File                                |
-|------------------------------------|------|--------------------------------------------|
-| http://projects.gnome.org/gedit/ | FREE | http://roody.gerynarsabode.org/hugo.lang |
-
-### Notepad++
-
-| Website                         | Cost | Syntax File                               |
-|---------------------------------|------|-------------------------------------------|
-| http://notepad-plus-plus.org/ | FREE | http://roody.gerynarsabode.org/hugo.xml |
-
-### Source Edit
-
-| Website                                    | Cost | Syntax File                                                             |
-|--------------------------------------------|------|-------------------------------------------------------------------------|
-| http://www.brixoft.net/prodinfo.asp?id=1 | FREE | http://roody.gerynarsabode.org/hbe/syntax/source_edit/source_edit.zip |
-
-### TextPad
-
-| Website                  | Cost                                             | Syntax File                                                  |
-|--------------------------|--------------------------------------------------|--------------------------------------------------------------|
-| http://www.textpad.com | \~$25 for single license (un-crippled shareware) | http://roody.gerynarsabode.org/hbe/syntax/textpad/hugo.syn |
-
-### UltraEdit
-
-| Website                                  | Cost  | Syntax File                                                             |
-|------------------------------------------|-------|-------------------------------------------------------------------------|
-| http://www.ultraedit.com/products.html | \~$60 | http://ifarchive.org/if-archive/programming/editors/hugo_wordfile.txt |
-
-### Vim
-
-| Website                       | Cost | Syntax File                               |
-|-------------------------------|------|-------------------------------------------|
-| http://vim.sourceforge.net/ | free | http://hg.0branch.com/hugo-vim/overview |
-
-## Comparison between Windows text editors
-
-| Text Editor | Do multi-line comments work? | Keyword coloring extent and ease | Project organization (ability to group source files by game) | Ability to search multiple files for code examples | Ability to compare differences between files | Editor help menu works under Windows 7 | Can execute commands to window | Tortoise svn support | FTP support | Other features |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ConTEXT |  | 5 possible keyword groups; colors are easy to change |  |  |  |  |  |  |  | template, help file support |
-| EditPlus |  | easy to change update; lots of possible keyword groups |  |  |  |  |  |  |  | clip text support, autocomplete, templates, help file support, function list, configurable tool bar |
-| Emerald Editor |  | 10 possible keyword groups; colors easy to change |  |  |  |  |  |  |  | templates |
-| gedit |  | lots of possible keyword groups and colors; a pain to update and modify, though |  |  |  |  |  |  |  | text clips (called "tags") |
-| Notepad++ |  | easy to modify; only four keyword color groups available |  |  |  |  |  | didn't see |  | nothing of note |
-| Source Edit |  | only one keyword group; color easy to change |  |  |  |  |  |  |  | Template support, configurable user tool bar, function list, window splitter |
-| TextPad |  | easy to modify; six keyword color groups available |  |  |  |  |  |  |  | clip library, spell check can be limited to strings, environment variables support, fairly configurable |
+Again, syntax files can be found at the [IF Archive](https://www.ifarchive.org/indexes/if-archive/programming/editors/).
