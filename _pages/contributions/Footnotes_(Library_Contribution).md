@@ -5,7 +5,7 @@ categories:
   - Library Contributions
 ---
 
-This library contribution, inspired by the footnotes systems used in
+This library contribution (Footnote 1), inspired by the footnotes systems used in
 games like Guilty Bastards and Stationfall, attempts to make footnotes
 easy! Unlike those other games, this system uses a "chronological"
 design- footnotes are only accessible after the prompting text has been
@@ -14,8 +14,10 @@ the method used in [Guilty Bastards](tips/infocom-footnotes/),
 this system uses a footnote object (with its various aliased properties) to
 keep track of states instead of arrays and globals.
 
-Download it [here.](http://roody.gerynarsabode.org/hbe/footnotes.zip)
+Get the files [here.](https://github.com/hugoif/library-contributions/tree/main/footnotes)
 Now let's take a look!
+
+(Footnote 1 - a "Roodylib-ized" version of this extension is included with Roodylib)
 
 ## The Set-Up
 
