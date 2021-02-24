@@ -26,7 +26,7 @@ These contributions are largely unchanged since their release.
 | [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](http://hugo.gerynarsabode.org/images/a/a6/Multikey.h)
 | [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 3.4 | Works fine | [no](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
 | Phone | A telephone class | 2.2 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/phone.txt) |
-| [Plumbing](contributions/plumbing) | A library contribution that provides nearly <em>nothing but the kitchen sink</em> | 3.1 | Barely tested | [no](http://roody.gerynarsabode.org/hbe/plumbing.zip) |
+| [Plumbing](contributions/plumbing) | A library contribution that provides nearly <em>nothing but the kitchen sink</em> | 3.1 | Barely tested | [no](https://github.com/hugoif/library-contributions/tree/main/plumbing) |
 | Printf | A routine to print a formatted string, similar to C's printf() | 3.1.03 | Should work fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/printf.hug) |
 | Ptalk | Robb Sherwin's port of Adam Cadre's "Phototalk" | 2.5 | Variations of this used in most of Sherwin's games | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/ptalk.zip) |
 | [RandMove](contributions/randmove) | Code for random NPC movement scripting | 2.1 | Works with slight change; [this page](contributions/randmove) also suggests a replacement | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/randmove.txt) |
