@@ -11,6 +11,8 @@ of the "version.hug" file from the Future Boy! selected source. Download
 it (the library contribution, that is)
 [here](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.hug). 
 
+(This version-providing code is included in Roodylib by default so is therefore unnecessary for Roodylib games.)
+
 ## The set-up
 
 To use `version.hug`:
