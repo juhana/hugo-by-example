@@ -22,9 +22,9 @@ C:\\Users\\USER_NAME\\AppData\\Local\\VirtualStore\\Program Files
 (x86)\\Hugo).
 
     writefile "configuration_filename"
-        {
+    {
         ! we'll get to this next
-        }
+    }
 
 #### writeval
 
@@ -33,10 +33,10 @@ statement. `writeval` can be used to save variables, property values,
 etc.
 
     writefile "hugo_revenge_config"
-        {
+    {
         writeval verbosity ! writes current verbosity value
         writeval (dwarf_treasure is known) ! writes true (1) if statement in parentheses is true, otherwise writes false (0)
-        }
+    }
 
 # readfile
 
@@ -44,9 +44,9 @@ To read from the previously created file, we use the `readfile`
 statement:
 
     readfile "configuration_filename"
-         {
+    {
          ! Bet you can't guess what goes here
-         }
+    }
 
 #### readval
 
@@ -55,13 +55,13 @@ were `writeval`s. Using the `writefile` as a guide, we can reset all of
 our global values or settings:
 
     readfile "hugo_revenge_config"
-         {
+    {
          verbosity = readval ! sets verbosity to the first readval value
          if readval
               dwarf_treasure is known ! since there is a value in the second slot, we know that the dwarf_treasure object was known
          else
               dwarf_treasure is not known
-         }
+    }
 
 # FILE_CHECK
 
@@ -75,34 +75,30 @@ it'll be to make mistakes. There isn't any way for `writeval` and
     {
          local test
          writefile "hugo_revenge_config"
-              {
+         {
               writeval verbosity
               writeval (dwarf_treasure is known)
               test = FILE_CHECK
               writeval test
-              }
+         }
          if test ~= FILE_CHECK  ! if the program didn't get this far, we know something is wrong
-              {
               print "An error as occurred."
-              }
     }
 
     routine LoadConfig
     {
           local test
           readfile "hugo_revenge_config"
-               {
+          {
                verbosity = readval
                if readval
                     dwarf_treasure is known
                else
                     dwarf_treasure is not known
                test = readval
-               }
+          }
           if test ~= FILE_CHECK
-              {
               print "Error reading file."
-              }
     }
 
 We make sure to use `FILE_CHECK` for the last read and write value, so
@@ -140,22 +136,20 @@ this:
     {
          local test2
          writefile "savefile"
-              {
-          local a
-          text to name_array
-          print "apple";
-          text to 0
-          for (a=0;a<49;a++)    ! this loop saves 49 characters, a bit of overkill
-          {
-          writeval name_array[a]
-          }
-              test2 = FILE_CHECK
-              writeval test2
-              }
+         {
+             local a
+             text to name_array
+             print "apple";
+             text to 0
+             for (a=0;a<49;a++)    ! this loop saves 49 characters, a bit of overkill
+             {
+                writeval name_array[a]
+             }
+             test2 = FILE_CHECK
+             writeval test2
+         }
          if test2 ~= FILE_CHECK  ! if the program didn't get this far, we know something is wrong
-              {
               print "An error as occurred."
-              }
     }
 
 The second game would have something like this:
@@ -168,19 +162,19 @@ The second game would have something like this:
     {
           local test2
           readfile "savefile"
-               {
-           local a
-           for (a=0;a<49;a++)
-           {
-           name_array[a] = readval
-           }
-           object_to_be_named.name = dict(name_array, 49)
-               test2 = readval
-               }
+          {
+             local a
+             for (a=0;a<49;a++)
+             {
+                name_array[a] = readval
+             }
+             object_to_be_named.name = dict(name_array, 49)
+             test2 = readval
+          }
           if test2 ~= FILE_CHECK
-              {
-              print "Error reading file."
-              }
+          {
+             print "Error reading file."
+          }
     }
 
 Of course, a real game would also need also need to fill `noun`
