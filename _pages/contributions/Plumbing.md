@@ -6,7 +6,7 @@ categories:
   - Classes
 ---
 
-[Plumbing.zip](https://raw.githubusercontent.com/hugoif/library-contributions/main/plumbing.zip) is a
+["Plumbing"](https://github.com/hugoif/library-contributions/tree/main/plumbing) is a
 library contribution that intends to save some time when coding sinks
 and toilets. It consists of an object class of each, a water class to
 fill them, and some additional verb routines for verbs often associated
@@ -17,9 +17,7 @@ Very little testing has been put into this contribution.
 
 ## Usage
 
-Copy as much as you need from `plumbing.h` or `plumbing.g` to your game
-(you may have some of those verbs already defined), then take a look at
-`plumbing.hug` to see how objects are further defined.
+Look at 'plumbing_example.hug' to see how to incorporate it into your game, and alter the files as needed.
 
 ## Additional Notes
 
