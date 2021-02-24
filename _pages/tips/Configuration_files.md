@@ -109,13 +109,9 @@ We make sure to use `FILE_CHECK` for the last read and write value, so
 if we accidentally skip a value somewhere along the way, the `test`
 variable will have the wrong value and we'll know something is wrong.
 
-# Future Boy! example
+# More Help
 
-Future Boy!'s `config.hug` saves a bunch of different variables. As
-such, it makes a great example (a modified version of it was used for
-Cryptozookeeper, too). You can take a look at it
-[here](http://roody.gerynarsabode.org/config.hug) under the terms of
-[the Future Boy Selected Source license](misc/future-boy-license/).
+Roodylib has a "configuration file helper" extension that attempts to make some aspects of using configuration files easier.
 
 # Sharing Strings Between Two Games (Hugo Homework)
 
