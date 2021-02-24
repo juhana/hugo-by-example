@@ -36,6 +36,7 @@ These contributions are largely unchanged since their release.
 | Strfnc | A set of additional string functions | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/strfnc.h) |
 | [Time](contributions/time.h) | Future Boy! routines for measuring the passage of real time by Kent Tessman | 3.1 | Works great | [no](http://roody.gerynarsabode.org/hbe/time.h) |
 | Useverbs | Allows players to play game in "USE NOUN TO DO SOMETHING" form (if using involves hitting, burning, locking, tying, digging, or cutting) | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/useverbs.zip) |
+| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to non-Roodylib games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.h) |
 
 
 ### Library Contributions In Progress
@@ -51,7 +52,6 @@ These are contributions that are currently being updated.
 | [Opportune](contributions/opportune.h) | Small extension for quick 1-turn WINDOWS OF OPPORTUNITY (or questions) | 1.3 | Works fine | [no](https://github.com/hugoif/library-contributions/blob/main/opportune.h) |
 | [PastTense](contributions/pasttense.h) | Extension for changing verblib and various messages to past tense | 1.2 | Not really tested | [no](https://github.com/hugoif/library-contributions/blob/main/pasttense.h) |
 | [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/timesasked.zip) |
-| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.h) |
 
 
 ### Outdated Library Contributions
