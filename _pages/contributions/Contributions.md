@@ -21,6 +21,7 @@ These contributions are largely unchanged since their release.
 | [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | 3.1 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
 | [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.h) |
 | Converse | Chris Tate's conversation system based on "Pytho's Mask" | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/converse.zip) |
+| [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | 1.4 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/footnotes) | 
 | [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
 | [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](http://hugo.gerynarsabode.org/images/a/a6/Multikey.h)
 | [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 3.4 | Works fine | [no](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
@@ -44,7 +45,6 @@ These are contributions that are currently being updated.
 | Name | Description | Latest Version | Status | On Archive? |
 |------|-------------|----------------|--------|-------------|
 | [Follow](contributions/follow) | Future Boy! routines for better NPC following by Kent Tessman | 1.7 | Works great | [no](http://roody.gerynarsabode.org/hbe/follow.h) | 
-| [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | 1.2 | Works great | [no](http://roody.gerynarsabode.org/hbe/footnotes.zip) | 
 | [NewAutomap](contributions/newautomap) | Glk-compliant version of [Automap](contributions/automap) | 1.2 | See notes | [no](http://roody.gerynarsabode.org/hbe/newautomap.zip) |
 | [NewBoxdraw](contributions/newboxdraw.h) | Updated version of the [Boxdraw.h](contributions/boxdraw.h) to work better with glk interpreters | 1.4 | Works fine | [no](http://roody.gerynarsabode.org/hbe/newboxdrawglk.h) |
 | NewConverse | An update to Chris Tate's conversation system based on "Pytho's Mask" | 2.0 | Works great. | [no](http://roody.gerynarsabode.org/hbe/newconverse.zip) | 
