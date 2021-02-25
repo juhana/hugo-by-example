@@ -24,7 +24,7 @@ These contributions are largely unchanged since their release.
 | [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | 1.4 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/footnotes) | 
 | [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
 | [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](http://hugo.gerynarsabode.org/images/a/a6/Multikey.h)
-| [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 3.4 | Works fine | [no](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
+| [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 3.4 | Works fine | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
 | Phone | A telephone class | 2.2 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/phone.txt) |
 | [Plumbing](contributions/plumbing) | A library contribution that provides nearly <em>nothing but the kitchen sink</em> | 3.1 | Barely tested | [no](https://github.com/hugoif/library-contributions/tree/main/plumbing) |
 | Printf | A routine to print a formatted string, similar to C's printf() | 3.1.03 | Should work fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/printf.hug) |
