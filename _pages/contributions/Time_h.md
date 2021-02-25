@@ -14,7 +14,7 @@ by [its license](misc/future-boy-license/). It
 requires the inclusion of the Hugo Library's
 [system.h](library/system.h/) file.
 
-Get it [here](https://github.com/hugoif/library-contributions/blob/main/time/time.hug)
+Get it [here](https://github.com/hugoif/library-contributions/blob/main/time/time.hug).
 
 ## Why??
 
