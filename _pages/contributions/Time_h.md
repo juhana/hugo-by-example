@@ -14,7 +14,7 @@ by [its license](misc/future-boy-license/). It
 requires the inclusion of the Hugo Library's
 [system.h](library/system.h/) file.
 
-Download it [here](http://roody.gerynarsabode.org/hbe/time.h)
+Get it [here](https://github.com/hugoif/library-contributions/blob/main/time/time.hug)
 
 ## Why??
 
@@ -26,7 +26,7 @@ makes these things easier!
 
 ## For instance, a game "jukebox"
 
-[Here](http://roody.gerynarsabode.org/jukebox.zip) are some files that
+[Here](https://github.com/hugoif/library-contributions/tree/main/time) are some files that
 use the time routines to improve upon the [Music Engine](tips/music-engine/)
 from the [Tips](categories/#tips)
 category without being bothered by the passage of hours, days, and so
