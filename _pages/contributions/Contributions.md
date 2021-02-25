@@ -51,7 +51,7 @@ These are contributions that are currently being updated.
 | NewConverse | An update to Chris Tate's conversation system based on "Pytho's Mask" | 2.0 | Works great. | [no](http://roody.gerynarsabode.org/hbe/newconverse.zip) | 
 | [Opportune](contributions/opportune.h) | Small extension for quick 1-turn WINDOWS OF OPPORTUNITY (or questions) | 1.3 | Works fine | [no](https://github.com/hugoif/library-contributions/blob/main/opportune.h) |
 | [PastTense](contributions/pasttense.h) | Extension for changing verblib and various messages to past tense | 1.2 | Not really tested | [no](https://github.com/hugoif/library-contributions/blob/main/pasttense.h) |
-| [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](http://roody.gerynarsabode.org/hbe/timesasked.zip) |
+| [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](https://github.com/hugoif/library-contributions/tree/main/timesasked) |
 
 
 ### Outdated Library Contributions
