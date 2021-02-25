@@ -34,7 +34,7 @@ These contributions are largely unchanged since their release.
 | [Sort](contributions/sort.h) | Configurable extension for sorting arrays in several ways | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/sort.zip) |
 | [Spellsys](contributions/spellsys) | Library for doing Spellcaster-type spells | 2.2 | Won't compile as-is, but its page has information on how to fix | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/spellsys.zip) |
 | Strfnc | A set of additional string functions | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/strfnc.h) |
-| [Time](contributions/time.h) | Future Boy! routines for measuring the passage of real time by Kent Tessman | 3.1 | Works great | [no](http://roody.gerynarsabode.org/hbe/time.h) |
+| [Time](contributions/time.h) | Future Boy! routines for measuring the passage of real time by Kent Tessman | 3.1 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/time) |
 | Useverbs | Allows players to play game in "USE NOUN TO DO SOMETHING" form (if using involves hitting, burning, locking, tying, digging, or cutting) | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/useverbs.zip) |
 | [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to non-Roodylib games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.h) |
 
