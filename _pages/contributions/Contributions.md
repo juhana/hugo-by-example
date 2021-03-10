@@ -48,7 +48,7 @@ These are contributions that are currently being updated.
 | [Follow](contributions/follow) | Future Boy! routines for better NPC following by Kent Tessman | 2.0 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/follow) | 
 | [NewAutomap](contributions/newautomap) | Glk-compliant version of [Automap](contributions/automap) | 1.2 | See notes | [no](http://roody.gerynarsabode.org/hbe/newautomap.zip) |
 | [NewBoxdraw](contributions/newboxdraw.h) | Updated version of the [Boxdraw.h](contributions/boxdraw.h) to work better with glk interpreters | 1.4 | Works fine | [no](http://roody.gerynarsabode.org/hbe/newboxdrawglk.h) |
-| NewConverse | An update to Chris Tate's conversation system based on "Pytho's Mask" | 2.0 | Works great. | [no](http://roody.gerynarsabode.org/hbe/newconverse.zip) | 
+| NewConverse | An update to Chris Tate's conversation system based on "Pytho's Mask" | 2.0 | Works great. | [no](https://github.com/hugoif/library-contributions/tree/main/newconverse) | 
 | [Opportune](contributions/opportune.h) | Small extension for quick 1-turn WINDOWS OF OPPORTUNITY (or questions) | 1.3 | Works fine | [no](https://github.com/hugoif/library-contributions/blob/main/opportune.h) |
 | [PastTense](contributions/pasttense.h) | Extension for changing verblib and various messages to past tense | 1.2 | Not really tested | [no](https://github.com/hugoif/library-contributions/blob/main/pasttense.h) |
 | [Timesasked](contributions/timesasked.h) | Keeps track of number of times characters are asked and told about things | 1.1 | Works fine | [no](https://github.com/hugoif/library-contributions/tree/main/timesasked) |
