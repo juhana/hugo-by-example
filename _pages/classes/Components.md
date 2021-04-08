@@ -61,7 +61,7 @@ The `component` class uses the `part_of`
 [alias](basics/alias/) of [found_in](scope/found_in/). Like all
 [found_in](scope/found_in/) objects, this means that the component
 object is not in the same room as its "parent" object according to the
-[object tree](basics/object_tree), but it is accessible wherever
+[object tree](basics/object-tree), but it is accessible wherever
 that object may be. As you can see above, it also has code to redirect
 certain commands to that "parent" object.
 

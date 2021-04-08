@@ -70,7 +70,7 @@ If the object *had* been moved and the value of `thisobj` wasn't
 changed, the program would determine that it was no longer a child of
 the container and go, whew, guess I'm done! Changing the value there
 keeps the loop going. If `thisobj` *had* been the last child of the
-container, its [sibling](basics/object_tree) will be `0` so the loop
+container, its [sibling](basics/object-tree) will be `0` so the loop
 will break when it gets to the end.
 
 ## `do-while` loops in Hugo

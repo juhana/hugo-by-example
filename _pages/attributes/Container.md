@@ -18,7 +18,7 @@ Other things to keep in mind:
     (these are used by [Acquire](guts/acquire) to verify the
     container has room for more objects).
 -   Containers may also have [open](attributes/open/),
-    [openable](attribute/openable/), [locked](attributes/locked/),
+    [openable](attributes/openable/), [locked](attributes/locked/),
     [transparent](attributes/transparent/), or
     [lockable](attributes/lockable/) attributes, depending.
 -   If the object's contents shouldn't show up in a room listing (or

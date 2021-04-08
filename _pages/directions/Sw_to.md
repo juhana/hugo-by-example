@@ -19,4 +19,4 @@ room in that direction.
     }
 
 It is [aliased](basics/alias/) by the
-[order_response](property/order_response/) property.
+[order_response](properties/order_response/) property.

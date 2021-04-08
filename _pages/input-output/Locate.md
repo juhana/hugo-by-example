@@ -16,7 +16,7 @@ provided.
 ## Uses
 
 This is useful for drawing floating boxes like those in
-[Boxdraw.h](library-contributions/boxdraw.h/) or drawing maps like in the Automap
+[Boxdraw.h](contributions/boxdraw.h/) or drawing maps like in the Automap
 library contribution. It can even be used within
 menus to move the cursor to a corner where it is not
 a distraction.

@@ -39,7 +39,7 @@ This is basically used for `X is here` descriptions.
 
 ##### `when_open` and `when_closed`
 
-[Unhidden](attributes/hidden/), [openable](attribute/openable/)
+[Unhidden](attributes/hidden/), [openable](attributes/openable/)
 [objects](basics/objects/) in the [room](basics/rooms/) can have
 special descriptions, depending on whether they are
 [open](attributes/open/) or closed. In that case, the matching property

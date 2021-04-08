@@ -12,7 +12,7 @@ categories:
 when the input is in &gt;CHARACTER, \[SOME COMMAND\] format, among
 others. If the character is not
 [unfriendly](attributes/), it'll check
-that character's [order_response](property/order_response/) property
+that character's [order_response](properties/order_response/) property
 for a response. If no response is found (or if the character *is*
 unfriendly), the `ignore_response` property is run. If none exist, it
 gives the default "*X ignores you.*"

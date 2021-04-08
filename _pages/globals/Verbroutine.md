@@ -41,7 +41,7 @@ around this with code like this:
 
 ### Character Orders
 
-[order_response](property/order_response/) can use `verbroutine` to
+[order_response](properties/order_response/) can use `verbroutine` to
 organize how the character should respond to several commands.
 
         ! from Kent Tessman's Spur

@@ -23,7 +23,7 @@ want is a different not-successful message than "You can't do that.").
     when you look at it), it should also have the
     [quiet](attributes/quiet/) attribute.
 -   Containers may also have [open](attributes/open/),
-    [openable](attribute/openable/), [locked](attributes/locked/),
+    [openable](attributes/openable/), [locked](attributes/locked/),
     [transparent](attributes/transparent/), or
     [lockable](attributes/lockable/) attributes, depending.
 -   If you want the object's contents to *only* show up when the player

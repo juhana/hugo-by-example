@@ -190,7 +190,7 @@ Responses for commands to characters can be coded using the
     }
 
 More information can be found on the
-[order_response](property/order_response/) page.
+[order_response](properties/order_response/) page.
 
 ### characters reacting! to you!
 

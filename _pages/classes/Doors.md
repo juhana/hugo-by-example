@@ -142,7 +142,7 @@ In this example, while in the hallway, the game will refer to the door
 
 Since a door's `between` property is just an [alias](basics/alias/)
 of [found_in](scope/found_in/), doors aren't *technically* in the
-room (as far as the [object tree](basics/object_tree) is concerned,
+room (as far as the [object tree](basics/object-tree) is concerned,
 anyway). This means that the door's [short_desc](properties/descriptions/)
 is not normally called by [DescribePlace](guts/describeplace/).
 There are some ways of getting around this:
