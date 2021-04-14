@@ -11,7 +11,7 @@ game. One use is to show a quick map that will last one turn, and
 another option will turn on an automapper that stays on. Lastly, there
 is an option to do a full map that shows as many rooms as possible.
 Unlike the original, this version will work on glk interpreters. It can
-be downloaded [here](http://roody.gerynarsabode.org/hbe/newautomap.zip).
+be downloaded [here](https://github.com/hugoif/library-contributions/tree/main/newautomap).
 
 ## How To Add to Your Game
 
