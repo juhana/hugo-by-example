@@ -24,16 +24,6 @@ Besides including this extension, if not using Roodylibe, you'll want to add thi
             if nextepigram
                Epigram(nextepigram)
 
-### Changes since last version
-
--   Got rid of a "clear" global variable. Now the box text array is
-    cleared after every use like in the original library contribution.
-    Therefore, the box array should be refilled by a routine or
-    something before each use.
--   There is now a lines_from_top global variable. Its numbers
-    determine how far from the top epigrams should be. It defaults to 3
-    like in the original library contribution.
-
 ### The code itself
 
    !::
