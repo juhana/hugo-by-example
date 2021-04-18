@@ -12,21 +12,17 @@ blocks of text.
 
 ### Ways to call
 
-`    Box() - Draws the text in a box in normal scrollback`
+`    Box(quotefile) - Draws the text in a box in normal scrollback`
 
-`    Epigram(true) - Draws the box right away near the top of the screen and then waits for a keypress.`
-
-`    Epigram(true,prompttext) - A prompttext string will get printed before the pause. Meant for "press a key"-type texts.`
-
-`    Epigram() - Draws the box after the next turn`
+`    TitleEpigram(quotefile) - Clears the screen, displays the quote box, waits for a pause, then clears the screen again.`
 
 ### Other notes
 
-Besides including this extension, you'll want to add this to the
+Besides including this extension, if not using Roodylibe, you'll want to add this to the
 [main](routines/main/) routine-
 
-            if epigram_on
-               Box(true,1)
+            if nextepigram
+               Epigram(nextepigram)
 
 ### Changes since last version
 
@@ -40,373 +36,227 @@ Besides including this extension, you'll want to add this to the
 
 ### The code itself
 
-    !\===========================================================================
-    NewBoxdraw.h Version 1.4 - An updated version of boxdraw.h
+   !::
+   ! NewBoxDraw
+   !::
 
+   !\#ifset VERSIONS
+   #message "NewBoxDraw.h Version 1.0"
+   #endif \!
 
-    Original Boxdraw.h notes-
-    NOTE: This is version 5, dated 970818. It supercedes the previous version,
-    version 4. This version incorporates the following changes:
+   #ifclear _NEWBOXDRAW_H
+   #set _NEWBOXDRAW_H
 
-    1. The display variables have been changed to conform with Hugo v2.4
-       standards. Specifically, the variable "linelength" is now the property
-       "display.linelength" and the variable pagelength is the property
-       "display.windowlines".
+   property line alias misc
+   global nextepigram
+   attribute centered alias special
+   property simplefont alias capacity
 
-    NOTE: In what follows, the word "epigram" refers mainly not to a short,
-          pithy quotation, but rather to the onscreen box such short, pithy
-          quotations are typically displayed in in computer text adventure
-          games.
+   #ifset _ROODYLIB_H
+   object boxlib
+   {
+      type settings
+      in main_instructions
+      execute
+      {
+         if nextepigram
+            Epigram(nextepigram)
+      }
+   }
+   #endif
 
+   class quote
+   {
+      line 0
+      simplefont ITALIC_ON  ! note: gargoyle will only honor italic OR bold, not
+                            ! both
+   }
 
-                          THE TWO ROUTINES AND WHAT THEY DO:
+   routine Epigram(quotefile, pauseflag)
+   {
+      nextepigram = quotefile
+      if not system(61) and parser_data[PARSER_STATUS] ~= PARSER_RESET
+         return
+      Box(quotefile, pauseflag)
+   }
 
-    Box(epiflag)
+   routine TitleEpigram(quotefile)
+   {
+      InitScreen
+      nextepigram = quotefile
+      Box(quotefile, true)
+      ""
+      InitScreen
+   }
 
-    Box() is a box-drawing routine for Hugo v2.3. It takes one argument,
-    WHICH THE USER SHOULD NEVER SUPPLY. IOW, for all intents and purposes
-    as regards the user, Box() takes no arguments.
+   routine QuoteboxPosition
+   {
+      return 3
+   }
 
-    When Box() is called, an array of strings (box_array[]) is read and drawn
-    inside a colored box on the screen. The vertical position of the box
-    on the screen is determined by the position of the cursor at the time the
-    routine is called. IOW, the box begins drawing at the cursor's current
-    (vertical) position. All boxes, however, are centered horizontally, and
-    this is a behavior which cannot be overridden.
-
-    The color of the box and its text are determined by the two globals
-    BOX_TEXTCOLOR and BOX_BGCOLOR, which must be set up prior to the draw. If
-    these values are not set, the box will be drawn in reverse-video colors.
-
-    There is no provision for variable margins. All boxes are drawn "tight"
-    around the enclosed text. That is, every box will be number-of-lines-
-    plus-two high by length-of-longest-line-plus-four wide. Also, there is
-    no way to override the text-centering. Every line of text in a box will
-    be center-justified. If a user desires right- or left-justified text,
-    however, it can still be accomplished by supplying leading or trailing
-    spaces in the text strings themselves.
-
-    The number of lines of text a box can accommodate is controlled by the
-    constant MAX_BOX_LINES. MAX_BOX_LINES is set to 10 by default.
-
-
-    Epigram(pauseflag)
-
-    Epigram() is a routine for Hugo v2.3 that uses Box() to display epigrams
-    on the screen. Epigram() takes one true-or-false argument (pauseflag). The
-    purpose of the argument is this: it is desirable at different times for
-    epigrams to behave in different ways. Most of the time, an epigram should
-    wait for all of a current turn's text to be printed before displaying itself
-    on the screen. This is the default mode, and no argument need be supplied
-    in order to get this kind of behavior. However, there are times as well
-    (such as during the opening sequence of a game) when the epigram should
-    display immediately, pausing to allow the player to read it before
-    continuing on with the next line of code. For situations like this,
-    Epigram() should be called with "true".
-
-    The only other difference between an epigram and a normal inline box is
-    the vertical position on the screen at which it displays. An epigram always
-    displays five rows down from the top of the screen, which means that any
-    existing text at that position will be overdrawn. For this reason (and
-    others as well), it is suggested that epigrams be used in moderation and
-    only in ways that are not likely to interfere with the playing of a game.
-
-    Here's how to use Box():
-
-    First, store the strings you want boxed in box_array[]:
-
-            box_array[0] = "This box drawn with Box()"
-            box_array[1] = "by Cardinal Teulbachs (c) 1997"
-            box_array[2] = " "
-            box_array[3] = "All Rights, whatever those might be, Reserved"
-
-    Then, just call Box():
-
-            Box()
-
-    That's all there is to it. All the contents of box_array[] will be centered
-    on the screen in a colored box. (Note, however, that a null string will be
-    interpreted as the end of the array, so that if a blank line is desired
-    inside the box, one should use a delimited space instead, as in case
-    box_array[2] above).
-
-    To display the same text as an epigram, call Epigram():
-
-            Epigram()
-    or
-            Epigram(true)
-
-    Now the box will display in the upper center of the screen, overwriting
-    whatever is beneath it. Remember that when Epigram() is called with a
-    non-zero argument, the screen pauses and waits for a keypress. Otherwise it
-    waits until a turn is completely finished before displaying itself.
-
-    IMPORTANT: IN ADDITION TO THE CODE SUPPLIED BELOW, THE FOLLOWING LINES
-               MUST BE ADDED TO THE END OF THE main() ROUTINE:
-
-               if boxdrawlib.epigram_on
-                Box(true,1)
-
-
-    Ok. That's it. Enjoy!
-    This file by Cardinal Teulbachs, (c) 1997
-
-    ===========================================================================\!
-    ! Either just #include this whole file before init() in your source, or
-    ! declare these values before init()
-
-    #ifclear _NEWBOXDRAW_H
-    #set _NEWBOXDRAW_H
-
-    #ifset VERSIONS
-    #message "NewBoxdraw.h Version 1.4"
-    #endif
-
-    #if undefined MAX_BOX_LINES
-    constant MAX_BOX_LINES 10    ! max lines allowed in a box
-    #endif
-
-
-    array box_array[MAX_BOX_LINES]     ! the quote box array
-
-    property box_textcolor alias u_to   ! text color for boxes
-    property box_bgcolor alias d_to     ! background color for boxes
-    property epigram_on alias out_to    ! switch for epigram display mode
-    property lines_from_top alias in_to ! where the box should be displayed.
-
-    object boxdrawlib
-    {
-        box_textcolor
-            return DEF_BACKGROUND
-        box_bgcolor
-            return DEF_FOREGROUND
-        epigram_on 0
-        lines_from_top
-            return (display.statusline_height + 3)
-    ! if roodylib.h has been included before newboxdraw.h, nothing needs to be
-    ! added to the main routine
-    #ifset _ROODYLIB_H
-    type settings
-        in main_instructions
-        execute
-            {
-            if boxdrawlib.epigram_on
-                Box(true,1)
-            }
-    #endif  ! _ROODYLIB_H
-    }
-
-
-    routine Epigram(pauseflag,pauseprompt)
-    {
-        local a
-        a = system(61) ! minimal interface?
-        if pauseflag
-            {
-            if a ! not simple port
-                Box()
+   routine Box(quotefile, pauseflag,force_simple)
+   {
+      local a,i, l, lng, pos_start, pos_end, start_row, old_lng, current_pos
+   #ifset _ROODYLIB_H
+   #ifclear NO_ACCESSIBILITY
+      if not force_simple
+         force_simple = (cheap = 1)
+   #endif
+   #endif
+      if system(61) or force_simple
+      {
+         a = quotefile.#line
+         if quotefile.simplefont
+            Font(quotefile.simplefont)
+         for (i=1;i<=a ;i++ )
+         {
+            Indent
+            if i = 1 and not nextepigram
+               print "[";
+            print quotefile.line #i;
+            if i = a and not nextepigram
+               print "]"
             else
-                Box(true,1)
-            if pauseprompt
-                BoxdrawMessage(&Epigram,1) ! "Press a key to continue..."
-    #ifset _ROODYLIB_H
-            HiddenPause
-    #else
-            local key
-            key = system(11) ! READ_KEY
-            if system_status or system(61) ! MINIMAL_INTERFACE
+               ""
+         }
+         nextepigram = 0
+         if quotefile.simplefont
+            Font(quotefile.simplefont * 2)
+         ExtraText(quotefile)
+         if pauseflag
+            TopPause
+         return
+      }
+      for (i = 1;i<= quotefile.#line ;i++ )
+      {
+         old_lng = l
+         l = string(_temp_string, quotefile.line #i )
+         lng = higher(old_lng,l)
+      }
+      if lng >= (display.linelength - 4)
+      {
+         Box(quotefile,pauseflag,true)
+         return
+      }
+      ""
+      FONT(PROP_OFF)
+      if nextepigram
+      {
+         start_row = display.statusline_height + QuoteboxPosition
+         current_pos = display.cursor_row
+      }
+      else
+      {
+         start_row = display.cursor_row
+      }
+      pos_start = (display.screenwidth / 2 - (lng/2) - 2)
+      pos_end = pos_start + lng + 3
+      for (i = 1;i<= quotefile.#line ;i++ )
+      {
+         locate pos_start, (start_row + i - 1)
+         if i = 1
+         {
+            color TEXTCOLOR, TEXTCOLOR
+            print "[ ";
+            color BGCOLOR, TEXTCOLOR
+         }
+         else
+            print "\_ ";
+         if quotefile is centered
+         {
+            l = string(_temp_string, quotefile.line #i )
+            if l < lng
+               print to (display.linelength / 2 - (l / 2));
+         }
+         print quotefile.line #i;
+         if i = quotefile.#line
+         {
+            print to (pos_end - 1);
+            color TEXTCOLOR, TEXTCOLOR
+            print "]"
+         }
+         else
+         {
+            local x
+            for (x = (i+1);x<= quotefile.#line ;x++ )
             {
-                pause
-                key = word[0]
+               if quotefile.line #x
+               {
+                  print to pos_end
+                  break
+               }
             }
-            else
-            {
-                while true
-                {
-                    key = system(11) ! READ_KEY
-                    if key: break
-                    system(32) ! PAUSE_100TH_SECOND
-                }
-            }
-    #endif
-            ""
-            }
-        else
-        boxdrawlib.EPIGRAM_ON = true
-        return false
-    }
+         }
+      }
+      color TEXTCOLOR, BGCOLOR
+      ExtraText(quotefile)
+      if nextepigram
+         locate 1, current_pos
+      FONT(DEFAULT_FONT)
+      if pauseflag
+         TopPause
+      nextepigram = 0
+   }
 
-    routine Box(epiflag, remember)   ! epiflag should never be supplied by user
-    {
-        local a, b, l, old_lng, lng, startpos, endpos, row,x,y,m
+   routine ExtraText(quotefile)
+   {}
 
-        m = system(61) ! minimal port
+   #ifclear _ROODYLIB_H
+   routine InitScreen
+   {
+      local simple_port
+      color TEXTCOLOR, BGCOLOR, INPUTCOLOR
+      Font(DEFAULT_FONT)
+      simple_port = (not ((display.screenheight + 100) < display.windowlines) and
+         system(61)) ! non-glk simple port
+      if not system(61)
+         window 0
+      if not simple_port
+         cls
+      if not system(61)
+         CenterTitle("",0,1,1) ! Draw an empty window
+      if not system(61)
+         locate 1, display.windowlines
+      elseif simple_port ! non-glk simple port
+         ""
 
-        row = boxdrawlib.lines_from_top
+      if display.needs_repaint
+         display.needs_repaint = false
+   }
 
-        if boxdrawlib.BOX_TEXTCOLOR = 0 and
-            boxdrawlib.BOX_BGCOLOR = 0 ! if box colors haven't been set
-            {
-            boxdrawlib.BOX_TEXTCOLOR = DEF_BACKGROUND
-            boxdrawlib.BOX_BGCOLOR = DEF_FOREGROUND
-            }
-        if box_array[0] = 0 ! if we're trying to quote box an empty array
-            return false
+   routine TopPause(pausetext)
+   {
+      Font(BOLD_OFF | ITALIC_OFF | UNDERLINE_OFF | PROP_OFF)
+      if not system(61)
+      {
+         window display.statusline_height
+         {
+            cls
+         }
+      }
+      window  1 ! display.statusline_height
+      {
+         local y
+         y = display.linelength
+         color SL_TEXTCOLOR, SL_BGCOLOR
+         cls			! make sure we've drawn the entire status bar in the
+                     !  proper colors
+   !		locate 1,1
+         text to _temp_string
+         if pausetext
+            print pausetext;
+         else
+            print "[PRESS A KEY TO CONTINUE]";
+         text to 0
 
-    if remember
-        {
-        x = display.cursor_column
-        y = display.cursor_row
-        }
-        if m ! minimal port
-            epiflag = 0
-        Font(PROP_OFF)
-
-        for (a=0; a <= MAX_BOX_LINES; a++)
-            {
-            old_lng = lng
-            if box_array[a] = 0
-                break
-            l = string(_temp_string, box_array[a])
-            lng = higher(old_lng,l)
-            }
-
-        if lng >= (display.linelength - 4)    ! if strings too long
-            {                             ! display them using normal
-            print ""                      ! left-justifying engine routine
-            for (b=0; b <= MAX_BOX_LINES; b++)
-                {
-                if box_array[b] = 0
-                    break
-                print box_array[b]
-                }
-            b = 0
-
-            while(box_array[b] ~= 0)            ! then flush the array
-                {
-                box_array[b] = 0
-                if b = MAX_BOX_LINES - 1
-                break
-                b++
-                }
-
-            return false                        ! and bail out
-            }
-
-            lng = lng + 4
-            if not mod(display.linelength,2) and not mod(lng,2)   ! if screen width and string
-                endpos = (display.linelength/2 + lng/2)             ! length evenly divide by 2
-            else
-                endpos = ((display.linelength/2 + lng/2) + 1)       ! if one or both lengths odd
-            startpos = (display.linelength/2 - lng/2)
-
-            if epiflag
-                startpos += 1
-
-            if epiflag                          ! if this is epigram
-                locate startpos, row
-            else                                ! elseif this is regular box
-                print to startpos;
-        if not m
-            color boxdrawlib.BOX_TEXTCOLOR, boxdrawlib.BOX_BGCOLOR
-                                              !        Draw:
-            print " ";                          ! top left corner of box
-
-            for (b=0; b <= (lng - 3); b++)
-                print " ";                       ! top of box
-
-            print " ";                          ! top right corner of box
-
-            if not epiflag
-                {
-                color TEXTCOLOR, BGCOLOR
-                print to display.linelength      !       End Line
-                }
-
-            for (b=0; b < a; b++)
-                {
-                l = string(_temp_string, box_array[b])
-                if epiflag                          ! if this is epigram
-                    locate startpos, ++row
-                else                                ! elseif this is regular box
-                    print to startpos;
-        if not m
-                color boxdrawlib.BOX_TEXTCOLOR, boxdrawlib.BOX_BGCOLOR
-                                                !       Draw:
-                print " ";                     ! left side of box
-                if m
-                    Font(BOLD_ON)
-                print to (display.linelength/2 - l/2); box_array[b];     ! the string, centered
-                print to (endpos-1);
-                print " ";                          ! right side of box
-
-                if not epiflag
-                    {
-                    color TEXTCOLOR, BGCOLOR
-                    print to display.linelength               !  End Line, Repeat
-                    }
-                }
-            if epiflag                            ! if this is epigram
-                locate startpos, ++row
-            else                                  ! elseif this is regular box
-                print to startpos;
-        if not m
-            color boxdrawlib.BOX_TEXTCOLOR, boxdrawlib.BOX_BGCOLOR
-                                              !       Draw:
-            print " ";                            ! bottom left corner of box
-            for (b=0; b <= (lng - 3); b++)
-                print " ";                          ! bottom of box
-            print " ";                            ! bottom right corner of box
-
-            if not epiflag
-                {
-                color TEXTCOLOR, BGCOLOR
-                print to display.linelength                 !       End Line
-                }
-
-            a = 0
-            while(box_array[a] ~= 0)              ! flush string array
-                {
-                box_array[a] = 0
-                if a = MAX_BOX_LINES - 1
-                    break
-                a++
-                }
-
-            color TEXTCOLOR, BGCOLOR
-            if m
-                Font(BOLD_OFF)
-            Font(DEFAULT_FONT)
-            boxdrawlib.EPIGRAM_ON = false       ! turn off epigram switch and
-
-            if remember
-                {
-                    if not m
-                        locate x, y
-                }
-
-            return true                           ! go home happy and contented
-    }
-
-    routine BoxdrawMessage(r, num, a, b)
-    {
-        ! Check first to see if the NewRLibMessages routine provides a
-        ! replacement message:
-        if NewBoxdrawMessages(r, num, a, b):  return
-
-        select r
-            case &Epigram
-                {
-                select num
-                    case 1: "_ Press a key to continue...";
-                }
-    }
-
-    routine NewBoxDrawMessages(r, num, a, b)
-    {
-       select r
-       case else : return false
-       return true ! this line is only reached if we replaced something
-    }
-
-    #endif  ! _NEWBOXDRAW_H
+         local alength
+         alength = StringLength(_temp_string)
+         print to (display.linelength/2 - alength/2);
+         StringPrint(_temp_string)
+      }
+      color TEXTCOLOR, BGCOLOR, INPUTCOLOR
+      Font(DEFAULT_FONT)
+      pause
+   }
+   #endif
+   #endif ! _NEWBOXDRAW_H
