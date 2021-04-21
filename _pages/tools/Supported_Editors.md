@@ -16,7 +16,7 @@ Most Hugo syntax files (the settings that allow for the colorization of the code
 
 If you are new to programming (with no text editor preferences) or your favorite text editor does not have Hugo syntax support, [Kate](https://kate-editor.org/) is a good option.  You can find syntax files for it on the IF Archive.
 
-Additionally, these [emacs](http://hg.0branch.com/hugo-mode) and [Vim](http://hg.0branch.com/hugo-vim/overview) syntax files are not on the IF Archive.
+Additionally, these [emacs](http://hg.0branch.com/hugo-mode) and [Vim](http://hg.0branch.com/hugo-vim) syntax files are not on the IF Archive.
 
 # Windows
 

@@ -19,7 +19,7 @@ These contributions are largely unchanged since their release.
 | [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/books.hug) |
 | [CanGo](contributions/cango) | A routine that provides exit descriptions for rooms | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h) |
 | [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | 3.1 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
-| [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.h) |
+| [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.hug) |
 | Converse | Chris Tate's conversation system based on "Pytho's Mask" | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/converse.zip) |
 | [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | 1.4 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/footnotes) | 
 | [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
@@ -36,7 +36,7 @@ These contributions are largely unchanged since their release.
 | Strfnc | A set of additional string functions | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/strfnc.h) |
 | [Time](contributions/time.h) | Future Boy! routines for measuring the passage of real time by Kent Tessman | 3.1 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/time) |
 | Useverbs | Allows players to play game in "USE NOUN TO DO SOMETHING" form (if using involves hitting, burning, locking, tying, digging, or cutting) | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/useverbs.zip) |
-| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to non-Roodylib games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.h) |
+| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to non-Roodylib games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.hug) |
 
 
 ### Library Contributions In Progress
