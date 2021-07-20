@@ -13,30 +13,30 @@ not limited to those found at the IF Archive.
 
 These contributions are largely unchanged since their release.
 
-| Name | Description | Hugo Version | Status | On Archive? |
-|------|-------------|--------------|--------|-------------|
-| [Beta](contributions/beta.h) | Modified version of the [Comments in Transcripts](tips/comments-in-transcripts) code.<br>Allows testers to type: **&gt;\* [tester's comments]**. | 2.8 | Works fine | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/beta.h) |
-| [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/books.hug) |
-| [CanGo](contributions/cango) | A routine that provides exit descriptions for rooms | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h) |
-| [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | 3.1 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
-| [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | 3.1 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.hug) |
-| Converse | Chris Tate's conversation system based on "Pytho's Mask" | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/converse.zip) |
-| [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | 1.4 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/footnotes) | 
-| [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | 2.5+ | Works fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
-| [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | 3.1 | Works great | [no](https://github.com/hugoif/library-contributions/blob/main/Multikey.h)
-| [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | 3.4 | Works fine | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
-| Phone | A telephone class | 2.2 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/phone.txt) |
-| [Plumbing](contributions/plumbing) | A library contribution that provides nearly <em>nothing but the kitchen sink</em> | 3.1 | Barely tested | [no](https://github.com/hugoif/library-contributions/tree/main/plumbing) |
-| Printf | A routine to print a formatted string, similar to C's printf() | 3.1.03 | Should work fine | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/printf.hug) |
-| Ptalk | Robb Sherwin's port of Adam Cadre's "Phototalk" | 2.5 | Variations of this used in most of Sherwin's games | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/ptalk.zip) |
-| [RandMove](contributions/randmove) | Code for random NPC movement scripting | 2.1 | Works with slight change; [this page](contributions/randmove) also suggests a replacement | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/randmove.txt) |
-| [Simpletalk](contributions/simpletalk.h) | Simplified version of Robb Sherwin's "Phototalk" extension port, modified to be #include-able | 2.4 | Works fine | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/simpletalk.zip) |
-| [Sort](contributions/sort.h) | Configurable extension for sorting arrays in several ways | 2.5 | Works great | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/sort.zip) |
-| [Spellsys](contributions/spellsys) | Library for doing Spellcaster-type spells | 2.2 | Won't compile as-is, but its page has information on how to fix | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/spellsys.zip) |
-| Strfnc | A set of additional string functions | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/strfnc.h) |
-| [Time](contributions/time.h) | Future Boy! routines for measuring the passage of real time by Kent Tessman | 3.1 | Works great | [no](https://github.com/hugoif/library-contributions/tree/main/time) |
-| Useverbs | Allows players to play game in "USE NOUN TO DO SOMETHING" form (if using involves hitting, burning, locking, tying, digging, or cutting) | 2.4 | Not tested | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/useverbs.zip) |
-| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to non-Roodylib games | 1.5 | Works fine | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.hug) |
+| Name | Description | Additional Notes | On Archive? |
+|------|-------------|------------------|-------------|
+| [Beta](contributions/beta.h) | Modified version of the [Comments in Transcripts](tips/comments-in-transcripts) code.<br>Allows testers to type: **&gt;\* [tester's comments]**. | | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/beta.h) |
+| [Books](contributions/books.hug) | Kent Tessman's Future Boy! book class that allows commands like **&gt;CONSULT BOOK ABOUT FUTURE BOY!** | | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/books.hug) |
+| [CanGo](contributions/cango) | A routine that provides exit descriptions for rooms | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/cango.h) |
+| [Container](contributions/contain.h) | SuperContainer class by Kent Tessman (with tweak by Robb Sherwin). Used for objects that are both platforms and containers (like a desk). | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/container.zip) |
+| [Context_Menu.h](contributions/context-menu.h) | Kent Tessman's Future Boy! adaptive context menu system | | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/context_menu.hug) |
+| Converse | Chris Tate's conversation system based on "Pytho's Mask" | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/converse.zip) |
+| [Footnotes](contributions/footnotes) | New footnote system by Roody Yogurt | | [no](https://github.com/hugoif/library-contributions/tree/main/footnotes) | 
+| [MapGen](contributions/mapgen) | Routines for making games with rooms with randomly-generated connections | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/mapgen.h)
+| [Multikey](contributions/multikey.h) | A replacement for DoLock/DoUnLock that allows doors to have multiple key objects | | [no](https://github.com/hugoif/library-contributions/blob/main/Multikey.h)
+| [NewMenu](contributions/newmenu) | Menu update by Roody Yogurt | | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/newmenu.h)
+| Phone | A telephone class | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/phone.txt) |
+| [Plumbing](contributions/plumbing) | A library contribution that provides nearly <em>nothing but the kitchen sink</em> | | [no](https://github.com/hugoif/library-contributions/tree/main/plumbing) |
+| Printf | A routine to print a formatted string, similar to C's printf() | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/printf.hug) |
+| Ptalk | Robb Sherwin's port of Adam Cadre's "Phototalk" | Variations of this used in most of Sherwin's games | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/ptalk.zip) |
+| [RandMove](contributions/randmove) | Code for random NPC movement scripting | Works with slight change; [this page](contributions/randmove) also suggests a replacement | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/randmove.txt) |
+| [Simpletalk](contributions/simpletalk.h) | Simplified version of Robb Sherwin's "Phototalk" extension port, modified to be #include-able | | [yes](https://www.ifarchive.org/if-archive/programming/hugo/library/contributions/simpletalk.zip) |
+| [Sort](contributions/sort.h) | Configurable extension for sorting arrays in several ways | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/sort.zip) |
+| [Spellsys](contributions/spellsys) | Library for doing Spellcaster-type spells | Won't compile as-is, but its page has information on how to fix | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/spellsys.zip) |
+| Strfnc | A set of additional string functions | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/strfnc.h) |
+| [Time](contributions/time.h) | Future Boy! routines for measuring the passage of real time by Kent Tessman | | [no](https://github.com/hugoif/library-contributions/tree/main/time) |
+| Useverbs | Allows players to play game in "USE NOUN TO DO SOMETHING" form (if using involves hitting, burning, locking, tying, digging, or cutting) | | [yes](https://ifarchive.org/if-archive/programming/hugo/library/contributions/useverbs.zip) |
+| [Version](contributions/version.h) | Provides a form for quick-and-easy "VERSION" responses to non-Roodylib games | | [no](https://raw.githubusercontent.com/hugoif/library-contributions/main/version.hug) |
 
 
 ### Library Contributions In Progress
