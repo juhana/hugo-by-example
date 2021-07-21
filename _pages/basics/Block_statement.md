@@ -11,8 +11,7 @@ is required to declare the contents of a [routine](routines/),
 an [event](timers/events/), a [before](properties/before/) or
 [after](properties/after/) section in an object or class, the definition
 of an [object](globals/object/) or a class, and
-where normally only one single statment is allowed, the block statement
+where normally only one single statement is allowed, the block statement
 represents the equivalent of one statement.
 
-A block statement begins with the open brace **{**, contains the
-particular items desired, and ends with a close brace **}**.
+A block statement begins with the open brace **{** and ends with a close brace **}**.
