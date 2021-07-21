@@ -15,7 +15,8 @@ external program that lets you watch the values of
 even lets you run your game one line of code at a time, if need be.
 
 
-=Quick Start= First off, [compile](basics/compiler/) your game
+## Quick Start 
+First off, [compile](basics/compiler/) your game
 with the **-d** switch so it compiles into the .HDX (Hugo Debuggable
 Executable) format. Load that up into the debugger.
 
@@ -42,7 +43,8 @@ from the "Run" menu to go through your routine line by line.
 When the code does something you didn't want it to do, you can figure
 out how you used the wrong conditional statement and fix your problem!
 
-=Components= The next section will go into detail about the various menu
+## Components
+The next section will go into detail about the various menu
 options.
 
 ### File / Edit
@@ -95,7 +97,8 @@ These options are WHERE THE MAGIC HAPPENS.
 | Move object                | Moves an object to a new parent (doesn't change the location global variable so it shouldn't be used with the player object)                                                                                |
 
 
-====Watching Values==== When you are watching values, you have several
+#### Watching Values
+When you are watching values, you have several
 options in what form you want to want to watch the value (object,
 dictionary entry, routine address, etc.). It may take a while figuring
 out what you want in any particular case. If you are working with a verb
