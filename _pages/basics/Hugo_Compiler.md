@@ -5,11 +5,9 @@ categories:
   - Basics
 ---
 
-The Hugo Compiler is the program that takes the source code, the text
-you write, and turns it into a story file that the interpreters can play
-your game.
+The Hugo Compiler is the program that takes your source code and converts it into a game file that can be opened with any Hugo interpreter. 
 
-This article will describe using the compiler from the command line.
+This article will describe using the compiler from the command line.  If you want to avoid the command line, the Windows Hugo package has a frontend program, and you can both write and compile Hugo games [online](https://borogove.app/). 
 
 ### Notes
 
