@@ -112,11 +112,11 @@ have your game do that? (HINT: Take a look at the `FindScript` routine
 in [hugolib.h](library/hugolib.h/) and see how the other script
 routines call it)
 
-Looking at 'FindScript', we see
+Looking at `FindScript`, we see
 that it checks to see if there are scripts associated with an object. If
 there are none, it returns the number equal to the constant
-'MAX_SCRIPTS'. We can use this to check to see if there are any scripts
-associated with the 'speaking' global variable.
+`MAX_SCRIPTS`. We can use this to check to see if there are any scripts
+associated with the `speaking` global variable.
 
 Then it's a simple case of [main](routines/main/) routine maneuvering:
 
