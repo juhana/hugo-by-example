@@ -115,11 +115,11 @@ routines call it)
 <details>
 <summary>Click for answer</summary>
   
-Looking at `FindScript`, we see
+Looking at FindScript, we see
 that it checks to see if there are scripts associated with an object. If
 there are none, it returns the number equal to the constant
 MAX_SCRIPTS. We can use this to check to see if there are any scripts
-associated with the `speaking` global variable.
+associated with the speaking global variable.
 
 Then it's a simple case of [main](routines/main/) routine maneuvering:
 
