@@ -35,7 +35,7 @@ enumerate step *2
 giving: A = 1, B = 2, C = 4, D = 8.
 
 
-**and**, **or** : boolean operators which compare two values, the "A"
+**and**, **or** : [boolean operators](operators/boolean/) which compare two values, the "A"
 value to the left of the operator, and the "B" value to the right of the
 operator produce a true/false result
 
