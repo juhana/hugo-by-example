@@ -50,7 +50,7 @@ get from routine to routine (or object to object).
 **To use:** In Preferences, click on "settings & syntax" and make sure
 the Hugo syntax file is selected. Then, click on the "function
 patterns". Fill one of the two entries with:
-`^(object\|option\|room\|character\|player_character\|door\|female_character\|class\|component\|scenery\direction\|remote_object\|supercontainer\|routine\|replace\|daemon\|fuse\|event\|verb\|xverb\|global\|constant\|property\|synonym)`.
+`^(object|option|room|character|player_character|door|female_character|class|component|scenery|direction|remote_object|supercontainer|routine|replace|daemon|fuse|event|verb|xverb|global|constant|property|synonym)`.
 
 That syntax tells EditPlus to look for any of those words when they
 start a line. Then, in the main program, under Search, select Function
