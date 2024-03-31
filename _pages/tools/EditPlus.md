@@ -68,7 +68,7 @@ from other projects, too). It doesn't take long for it to be an
 invaluable feature. Also, "Find in Files" will allow you to search for
 specific code by project.
 
-**To use:** Under "Projects", select "Edit Projects" to make a new
+*To use:* Under "Projects", select "Edit Projects" to make a new
 project. Projects will then show up in your document-browsing area.
 
 ![EditPlus](assets/images/Splitter.jpg)
@@ -77,7 +77,7 @@ project. Projects will then show up in your document-browsing area.
 parts of one file at once. It could be useful when trying to understand
 a long routine or see how different routines interact with eachother.
 
-**To use:** Under "Window", select "Splitter" and then "Split".
+*To use:* Under "Window", select "Splitter" and then "Split".
 Configure the distribution of the split windows how you like. To turn it
 off, drag the distribution bar to the corner so one window takes up the
 entire screen.
@@ -91,7 +91,7 @@ shell file is opened. If I try to save it, it'll prompt me for a name to
 save the file, unlike an actual shell file, which would require me to
 rename the file or risk overwriting something.
 
-**To use:** Go to Preferances. Go to Templates. Click "Add" and name
+*To use:* Go to Preferances. Go to Templates. Click "Add" and name
 your new template. Delete templates you don't use. Now clicking on the
 applicable template icon in the User Bar should open up a fresh file for
 you.
@@ -116,7 +116,7 @@ directories after having compiled something else). It also helps out to
 set up your [environment variables](tips/environment-variables/),
 though.
 
-**To use:** Under "Tools", select "Configure User Tools" and set up
+*To use:* Under "Tools", select "Configure User Tools" and set up
 each individual action (You can add icons if you'd like, too). That
 should be that, but if your tools aren't showing up, under "Tools," go
 to "User Tool Group" and make sure the right tool group is selected.
