@@ -22,7 +22,7 @@ names (and how to call) all hugolib.h routines. Really, though, they can
 be used for anything you have trouble remembering (like that pesky
 _temp_string array!).
 
-**To use:** Click on "Clip Text" in the directory-browsing area of the
+*To use:* Click on "Clip Text" in the directory-browsing area of the
 screen. Then, to start a new clip text, right-click on the title of the
 current clip text and select "New." Alternatively, if you have some
 pre-made clip text files available (like those in the .zip above), just
@@ -47,7 +47,7 @@ specify and lists them in a floating window. If you double-click on any
 entry, EditPlus will jump to that part of the file. It's a quick way to
 get from routine to routine (or object to object).
 
-**To use:** In Preferences, click on "settings & syntax" and make sure
+*To use:* In Preferences, click on "settings & syntax" and make sure
 the Hugo syntax file is selected. Then, click on the "function
 patterns". Fill one of the two entries with:
 `^(object|option|room|character|player_character|door|female_character|class|component|scenery|direction|remote_object|supercontainer|routine|replace|daemon|fuse|event|verb|xverb|global|constant|property|synonym)`.
@@ -55,6 +55,11 @@ patterns". Fill one of the two entries with:
 That syntax tells EditPlus to look for any of those words when they
 start a line. Then, in the main program, under Search, select Function
 List to open up your floating function list window.
+
+I also like to put this in for the second function entry:
+`^(\!\*)`
+
+This allows me to jump from section to section easily when looking at roodylib.h.
 
 **Project Management:** As your game gets larger, it'll likely
 consist of more and more files. A text editor's ability to manage
