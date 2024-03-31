@@ -67,7 +67,7 @@ commands in the game
 
 The object tree will now look like this:
 
-![Object tree](assets/images/object tree 2.jpg)
+![Object tree](assets/images/Object Tree 2.jpg)
 
 As you can see, the parent of *eggs* has become the *plate* object.
 
