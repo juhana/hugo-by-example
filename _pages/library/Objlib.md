@@ -26,4 +26,3 @@ automatically included by the [hugolib.h](library/hugolib.h/) file
 | identical_class | Similar to the plural_class but for items that are considered identical (such as coins, or sporks, or whatever) | If you are going to use this object, be sure to set the USE_PLURALS flag. |
 | attachable | Defines an object that can be attached to other objects. | If you are going to use this object, be sure to set the USE_ATTACHABLES flag. |
 
-objlib.h also defines the [last_library_object](library/last_library_object)
