@@ -1,7 +1,6 @@
 ---
 title: last_library_object
 permalink: /library/last_library_object/
-classes: wide
 categories: 
   - Hugo Library
 ---
