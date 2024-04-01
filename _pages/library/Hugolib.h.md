@@ -36,3 +36,6 @@ There are also several [routines](routines/) such as:
 | `Acquire(newparent, newchild)`                                     | Used to move `newchild` to `newparent`, returns `true` if successful. (It may be unsuccessful if the newparent can't contain any more objects.)                                                                                       |
 
 And many others.
+
+
+hugolib.h also defines [last_library_object](library/last_library_object) if SET_DEGUG is on.
