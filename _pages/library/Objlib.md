@@ -25,3 +25,5 @@ automatically included by the [hugolib.h](library/hugolib.h/) file
 | [plural_class](basics/plurals) | Defines a plural name for objects so the player can give commands such as Take the toys. and have the game understand that the ball, airplane and rubber duckie are all to be taken together (because they are all part of the toy class that the author defines. | If you are going to use this object, be sure to set the USE_PLURALS flag. |
 | identical_class | Similar to the plural_class but for items that are considered identical (such as coins, or sporks, or whatever) | If you are going to use this object, be sure to set the USE_PLURALS flag. |
 | attachable | Defines an object that can be attached to other objects. | If you are going to use this object, be sure to set the USE_ATTACHABLES flag. |
+
+objlib.h also defines the [last_library_object](library/Last_library_object)
