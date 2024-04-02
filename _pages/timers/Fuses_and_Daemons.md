@@ -27,6 +27,8 @@ that can be started and stopped.
     !  Event/daemon code
     }
 
+NOTE:   In the source code for Kent Tessman's Spur (available on the IF Archive), in a couple of places, the daemons' [in_scope](/scope/in_scope/) properties are changed to a location in an attempt to limit them to one room.  Assumedly, this code worked properly with the standard Hugo library or compiler back in 1999, but these daemons do not trigger properly with the current standard library or compiler.  Luckily, there are plenty of other ways to limit events like that to a single room.  Just be aware of this issue when compiling available Hugo code from that era.
+
 ## Fuses
 
 Fuses are event objects with the addition of `timer` and `tick`
