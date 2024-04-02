@@ -116,3 +116,19 @@ something you *can* do is enter an expression like "sportscoat is worn"
 which will return 1 when true or 0 when false. This is useful when you
 aren't sure if the code is setting attributes correctly (or really just
 have no idea).
+
+## Debugger "Walkthrough"
+
+The debugger can be pretty intimidating for someone using it for the first time, so let's walk you through an example of using it.
+
+1.  Open up the compiled .hdx file with the Windows debugger.
+2.  If this is the first time you've used the debugger, the first thing you might want to do is go to the "View" menu and make sure the Code, Watch Window, and Local Variable windows are shown.
+3.  If the code you are checking doesn't occur right as the game begins, go to the Run menu and select Go to start your game.
+4.  Play until a point where the thing that you are testing for can be triggered.
+5.  Go to the Debug menu and select Breakpoint.   Enter the name of the routine where the code you are testing occurs (possibly a verb routine.  if you are testing an object's before or after properties, you would put the breakpoint in Perform).
+6.  Enter the command that triggers the code.  You'll see that the debugger pauses the game as soon as the applicable routine is called.  Some routines are called several times each turn (like FindObject) so if you are checking a routine like that, you'll have to look at the local variables to make sure it has the arguments you are looking for.  You might want to go into the Debug menu and choose "View Local Variables As" and then select objects if this is the case.
+7.  If you are keeping the track of a global variable, go to the Debug menu and select Watch.  Type in the name of the variable.  It will then ask how you want to view the variable.  Select "object" if you are watching something like the "object" variable so that it will print the name of the thing the game currently thinks is the object.  Select "value" if you just need a numerical value.  As you'll see, Watch can also be used for dictionary words and other things.
+8.  Now that you are watching the code, you can hit F5 (or click on the option in the Run menu) to execute the code one line at a time.  You can keep doing this until you find the place where the variable changes from what you were expecting to whatever the game has been giving you.  Now you know where the problem is!
+9.  Of course, routines often call other routines, so if you are checking one routine where you *know* the problem is but it calls another one, you can hit Shift+F5 (Finish Routine in the Run menu) to skip through the rest of the latter routine, returning to the one you want.
+
+The debugger has several other capabilities, but learning how to do the above is the big first step in using the debugger to your advantage.  Happy debugging!
