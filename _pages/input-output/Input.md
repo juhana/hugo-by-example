@@ -14,6 +14,8 @@ all understood words are still sent to the
 [parse$](parsing/parse$/)). This way, the author can check for
 specific entries on a word-by-word basis.
 
+If any unrecognized or quoted words are stored as [parse$](parsing/parse$/), it's important to know that 'input' gives its place in the [word array](basics/word-array/) the numerical value of 0 (unlike normal game loop parsing, which gives it a value of -1).
+
 When called by itself, the player's input has no textual
 [prompt](globals/prompt/) ("&gt;"). Because of this, `input` is often
 called indirectly by something like [GetInput](input-output/getinput/)
