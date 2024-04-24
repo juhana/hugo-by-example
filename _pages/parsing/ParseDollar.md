@@ -12,40 +12,18 @@ Definition from the manual:
 
 In any given input line, `parse$` can be several different things. If
 every word in the input line is an understood dictionary entry, parse$
-is set to "" (Note: "" does *not* equal 0). If the input line has no
+is set to "". If the input line has no
 quoted text but some words (or numbers) are not in the dictionary table,
 `parse$` is set to the last not-understood word.
 
-In a somewhat confusing third scenario:
+The numerical value of parse$ can change as well.  Regular command parsing set it as -1 (as described in the Hugo Book), but if the command was the result of the [input](input-output/input/) being called, parse$ is given the value of 0.
 
-    verb "say"
-    * string             DoSay
-
-    ...
-
-    routine DoSay
-    {
-            print "parse$ = ";
-            print parse$
-    }
-
-That gives us:
-
->&gt;say "yohoho and a bottle of rum"  
->parse$ = yohoho and a bottle of rum
-
-What is confusing is that while DoSay understands `parse$` as "yohoho
-and a bottle of rum", parser monitoring (see
-HugoFix) will show that the engine still
-understands `parse$` as "". This is because the current version of the
-Hugo library's parser monitoring accidentally prints `parse$` *before*
-parsing, so it hasn't been set yet. See "[Replace Parse](replacements/parse/)"
+It's also important to remember that since parse$ is during the engine's parsing phase, at the time of the game loop where Parse and PreParse are called, parse$ has not been set yet.  See "[Replace Parse](replacements/parse/)"
 and "[Replace ParseError](replacements/parseerror/)".
 
 ### Pages with parse$
 
-Since `parse$` can be used so many different ways, we'll just point you
-to entries with examples that use it:
+Some uses of parse$:
 [Comments In Transcripts](tips/comments-in-transcripts/) uses
 `parse$` to determine if the first character of the input line is an
 asterisk.
