@@ -57,3 +57,7 @@ Giving:
 >jelly: You can't get the jelly while picking up other items.  
 >book: Taken.  
 >jar: Taken.
+
+### Parents and 'exclude_from_all'
+
+If an object is a parent to other objects and has a false `exclude_from_all` property (allowing it to be used in "all" commands), its children will be skipped.   If the parent has a true `exclude_from_all` property, the command will get applied to its children instead (unless further rules prevent it in the [ExcludeFromAll](routines/excludefromall/) routine).
