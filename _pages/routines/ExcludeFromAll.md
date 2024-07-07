@@ -45,3 +45,5 @@ objects carried by NPCs:
 
         return false
     }
+
+See Also: [exclude_from_all](properties/exclude_from_all/)
